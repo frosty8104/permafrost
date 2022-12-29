@@ -18,12 +18,22 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
-header, footer {
+header {
     align-items: center;
-    background: url(../img/gray086.jpg);
+    background: url(../img/snow.png) #eef9fe;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 5% 0 5% 0;
+    width: 100%;
+}
+footer {
+    align-items: center;
+    background: url(../img/snow.png) #f1f1f1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 5% 0 5% 0;
     width: 100%;
 }
 main {
@@ -32,6 +42,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 5% 0 5% 0;
     width: 100%;
 }
 ul {
@@ -54,23 +65,27 @@ header {
     border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
 }
 #typeface-logo {
+    padding: 0 0 2.5% 0;
     width: 90%;
 }
 nav {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    font-size: 1em;
-    font-weight: 700;
     justify-content: space-around;
-    text-transform: uppercase;
-    width: 60%;
+    width: 80%;
 }
 nav ul {
     padding: 0;
 }
 nav ul li {
     width: 100%;
+}
+nav ul li a {
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 nav ul li a:hover {
     color: #ffffff;
@@ -83,6 +98,7 @@ header h2 {
     font-family: 'Droid Serif', serif;
     font-size: 1.25em;
     justify-content: center;
+    padding: 5% 0 5% 0;
     width: 96%;
 }
 header h2 strong {
@@ -101,6 +117,7 @@ footer {
 footer h2 {
     font-family: 'Droid Serif', serif;
     font-size: 1.25em;
+    padding: 0 0 2.5% 0;
     width: 97%;
 }
 footer h2 a {
@@ -127,7 +144,6 @@ footer ul li {
 }
 #samples h2 {
     font-size: 1.25em;
-    padding: 2% 0 0 0;
 }
 .skills ul {
     padding: 0;
@@ -141,6 +157,7 @@ footer ul li {
 .samples img {
     border: 1px solid #808080;
     padding: 1px;
+    margin: 5% 0 5% 0;
     width: 100%;
 }
 /***** REVIEWS *****/
@@ -186,7 +203,7 @@ footer ul li {
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
-    margin: 0 0 2% 28%;
+    margin: 0 0 5% 28%;
     text-decoration: none;
     text-transform: uppercase;
     width: 35%;
@@ -226,16 +243,16 @@ footer ul li {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0 0 2% 0;
     opacity: 0.75;
+    padding: 5% 0 5% 0;
     width: 90%;
 }
 #contact form label {
-    margin: 2% 0 3% 0;
+    margin: 3% 0 3% 0;
     width: 35%;
 }
 #contact form input {
-    width: 35%;
+    width: 40%;
 }
 #contact form button {
     align-items: center;
@@ -244,7 +261,6 @@ footer ul li {
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
-    margin: 0 0 2% 0;
     text-decoration: none;
     text-transform: uppercase;
     width: 30%;
