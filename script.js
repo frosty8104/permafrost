@@ -1,4 +1,4 @@
-const button = document.querySelector("button");
+/* const button = document.querySelector("button");
 
 button.addEventListener ("click", function () {
     div.classList.add(show);
@@ -21,11 +21,4 @@ mobile.addEventListener("click", mobileMenu);
 function mobileMenu() {
     mobile.classList.toggle("active");
     list.classList.toggle("active");
-}
-
-const navLink = document.querySelectorAll("a");
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-function closeMenu() {
-    burger.classList.remove("active");
-    list.classList.remove("active");
-}
+} */
