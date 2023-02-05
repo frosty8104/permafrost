@@ -1,4 +1,9 @@
-/* const button = document.querySelector("button");
+/* display needs: 2 buttons (Case Study, Portfolio; extract text from pdf: fetch & display text in created div)
+const button = document.querySelector("button");
+
+//Fetch and display case study text
+//Add button to display case study text
+//Edit button to hide case study div
 
 button.addEventListener ("click", function () {
     div.classList.add(show);

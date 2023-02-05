@@ -146,7 +146,7 @@ footer ul li {
     font-size: 1.25em;
 }
 .skills ul {
-    padding: 0;
+    list-style: "*";
 }
 .skills ul li a {
     font-family: 'Droid Serif', serif;
