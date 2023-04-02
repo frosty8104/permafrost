@@ -18,12 +18,11 @@ div.innerHTML =
 <p>Goals & Problems Solved: </p>
 <p>Design Process: </p>
 <p>Challenges & Takeaways: </p>
-<p>Conclusion: </p>`;
+<p>Conclusion: </p>`;*/
 
-const mobile = document.querySelector(".burger");
-const list = document.querySelector("ul");
-mobile.addEventListener("click", mobileMenu);
-function mobileMenu() {
-    mobile.classList.toggle("active");
-    list.classList.toggle("active");
-} */
+const burger = document.querySelector(".burger");
+const links = document.querySelector(".links");
+
+burger.addEventListener('click', () => {
+    links.classList.toggle('active')
+})
