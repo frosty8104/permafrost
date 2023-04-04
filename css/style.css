@@ -71,27 +71,44 @@ header {
 nav {
     align-items: center;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     justify-content: space-around;
     width: 80%;
 }
-nav ul {
+.links ul {
     padding: 0;
 }
-nav ul li {
+.links li {
+    text-align: center;
     width: 100%;
 }
-nav ul li a {
+.links li a {
     font-size: 1em;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
-nav ul li a:hover {
+.links li:hover {
     color: #ffffff;
 }
-nav i { 
+.links i { 
     padding: 2px;
+}
+.burger {
+    display: none;
+    flex-direction: column;
+    height: 21px;
+    justify-content: space-between;
+    position: absolute;
+    right: 1rem;
+    top: 0.75rem;
+    width: 30px;
+}
+.burger .bar {
+    background: white;
+    border-radius: 10px;
+    height: 3px;
+    width: 100%;
 }
 header h2 {
     align-items: center;
@@ -286,19 +303,29 @@ nav {
     font-size: 1.25em;
     width: 80%;
 }
-nav ul {
+.links ul {
     display: flex;
     flex-flow: row wrap;
     padding: 0 0 0 5%;
     width: 80%;
 }
-nav ul li {
+.links li {
     font-size: 1.25em;
     justify-content: space-between;
     width: 50%;
 }
-nav i { 
+.links i { 
     padding: 5px;
+}
+.links {
+    display: none;
+    width: 100%;
+}
+.links.active {
+    display: flex;
+}
+.burger {
+    display: flex;
 }
 header h2 {
     display: flex;
