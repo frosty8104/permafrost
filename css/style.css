@@ -16,6 +16,8 @@ html {
 body {
     color: #000000;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 header {
@@ -295,19 +297,20 @@ header {
 }
 nav {
     align-items: center;
-    font-size: 1.25em;
     width: 80%;
 }
 nav ul {
     display: flex;
     flex-flow: row wrap;
     padding: 0 0 0 5%;
-    width: 80%;
+    width: 100%;
 }
 nav ul li {
-    font-size: 1.25em;
     justify-content: space-between;
     width: 50%;
+}
+nav ul li a {
+    font-size: 1.25em;
 }
 nav i { 
     padding: 5px;
@@ -523,7 +526,7 @@ nav ul {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
-    width: 100;
+    width: 100%;
 }
 nav ul li {
     width: auto;
