@@ -73,11 +73,7 @@ header {
 nav {
     align-items: center;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
-=======
-    flex-flow: column;
->>>>>>> main
     justify-content: space-around;
     text-align: center;
     width: 80%;
@@ -326,23 +322,13 @@ nav {
     padding: 0 0 0 5%;
     width: 100%;
 }
-<<<<<<< HEAD
-nav ul li {
-    justify-content: space-between;
-    width: 50%;
-}
-nav ul li a {
-    font-size: 1.25em;
-}
-nav i { 
-=======
+
 .links li {
     font-size: 1.25em;
     justify-content: space-between;
     width: 50%;
 }
 .links i { 
->>>>>>> main
     padding: 5px;
 }
 .links {
