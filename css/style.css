@@ -13,6 +13,9 @@ justify-content: center, space-between, space-around, flex-start, flex-end; wrap
 html {
     font-size: 16px;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     color: #000000;
     font-family: 'Open Sans', sans-serif;
@@ -82,12 +85,12 @@ nav {
     padding: 0;
 }
 .links li {
+    font-weight: 700;
     text-align: center;
     width: 100%;
 }
 .links li a {
     font-size: 1em;
-    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -108,7 +111,7 @@ nav {
     width: 30px;
 }
 .burger .bar {
-    background: white;
+    background: #60affe;
     border-radius: 10px;
     height: 3px;
     width: 100%;
