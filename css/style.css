@@ -13,9 +13,14 @@ justify-content: center, space-between, space-around, flex-start, flex-end; wrap
 html {
     font-size: 16px;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     color: #000000;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 header {
@@ -40,7 +45,7 @@ main {
     align-items: center;
     background: url(../img/closeup.jpg) no-repeat center center / cover;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: center;
     padding: 5% 0 5% 0;
     width: 100%;
@@ -71,20 +76,21 @@ header {
 nav {
     align-items: center;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: space-around;
+    text-align: center;
     width: 80%;
 }
 .links ul {
     padding: 0;
 }
 .links li {
+    font-weight: 700;
     text-align: center;
     width: 100%;
 }
 .links li a {
     font-size: 1em;
-    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -154,6 +160,17 @@ footer ul {
 footer ul li {
     display: inline-block;
     padding: 0 0 0 5%;
+}
+/***** SKILLS *****/
+.sam {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 25%;
+    width: 50%;
+}
+.sam img {
+    width: 100%;
 }
 /***** SAMPLES *****/
 #samples {
@@ -300,15 +317,15 @@ header {
 }
 nav {
     align-items: center;
-    font-size: 1.25em;
     width: 80%;
 }
 .links ul {
     display: flex;
     flex-flow: row wrap;
     padding: 0 0 0 5%;
-    width: 80%;
+    width: 100%;
 }
+
 .links li {
     font-size: 1.25em;
     justify-content: space-between;
@@ -579,6 +596,10 @@ footer ul {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
+}
+.sam {
+    padding: 0;
+    width: 25%;
 }
 /***** REVIEWS *****/
 #reviews h2 {

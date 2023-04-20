@@ -1,13 +1,25 @@
 /* display needs: 2 buttons (Case Study, Portfolio; extract text from pdf: fetch & display text in created div) */
 /*const button = document.querySelector("button");
-//Add button to display case study text
+const getText = async function () {
+    const fetchStudy = await fetch('');
+    const studyText = await.json(fetchStudy);
+    displayText(studyText);
+};
+const displayText = function(text) {
+    
+}
+// Add button to display case study text
 button.addEventListener ("click", function () {
     div.classList.add(show);
-    button.innerText.remove;
+    button.innerText = "Case Study";
+});
+// Edit button to hide case study div
+folio.addEventListener ("click", function () {
+    div.classList.remove(hide);
+    button.innerText = "Portfolio";
 });
 //Edit button to hide case study div
 
-//Fetch and display case study text
 const div = document.createElement("div");
 div.innerHTML = 
 `<h2>Project Title: </h2>
