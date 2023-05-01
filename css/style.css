@@ -299,6 +299,33 @@ footer ul li {
     text-transform: uppercase;
     width: 30%;
 }
+@media (max-width: 600px) {
+    .burger {
+        display: flex;
+        padding: 0 0 1% 0;
+    }
+    .links {
+        display: none;
+        width: 100%;
+    }
+    nav {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .links li {
+        text-align: center;
+    }
+    .links li a {
+        padding: 0.5rem 1rem;
+    }
+    .links.active {
+        display: flex;
+    }
+}
 @media (min-width: 768px) {
 /* FONTS: (tablet) nav & a: 1.25em; h2: 1.5em; p: 1em */
 /* BASE STYLE */
@@ -325,7 +352,6 @@ nav {
     padding: 0 0 0 5%;
     width: 100%;
 }
-
 .links li {
     font-size: 1.25em;
     justify-content: space-between;
@@ -335,14 +361,7 @@ nav {
     padding: 5px;
 }
 .links {
-    display: none;
     width: 100%;
-}
-.links.active {
-    display: flex;
-}
-.burger {
-    display: flex;
 }
 header h2 {
     display: flex;
@@ -550,23 +569,23 @@ nav {
     align-items: center;
     width: 80%;
 }
-nav ul { 
+.links ul { 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
     width: 100%;
 }
-nav ul li {
+.links li {
     width: auto;
 }
-nav ul li a {
+.links li a {
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
-nav i {
+.links i {
    padding-right: 10px;
 }
 header h2 {
