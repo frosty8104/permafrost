@@ -57,5 +57,6 @@ burger.addEventListener('click', () => {
     links.classList.toggle('active')
 });
 // Change date whenever the year changes
-
-
+const year = new Date().toLocalString(en-US, {year: "getFullYear"});
+const date = document.querySelector("date");
+date.innerHTML = year;
