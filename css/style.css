@@ -391,10 +391,10 @@ footer ul {
 }
 footer p {
     align-items: center;
-    display: flex;
     flex-flow: row wrap;
     font-size: 0.75em;
     justify-content: center;
+    text-align: center;
 }
 /***** SAMPLES *****/
 #samples {
