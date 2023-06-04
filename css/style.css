@@ -61,6 +61,9 @@ a {
 h2 {
     font-size: 1.25em;
 }
+h3 {
+    font-size: 1em;
+}
 p {
     font-size: 0.75em;
 }
@@ -118,7 +121,7 @@ nav {
 }
 header h2 {
     align-items: center;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
     padding: 5% 0 5% 0;
@@ -138,7 +141,7 @@ footer {
     justify-content: center;
 }
 footer h2 {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1.25em;
     padding: 0 0 2.5% 0;
     width: 97%;
@@ -183,7 +186,7 @@ footer ul li {
     list-style: "*";
 }
 .skills ul li a {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -203,7 +206,7 @@ footer ul li {
 }
 .reviews p {
     color: #000000;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
 }
 /***** ABOUT *****/
 #about {
@@ -224,7 +227,7 @@ footer ul li {
     width: 90%;
 }
 .intro p, .hobby p {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
 }
 /***** PORTFOLIO *****/
 #portfolio {
@@ -254,6 +257,13 @@ footer ul li {
 #portfolio p {
     font-size: 1em;
 }
+/***** CASE STUDY *****/
+
+button {
+    background: #60affe;
+    border: none;
+    color: #fff;
+}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -267,7 +277,7 @@ footer ul li {
 }
 #contact p {
     color: #000000;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
 }
 #contact form {
@@ -334,6 +344,9 @@ a {
 }
 h2 {
    font-size: 1.5em; 
+}
+h3 {
+    font-size: 1.25em;
 }
 p {
     font-size: 1em;
@@ -554,6 +567,9 @@ nav, a {
 }
 h2 {
     font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
 }
 p {
     font-size: 1.25em;
