@@ -121,7 +121,7 @@ nav {
 }
 header h2 {
     align-items: center;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1.25em;
     justify-content: center;
     padding: 5% 0 5% 0;
@@ -141,7 +141,7 @@ footer {
     justify-content: center;
 }
 footer h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1.25em;
     padding: 0 0 2.5% 0;
     width: 97%;
@@ -206,7 +206,7 @@ footer ul li {
 }
 .reviews p {
     color: #000000;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
 }
 /***** ABOUT *****/
 #about {
@@ -227,7 +227,7 @@ footer ul li {
     width: 90%;
 }
 .intro p, .hobby p {
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
 }
 /***** PORTFOLIO *****/
 #portfolio {
@@ -258,11 +258,67 @@ footer ul li {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
-
-button {
+#dorothy,
+#conmigo,
+#bean,
+#title,
+#conclude {
+    width: 90%;
+}
+.folio {
+    align-items: center;
     background: #60affe;
     border: none;
+    border-radius: 5px;
     color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1em;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.photo {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 0 0.5%;
+    text-transform: uppercase;
+    width: 60%;
+}
+.chair {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 0 0.5%;
+    text-transform: uppercase;
+    width: 40%; 
+}
+.coffee {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 0 0.5%;
+    text-transform: uppercase;
+    width: 50%;
+}
+.scope p,
+.role p,
+.view p,
+.goals p,
+.design p,
+.challenge p,
+#conclude p {
+    font-size: 1em;
+}
+img {
+    width: 100%;
 }
 /***** CONTACT *****/
 #contact {
@@ -277,7 +333,7 @@ button {
 }
 #contact p {
     color: #000000;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1em;
 }
 #contact form {
@@ -494,7 +550,7 @@ footer p {
     margin: 0 0 2% 26%;
     text-decoration: none;
     text-transform: uppercase;
-    width: 35%;
+    width: 40%;
 }
 .content {
     width: 45%;
@@ -518,6 +574,43 @@ footer p {
 }
 .content p {
     font-size: 1em;
+}
+/***** CASE STUDY *****/
+.folio {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+}
+.photo {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 30%;
+}
+.chair {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 22%; 
+}
+.coffee {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 27%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -678,6 +771,43 @@ footer ul {
 }
 .content:nth-child(11) {
     padding: 5% 0 0 0;
+}
+/***** CASE STUDY *****/
+.folio {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 100%;
+}
+.photo {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 20%;
+}
+.chair {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 13%; 
+}
+.coffee {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    width: 17%;
 }
 /***** CONTACT *****/
 #contact h2 {
