@@ -280,6 +280,14 @@ footer ul li {
     margin: 5% 0 0 0;
     width: 100%;
 }
+.photo,
+.chair,
+.coffee {
+    color: #fff;
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+}
 /***** CONTACT *****/
 #contact {
     align-items: center;
