@@ -290,6 +290,19 @@ footer ul li {
     color: #fff;
     font-size: 1.25em;
 }
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.style,
+.comp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
 /***** CONTACT *****/
 #contact {
     align-items: center;
