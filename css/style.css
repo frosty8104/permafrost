@@ -258,19 +258,26 @@ footer ul li {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
-button {
+.folio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.folio button {
     background: #60affe;
     border: none;
+    border-radius: 5px;
     color: #fff;
+    width: 100%;
 }
 #dorothy,
 #conmigo,
 #bean,
-#img,
 .conclude {
     width: 90%
 }
-img {
+#img {
+    margin: 5% 0 0 0;
     width: 100%;
 }
 /***** CONTACT *****/
