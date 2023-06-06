@@ -258,11 +258,20 @@ footer ul li {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
-
 button {
     background: #60affe;
     border: none;
     color: #fff;
+}
+#dorothy,
+#conmigo,
+#bean,
+#img,
+.conclude {
+    width: 90%
+}
+img {
+    width: 100%;
 }
 /***** CONTACT *****/
 #contact {
