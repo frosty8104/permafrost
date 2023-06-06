@@ -283,10 +283,10 @@ footer ul li {
 .photo,
 .chair,
 .coffee {
-    color: #fff;
     background: #60affe;
     border: none;
     border-radius: 5px;
+    color: #fff;
 }
 /***** CONTACT *****/
 #contact {
