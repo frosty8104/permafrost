@@ -269,6 +269,7 @@ footer ul li {
     border-radius: 5px;
     color: #fff;
     font-size: 1.25em;
+    text-transform: uppercase;
     width: 100%;
 }
 #dorothy,
@@ -277,10 +278,6 @@ footer ul li {
 .conclude {
     width: 90%
 }
-#img {
-    margin: 5% 0 0 0;
-    width: 100%;
-}
 .photo,
 .chair,
 .coffee {
@@ -288,20 +285,24 @@ footer ul li {
     border: none;
     border-radius: 5px;
     color: #fff;
-    font-size: 1.25em;
+    font-size: 1em;
+    text-transform: uppercase;
 }
-.logo {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 25%;
-}
+.logo,
 .style,
 .comp {
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 50%;
+}
+figure {
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+p {
+    font-size: 1em;
 }
 /***** CONTACT *****/
 #contact {
@@ -408,6 +409,9 @@ nav {
     font-size: 1.25em;
     justify-content: space-between;
     width: 50%;
+}
+.links li a:hover {
+    color: #fff;
 }
 .links i { 
     padding: 5px;
@@ -530,10 +534,15 @@ footer p {
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
+    font-weight: bold;
     margin: 0 0 2% 26%;
     text-decoration: none;
     text-transform: uppercase;
     width: 35%;
+}
+#portfolio button:hover {
+    background: #fff;
+    color: #60affe;
 }
 .content {
     width: 45%;
@@ -556,6 +565,53 @@ footer p {
     font-weight: 700;
 }
 .content p {
+    font-size: 1em;
+}
+/***** CASE STUDY *****/
+.folio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.folio button {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 100%;
+}
+.folio button:hover {
+    background: #fff;
+    color: #60affe;
+}
+#dorothy,
+#conmigo,
+#bean,
+.conclude {
+    width: 90%
+}
+figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#img {
+    margin: 5% 0 0 0;
+    width: 100%;
+}
+.photo,
+.chair,
+.coffee {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+p {
     font-size: 1em;
 }
 /***** CONTACT *****/
@@ -717,6 +773,53 @@ footer ul {
 }
 .content:nth-child(11) {
     padding: 5% 0 0 0;
+}
+.folio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.folio button {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    width: 100%;
+}
+#dorothy,
+#conmigo,
+#bean,
+.conclude {
+    width: 90%
+}
+#img {
+    margin: 5% 0 0 0;
+    width: 100%;
+}
+.photo,
+.chair,
+.coffee {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.style,
+.comp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 /***** CONTACT *****/
 #contact h2 {
