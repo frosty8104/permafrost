@@ -233,17 +233,22 @@ footer ul li {
 #portfolio {
     width: 90%;
 }
-#portfolio button {
+.study a {
     align-items: center;
     border: none;
     background: #60affe;
     color: #ffffff;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.25em;
+    font-weight: bold;
     margin: 0 0 5% 28%;
+    padding: 0 2% 0 2%;
     text-decoration: none;
     text-transform: uppercase;
-    width: 35%;
+}
+#portfolio a:hover {
+    background: #fff;
+    color: #60affe;
 }
 .content img {
     border: 1px solid #808080;
@@ -263,20 +268,25 @@ footer ul li {
     display: flex;
     justify-content: center;
 }
-.folio button {
+.folio a {
     background: #60affe;
     border: none;
     border-radius: 5px;
     color: #fff;
     font-size: 1.25em;
+    padding: 0 2% 0 2%;
     text-transform: uppercase;
-    width: 100%;
+}
+.folio a:hover {
+    background: #fff;
+    color: #60affe;
 }
 #dorothy,
 #conmigo,
 #bean,
 .conclude {
-    width: 90%
+    font-size: 1.25em;
+    width: 90%;
 }
 .photo,
 .chair,
@@ -286,6 +296,7 @@ footer ul li {
     border-radius: 5px;
     color: #fff;
     font-size: 1em;
+    padding: 0 2% 0 2%;
     text-transform: uppercase;
 }
 .logo,
@@ -527,18 +538,11 @@ footer p {
     justify-content: space-between;
     width: 90%;
 }
-#portfolio button {
-    align-items: center;
-    border: none;
+#portfolio a {
     background: #60affe;
     color: #ffffff;
-    border-radius: 5px;
     font-size: 1em;
-    font-weight: bold;
     margin: 0 0 2% 26%;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 35%;
 }
 #portfolio button:hover {
     background: #fff;
@@ -597,19 +601,29 @@ figure {
     display: flex;
     justify-content: center;
 }
-#img {
-    margin: 5% 0 0 0;
+img {
     width: 100%;
+}
+.photo {
+    background: #f1c8db;
+    color: #558b6e;
+}
+.chair {
+    background: #fcd0c0;
+    color: #397d02;
+}
+.coffee {
+    background: #fff0be;
+    color: #808080;
 }
 .photo,
 .chair,
 .coffee {
-    background: #60affe;
     border: none;
     border-radius: 5px;
-    color: #fff;
     font-size: 1.25em;
     font-weight: bold;
+    margin: 0 0 0 0.5%;
 }
 p {
     font-size: 1em;
