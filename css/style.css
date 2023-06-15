@@ -121,7 +121,7 @@ nav {
 }
 header h2 {
     align-items: center;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1.25em;
     justify-content: center;
     padding: 5% 0 5% 0;
@@ -141,7 +141,7 @@ footer {
     justify-content: center;
 }
 footer h2 {
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1.25em;
     padding: 0 0 2.5% 0;
     width: 97%;
@@ -189,7 +189,7 @@ footer ul li {
     list-style: "*";
 }
 .skills ul li a {
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -209,7 +209,7 @@ footer ul li {
 }
 .reviews p {
     color: #000000;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
 }
 /***** ABOUT *****/
 #about {
@@ -230,7 +230,7 @@ footer ul li {
     width: 90%;
 }
 .intro p, .hobby p {
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
 }
 /***** PORTFOLIO *****/
 #portfolio {
@@ -283,6 +283,7 @@ footer ul li {
     border-radius: 5px;
     color: #fff;
     font-size: 1.25em;
+    font-weight: bold;
     padding: 0 2% 0 2%;
     text-transform: uppercase;
 }
@@ -305,6 +306,7 @@ footer ul li {
     border-radius: 5px;
     color: #fff;
     font-size: 1em;
+    font-weight: bold;
     padding: 0 2% 0 2%;
     text-transform: uppercase;
 }
@@ -337,7 +339,7 @@ p {
 }
 #contact p {
     color: #000000;
-    font-family: 'Lora', serif;
+    font-family: 'Droid Serif', serif;
     font-size: 1em;
 }
 #contact form {
@@ -773,6 +775,9 @@ footer ul {
 #bean,
 .conclude {
     width: 90%
+}
+figure {
+
 }
 #img {
     width: 100%;
