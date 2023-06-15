@@ -577,6 +577,7 @@ footer p {
 /***** CASE STUDY *****/    
 .folio a {
     font-size: 1.25em;
+    padding: 0 1.5% 0 1.5%;
 }
 #dorothy,
 #conmigo,
@@ -597,6 +598,7 @@ img {
 .coffee {
     font-size: 1.25em;
     margin: 0 0 0 0.5%;
+    padding: 0 1.5% 0 1.5%;
 }
 p {
     font-size: 1em;
@@ -764,6 +766,7 @@ footer ul {
 /***** CASE STUDY *****/
 .folio a {
     font-size: 1.5em;
+    padding: 0 1% 0 1%;
 }
 #dorothy,
 #conmigo,
@@ -778,7 +781,7 @@ footer ul {
 .chair,
 .coffee {
     font-size: 1.5em;
-    text-transform: uppercase;
+    padding: 0 1% 0 1%;
 }
 /***** CONTACT *****/
 #contact h2 {
