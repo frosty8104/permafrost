@@ -151,6 +151,9 @@ footer h2 a {
     font-size: 1em;
     font-weight: 700;
 }
+footer h2 a:hover {
+    color: #fff;
+}
 footer p {
     font-size: 0.5em;
     width: 60%;
@@ -540,7 +543,12 @@ footer p {
 }
 #portfolio a {
     font-size: 1.25em;
-    margin: 0 0 2% 26%;
+    margin: 0 0 2% 0;
+}
+.study {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .content {
     width: 45%;
