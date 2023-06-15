@@ -236,6 +236,12 @@ footer ul li {
 #portfolio {
     width: 90%;
 }
+
+.study {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .study a {
     align-items: center;
     border: none;
@@ -244,7 +250,7 @@ footer ul li {
     border-radius: 5px;
     font-size: 1.25em;
     font-weight: bold;
-    margin: 0 0 5% 28%;
+    margin: 0 0 2% 0;
     padding: 0 2% 0 2%;
     text-decoration: none;
     text-transform: uppercase;
@@ -545,11 +551,6 @@ footer p {
     font-size: 1.25em;
     margin: 0 0 2% 0;
 }
-.study {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 .content {
     width: 45%;
 }
@@ -573,12 +574,7 @@ footer p {
 .content p {
     font-size: 1em;
 }
-/***** CASE STUDY *****/
-.folio {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
+/***** CASE STUDY *****/    
 .folio a {
     font-size: 1.25em;
 }
@@ -765,11 +761,7 @@ footer ul {
 .content:nth-child(11) {
     padding: 5% 0 0 0;
 }
-.folio {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
+/***** CASE STUDY *****/
 .folio a {
     font-size: 1.5em;
 }
