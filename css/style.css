@@ -189,7 +189,7 @@ footer ul li {
     list-style: "*";
 }
 .skills ul li a {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -236,7 +236,6 @@ footer ul li {
 #portfolio {
     width: 90%;
 }
-
 .study {
     align-items: center;
     display: flex;
@@ -274,18 +273,17 @@ footer ul li {
 /***** CASE STUDY *****/
 .folio {
     align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.folio a {
     background: #60affe;
     border: none;
     border-radius: 5px;
     color: #fff;
+    display: flex;
     font-size: 1.25em;
     font-weight: bold;
+    justify-content: center;
     padding: 0 2% 0 2%;
     text-transform: uppercase;
+    width: 90%;
 }
 .folio a:hover {
     background: #fff;
@@ -298,6 +296,9 @@ footer ul li {
     font-size: 1.25em;
     width: 90%;
 }
+header h2 {
+    font-family: 'Open Sans', sans-serif;
+}
 .photo,
 .chair,
 .coffee {
@@ -305,6 +306,7 @@ footer ul li {
     border: none;
     border-radius: 5px;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-weight: bold;
     padding: 0 2% 0 2%;
@@ -580,12 +582,6 @@ footer p {
 .folio a {
     font-size: 1.25em;
     padding: 0 1.5% 0 1.5%;
-}
-#dorothy,
-#conmigo,
-#bean,
-.conclude {
-    width: 90%
 }
 figure {
     align-items: center;
