@@ -97,7 +97,7 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
-.links li:hover {
+.links li a:hover {
     color: #ffffff;
 }
 .links i { 
