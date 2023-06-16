@@ -151,6 +151,9 @@ footer h2 a {
     font-size: 1em;
     font-weight: 700;
 }
+footer h2 a:hover {
+    color: #fff;
+}
 footer p {
     font-size: 0.5em;
     width: 60%;
@@ -233,17 +236,27 @@ footer ul li {
 #portfolio {
     width: 90%;
 }
-#portfolio button {
+.study {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.study a {
     align-items: center;
     border: none;
     background: #60affe;
     color: #ffffff;
     border-radius: 5px;
-    font-size: 1em;
-    margin: 0 0 5% 28%;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 2% 0;
+    padding: 0 2% 0 2%;
     text-decoration: none;
     text-transform: uppercase;
-    width: 35%;
+}
+.study a:hover {
+    background: #fff;
+    color: #60affe;
 }
 .content img {
     border: 1px solid #808080;
@@ -258,67 +271,63 @@ footer ul li {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
+.folio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.folio a {
+    background: #60affe;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0 2% 0 2%;
+    text-transform: uppercase;
+}
+.folio a:hover {
+    background: #fff;
+    color: #60affe;
+}
 #dorothy,
 #conmigo,
 #bean,
-#title,
-#conclude {
+.conclude {
+    font-size: 1.25em;
     width: 90%;
 }
-.folio {
-    align-items: center;
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 1em;
-    justify-content: center;
-    text-transform: uppercase;
-    width: 100%;
+header h2 {
+    font-family: 'Open Sans', sans-serif;
 }
-.photo {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    margin: 0 0 0 0.5%;
-    text-transform: uppercase;
-    width: 60%;
-}
-.chair {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    margin: 0 0 0 0.5%;
-    text-transform: uppercase;
-    width: 40%; 
-}
+.photo,
+.chair,
 .coffee {
     background: #60affe;
     border: none;
     border-radius: 5px;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    margin: 0 0 0 0.5%;
+    font-weight: bold;
+    padding: 0 2% 0 2%;
     text-transform: uppercase;
-    width: 50%;
 }
-.scope p,
-.role p,
-.view p,
-.goals p,
-.design p,
-.challenge p,
-#conclude p {
-    font-size: 1em;
+.logo,
+.style,
+.comp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+figure {
+    margin: 0;
 }
 img {
     width: 100%;
+}
+p {
+    font-size: 1em;
 }
 /***** CONTACT *****/
 #contact {
@@ -425,6 +434,9 @@ nav {
     font-size: 1.25em;
     justify-content: space-between;
     width: 50%;
+}
+.links li a:hover {
+    color: #fff;
 }
 .links i { 
     padding: 5px;
@@ -540,17 +552,9 @@ footer p {
     justify-content: space-between;
     width: 90%;
 }
-#portfolio button {
-    align-items: center;
-    border: none;
-    background: #60affe;
-    color: #ffffff;
-    border-radius: 5px;
-    font-size: 1em;
-    margin: 0 0 2% 26%;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 40%;
+#portfolio a {
+    font-size: 1.25em;
+    margin: 0 0 2% 0;
 }
 .content {
     width: 45%;
@@ -575,42 +579,28 @@ footer p {
 .content p {
     font-size: 1em;
 }
-/***** CASE STUDY *****/
-.folio {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
+/***** CASE STUDY *****/    
+.folio a {
+    font-size: 1.25em;
+    padding: 0 1.5% 0 1.5%;
+}
+figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+img {
     width: 100%;
 }
-.photo {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    width: 30%;
-}
-.chair {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    width: 22%; 
-}
+.photo,
+.chair,
 .coffee {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
+    font-size: 1.25em;
+    margin: 0 0 0 0.5%;
+    padding: 0 1.5% 0 1.5%;
+}
+p {
     font-size: 1em;
-    text-transform: uppercase;
-    width: 27%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -773,41 +763,27 @@ footer ul {
     padding: 5% 0 0 0;
 }
 /***** CASE STUDY *****/
-.folio {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
+.folio a {
+    font-size: 1.5em;
+    padding: 0 1% 0 1%;
+}
+#dorothy,
+#conmigo,
+#bean,
+.conclude {
+    width: 90%
+}
+figure {
+
+}
+#img {
     width: 100%;
 }
-.photo {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    width: 20%;
-}
-.chair {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    width: 13%; 
-}
+.photo,
+.chair,
 .coffee {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    text-transform: uppercase;
-    width: 17%;
+    font-size: 1.5em;
+    padding: 0 1% 0 1%;
 }
 /***** CONTACT *****/
 #contact h2 {
