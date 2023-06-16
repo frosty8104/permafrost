@@ -273,17 +273,18 @@ footer ul li {
 /***** CASE STUDY *****/
 .folio {
     align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.folio a {
     background: #60affe;
     border: none;
     border-radius: 5px;
     color: #fff;
-    display: flex;
     font-size: 1.25em;
     font-weight: bold;
-    justify-content: center;
     padding: 0 2% 0 2%;
     text-transform: uppercase;
-    width: 90%;
 }
 .folio a:hover {
     background: #fff;
