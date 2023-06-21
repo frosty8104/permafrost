@@ -23,18 +23,10 @@ body {
     padding: 0;
     width: 100%;
 }
-header {
-    align-items: center;
-    background: url(../img/snow.png) #eef9fe;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 5% 0 5% 0;
-    width: 100%;
-}
+header, 
 footer {
     align-items: center;
-    background: url(../img/snow.png) #f1f1f1;
+    background: #eef9fe;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -43,7 +35,7 @@ footer {
 }
 main {
     align-items: center;
-    background: url(../img/closeup.jpg) no-repeat center center / cover;
+    background: #f1f1f1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,9 +90,9 @@ nav {
     text-transform: uppercase;
 }
 .links li a:hover {
-    color: #ffffff;
+    color: #162252;
 }
-.links i { 
+.links i {
     padding: 2px;
 }
 .burger {
@@ -152,15 +144,18 @@ footer h2 a {
     font-weight: 700;
 }
 footer h2 a:hover {
-    color: #fff;
+    color: #162252;
 }
 footer p {
     font-size: 0.5em;
     width: 60%;
 }
 footer ul {
+    align-items: center;
+    display: flex;
     list-style: none;
-    padding: 0 0 0 15%;
+    justify-content: center;
+    padding: 0;
     width: 60%;
 }
 footer ul li {
@@ -255,8 +250,8 @@ footer ul li {
     text-transform: uppercase;
 }
 .study a:hover {
-    background: #fff;
-    color: #60affe;
+    background: #162252;
+    color: #fff;
 }
 .content img {
     border: 1px solid #808080;
@@ -287,8 +282,8 @@ footer ul li {
     text-transform: uppercase;
 }
 .folio a:hover {
-    background: #fff;
-    color: #60affe;
+    background: #162252;
+    color: #fff;
 }
 #dorothy,
 #conmigo,
@@ -347,12 +342,11 @@ p {
 }
 #contact form {
     align-items: center;
-    background: #ebebeb;
+    background: #eef9fe;
     border-radius: 15px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    filter: opacity(50%);
     padding: 5% 0 5% 0;
     width: 90%;
 }
@@ -435,9 +429,6 @@ nav {
     justify-content: space-between;
     width: 50%;
 }
-.links li a:hover {
-    color: #fff;
-}
 .links i { 
     padding: 5px;
 }
@@ -466,9 +457,6 @@ footer h2 {
 }
 footer h2 a {
     padding: 0 1% 0 1%;
-}
-footer ul {
-    padding: 0 0 0 31%;
 }
 footer p {
     align-items: center;
@@ -604,7 +592,11 @@ p {
 }
 /***** CONTACT *****/
 #contact h2 {
+    align-items: center;
+    display: flex;
     font-size: 1.5em;
+    justify-content: center;
+    width: 80%;
 }
 #contact p {
     font-family: 'Droid Serif', serif;
@@ -615,8 +607,8 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 1% 1% 1% 3%;
-    width: 80%;
+    padding: 3%;
+    width: 70%;
 }
 #contact form label {
     font-size: 1em;
@@ -624,10 +616,8 @@ p {
 }
 #contact form input {
     font-size: 1em;
-    width: 20%;
-}
-#contact .email {
-    font-size: 1em;
+    margin: 0 0 0 0.5%;
+    width: 25%;
 }
 #contact form button {
     border: none;
@@ -702,9 +692,6 @@ footer h2 a {
 }
 footer p {
     font-size: 1em;
-}
-footer ul {
-    padding: 0 0 0 38%;
 }
 /***** SAMPLES *****/
 #samples h2 {
@@ -798,7 +785,7 @@ figure {
     font-size: 1.25em;
 }
 #contact form {
-    width: 60%;
+    width: 40%;
 }
 #contact form label {
     font-size: 1.25em;
