@@ -1,6 +1,6 @@
 /* STYLES */
 /* links: #60affe (Dusty Blue);
-   text: Open Sans #000000 (Black); text: Droid Serif: #808080 (Charcoal; borders: #808080 (Charcoal); header background: #ebebeb (Silver); 
+   text: Open Sans #000000 (Black); text: Lora: #808080 (Charcoal; borders: #808080 (Charcoal); header background: #ebebeb (Silver); 
    body background: #eef9fe (Baby Blue); footer background: #ffffff (White); */
 /* BREAKPOINTS */
 /* phone: 400px; tablet: 768px; desktop: 1200px */
@@ -113,7 +113,7 @@ nav {
 }
 header h2 {
     align-items: center;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
     padding: 5% 0 5% 0;
@@ -133,7 +133,7 @@ footer {
     justify-content: center;
 }
 footer h2 {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1.25em;
     padding: 0 0 2.5% 0;
     width: 97%;
@@ -184,7 +184,7 @@ footer ul li {
     list-style: "*";
 }
 .skills ul li a {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
@@ -204,7 +204,7 @@ footer ul li {
 }
 .reviews p {
     color: #000000;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
 }
 /***** ABOUT *****/
 #about {
@@ -225,7 +225,7 @@ footer ul li {
     width: 90%;
 }
 .intro p, .hobby p {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
 }
 /***** PORTFOLIO *****/
 #portfolio {
@@ -337,7 +337,7 @@ p {
 }
 #contact p {
     color: #000000;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
 }
 #contact form {
@@ -528,7 +528,7 @@ footer p {
     width: 45%;
 }
 .intro p, .hobby p {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
     width: 100%;
 }
@@ -599,7 +599,7 @@ p {
     width: 80%;
 }
 #contact p {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lora', serif;
     font-size: 1em;
 }
 #contact form {
