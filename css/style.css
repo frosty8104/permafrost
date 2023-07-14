@@ -26,7 +26,7 @@ body {
 header, 
 footer {
     align-items: center;
-    background: #eef9fe;
+    background: #f1f1f1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -35,7 +35,7 @@ footer {
 }
 main {
     align-items: center;
-    background: #f1f1f1;
+    background: #eef9fe;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,8 +165,10 @@ footer ul li {
 /***** SKILLS *****/
 .sam {
     align-items: center;
+    background: #808080;
     display: flex;
     justify-content: center;
+    margin: 2%;
     padding: 0 0 0 25%;
     width: 50%;
 }
