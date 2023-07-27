@@ -18,5 +18,5 @@ https://github.com/frosty8104/permafrost
 
 ToDo list:
 * Finish designing/developing vet website & horse rescue website so I can change out a couple website pieces for more appropriate ones for my intended clients.
-* Make website full stack one I learn back-end
+* Make website full stack once I learn back-end
 * Code users: please report any bugs or submit ideas for features
