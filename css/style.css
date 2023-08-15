@@ -253,6 +253,7 @@ footer i:hover {
 #portfolio h2 {
     font-size: 1.25em;
     font-weight: 700;
+    width: 100%;
 }
 #portfolio p {
     font-size: 1em;
@@ -277,19 +278,24 @@ footer i:hover {
     background: #162252;
     color: #fff;
 }
-#dorothy,
-#conmigo,
+#photo,
+#chair,
 #bean,
-.conclude {
+#house,
+.house-conclude,
+.photo-conclude,
+.chair-conclude,
+.bean-conclude{
     font-size: 1.25em;
     width: 90%;
 }
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
-.photo,
-.chair,
-.coffee {
+.photo-title,
+.chair-title,
+.bean-title,
+.house-title {
     background: #60affe;
     border: none;
     border-radius: 5px;
@@ -300,15 +306,36 @@ header h2 {
     padding: 0 2% 0 2%;
     text-transform: uppercase;
 }
-.logo,
-.style,
-.comp {
+.house-logo,
+.photo-logo,
+.chair-logo,
+.bean-logo,
+.house-style,
+.photo-style,
+.chair-style,
+.bean-style,
+.house-comp,
+.photo-comp,
+.chair-comp,
+.bean-comp,
+.house-comp {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 figure {
     margin: 0;
+}
+.house-logo figure {
+    width: 50%;
+}
+.photo-logo figure,
+.chair-logo figure,
+.bean-logo figure {
+    width: 30%;
+}
+.house-comp figure {
+    width: 90%;
 }
 img {
     width: 100%;
@@ -543,15 +570,6 @@ footer p {
    padding: 1px;
     width: 100%;
 }
-.content:nth-child(2) {
-    padding:9.5% 0 0 0;
-}
-.content:nth-child(3) {
-    padding: 4.5% 0 0 0;
-}
-.content:nth-child(8) {
-    padding: 5% 0 0 0;
-}
 #portfolio h2 {
     font-size: 1.5em;
     font-weight: 700;
@@ -564,23 +582,48 @@ footer p {
     font-size: 1.25em;
     padding: 0 1.5% 0 1.5%;
 }
-figure {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 img {
     width: 100%;
 }
-.photo,
-.chair,
-.coffee {
+.photo-title,
+.chair-title,
+.bean-title,
+.house-title {
     font-size: 1.25em;
     margin: 0 0 0 0.5%;
     padding: 0 1.5% 0 1.5%;
 }
 p {
     font-size: 1em;
+}
+.photo-style,
+.chair-style,
+.bean-style,
+.house-comp,
+.photo-comp,
+.chair-comp,
+.bean-comp {
+    width: 90%;
+}
+.house-brand,
+.house-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.house-style {
+    width: 20%;
+}
+.house-logo {
+    width: 45%;
+}
+.photo-logo figure,
+.chair-logo figure,
+.bean-logo figure {
+    width: 10%;
+}
+.house-comp figure {
+    width: 10%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -726,43 +769,43 @@ footer p {
 .content p {
     font-size: 1.25em;
 }
-.content:nth-child(2) {
-    padding: 5.5% 0 0 0;
-}
-.content:nth-child(3) {
-    padding: 3.5% 0 0 0;
-}
-.content:nth-child(5) {
-    padding: 3% 0 0 0;
-}
-.content:nth-child(6) {
-    padding: 4% 0 0 0;
-}
-.content:nth-child(11) {
-    padding: 5% 0 0 0;
-}
 /***** CASE STUDY *****/
 .folio a {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
 }
-#dorothy,
-#conmigo,
-#bean,
-.conclude {
-    width: 90%
-}
-figure {
-
-}
-#img {
+img {
     width: 100%;
 }
-.photo,
-.chair,
-.coffee {
+.photo-title,
+.chair-title,
+.bean-title,
+.house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
+}
+.house-style figure {
+    width: 20%;
+}
+.photo-style,
+.chair-style,
+.bean-style,
+.house-comp,
+.photo-comp,
+.chair-comp,
+.bean-comp {
+    width: 90%;
+}
+.house-logo figure {
+    width: 15%;
+}
+.photo-logo figure,
+.chair-logo figure,
+.bean-logo figure {
+    width: 10%;
+}
+.house-comp figure {
+    width: 5%;
 }
 /***** CONTACT *****/
 #contact form {
