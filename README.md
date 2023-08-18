@@ -4,7 +4,7 @@ learning code to study the structure of HTML and CSS, and JavaScript; also helpf
 
 Features:
 This website includes:
-* Homepage with skills list, ASCII avatar & sample
+* Homepage with skills list, ASCII avatar & sample website pics
 * About page with about blurb, target job blurb, target clients blurb, hobbies blurb & interests blurb
 * Portfolio page:
 * 3 design pieces with descriptions, case studies & links
