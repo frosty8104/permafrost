@@ -278,21 +278,18 @@ footer i:hover {
     background: #162252;
     color: #fff;
 }
-#photo,
 #chair,
 #bean,
 #house,
 .house-conclude,
-.photo-conclude,
 .chair-conclude,
-.bean-conclude{
+.bean-conclude {
     font-size: 1.25em;
     width: 90%;
 }
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
-.photo-title,
 .chair-title,
 .bean-title,
 .house-title {
@@ -307,15 +304,12 @@ header h2 {
     text-transform: uppercase;
 }
 .house-logo,
-.photo-logo,
 .chair-logo,
 .bean-logo,
 .house-style,
-.photo-style,
 .chair-style,
 .bean-style,
 .house-comp,
-.photo-comp,
 .chair-comp,
 .bean-comp,
 .house-comp {
@@ -329,7 +323,6 @@ figure {
 .house-logo figure {
     width: 50%;
 }
-.photo-logo figure,
 .chair-logo figure,
 .bean-logo figure {
     width: 30%;
@@ -585,7 +578,6 @@ footer p {
 img {
     width: 100%;
 }
-.photo-title,
 .chair-title,
 .bean-title,
 .house-title {
@@ -596,11 +588,9 @@ img {
 p {
     font-size: 1em;
 }
-.photo-style,
 .chair-style,
 .bean-style,
 .house-comp,
-.photo-comp,
 .chair-comp,
 .bean-comp {
     width: 90%;
@@ -617,7 +607,6 @@ p {
 .house-logo {
     width: 45%;
 }
-.photo-logo figure,
 .chair-logo figure,
 .bean-logo figure {
     width: 10%;
@@ -777,7 +766,6 @@ footer p {
 img {
     width: 100%;
 }
-.photo-title,
 .chair-title,
 .bean-title,
 .house-title {
@@ -787,11 +775,9 @@ img {
 .house-style figure {
     width: 20%;
 }
-.photo-style,
 .chair-style,
 .bean-style,
 .house-comp,
-.photo-comp,
 .chair-comp,
 .bean-comp {
     width: 90%;
@@ -799,7 +785,6 @@ img {
 .house-logo figure {
     width: 15%;
 }
-.photo-logo figure,
 .chair-logo figure,
 .bean-logo figure {
     width: 10%;
