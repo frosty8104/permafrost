@@ -136,6 +136,7 @@ footer h2 a:hover {
 }
 footer p {
     font-size: 0.5em;
+    padding: 0 0 0 20%;
     width: 60%;
 }
 footer ul {
@@ -475,6 +476,7 @@ footer p {
     flex-flow: row wrap;
     font-size: 0.75em;
     justify-content: center;
+    padding: 0;
     text-align: center;
 }
 /***** SAMPLES *****/
@@ -569,6 +571,21 @@ footer p {
 }
 .content p {
     font-size: 1em;
+}
+.content:nth-child(2) {
+    padding: 10% 0 0 0;
+}
+.content:nth-child(3) {
+    padding: 19.5% 0 0 0;
+}
+.content:nth-child(5) {
+    padding: 4% 0 0 0;
+}
+.content:nth-child(6) {
+    padding: 13% 0 0 0;
+}
+.content:nth-child(8) {
+    padding: 9% 0 0 0;
 }
 /***** CASE STUDY *****/    
 .folio a {
@@ -757,6 +774,22 @@ footer p {
 }
 .content p {
     font-size: 1.25em;
+}
+.content:nth-child(2) {
+    padding: 6.7% 0 0 0;
+}
+.content:nth-child(3),
+.content:nth-child(5) {
+    padding: 10% 0 0 0;
+}
+.content:nth-child(6) {
+    padding: 13% 0 0 0;
+}
+.content:nth-child(8) {
+    padding: 6.5% 0 0 0;
+}
+.content:nth-child(9) {
+    padding: 15.5% 0 0 0;
 }
 /***** CASE STUDY *****/
 .folio a {
