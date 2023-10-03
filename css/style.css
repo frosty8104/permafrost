@@ -86,17 +86,17 @@ nav {
 .burger {
     display: none;
     flex-direction: column;
-    height: 21px;
+    height: 10px;
     justify-content: space-between;
     position: absolute;
     right: 1rem;
     top: 0.75rem;
-    width: 30px;
+    width: 10px;
 }
 .burger .bar {
     background: #60affe;
     border-radius: 10px;
-    height: 3px;
+    height: 1.5px;
     width: 100%;
 }
 header h2 {
