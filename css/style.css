@@ -595,7 +595,11 @@ footer p {
 img {
     width: 100%;
 }
+<<<<<<< HEAD
 .chair-title,
+=======
+.photo-title,
+>>>>>>> 6fc076f9f3e70f68fa6d78dee1e141655fa67aaa
 .bean-title,
 .house-title {
     font-size: 1.25em;
