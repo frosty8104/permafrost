@@ -185,7 +185,6 @@ footer i:hover {
 .samples img {
     border: 1px solid #808080;
     padding: 1px;
-    margin: 5% 0 5% 0;
     width: 100%;
 }
 /***** REVIEWS *****/
@@ -491,7 +490,6 @@ footer p {
     font-size: 1.5em;
 }
 .skills {
-    padding: 0 0 45% 0;
     width: 45%;
 }
 .skills ul li a {
@@ -500,7 +498,6 @@ footer p {
     text-transform: uppercase;
 }
 .samples {
-    padding: 2% 0 0 0;
     width: 45%;
 }
 .samples img {
@@ -595,11 +592,7 @@ footer p {
 img {
     width: 100%;
 }
-<<<<<<< HEAD
 .chair-title,
-=======
-.photo-title,
->>>>>>> 6fc076f9f3e70f68fa6d78dee1e141655fa67aaa
 .bean-title,
 .house-title {
     font-size: 1.25em;
@@ -750,6 +743,9 @@ footer p {
 .sam {
     padding: 0;
     width: 25%;
+}
+.samples {
+    width: 35%;
 }
 /***** REVIEWS *****/
 #reviews h2 {
