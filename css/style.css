@@ -317,6 +317,9 @@ header h2 {
     flex-flow: row wrap;
     justify-content: center;
 }
+figure {
+    margin: 0;
+}
 img {
     width: 100%;
 }
@@ -589,6 +592,20 @@ img {
 p {
     font-size: 1em;
 }
+.chair-style,
+.bean-style,
+.house-comp,
+.chair-comp,
+.bean-comp {
+    width: 90%;
+}
+.house-brand,
+.house-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -772,6 +789,13 @@ figure {
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
+}
+.chair-style,
+.bean-style,
+.house-comp,
+.chair-comp,
+.bean-comp {
+    width: 90%;
 }
 /***** CONTACT *****/
 #contact form {
