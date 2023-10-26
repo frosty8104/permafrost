@@ -304,21 +304,18 @@ header h2 {
     text-transform: uppercase;
 }
 .house-logo,
-.chair-logo,
 .bean-logo,
+.chair-logo,
 .house-style,
-.chair-style,
 .bean-style,
+.chair-style,
 .house-comp,
-.chair-comp,
 .bean-comp,
-.house-comp {
+.chair-comp {
     align-items: center;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-}
-figure {
-    margin: 0;
 }
 img {
     width: 100%;
@@ -592,19 +589,6 @@ img {
 p {
     font-size: 1em;
 }
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp {
-    width: 90%;
-}
-.house-brand,
-.house-comp {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -776,16 +760,18 @@ footer p {
 img {
     width: 100%;
 }
+figure {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 27%;
+}
 .chair-title,
 .bean-title,
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
-}
-.house-comp figure,
-.bean-comp figure {
-    padding: 0 0 0 2%;
-    width: 50%;
 }
 /***** CONTACT *****/
 #contact form {
