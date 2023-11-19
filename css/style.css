@@ -53,7 +53,7 @@ header {
     border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
 }
 #typeface-logo {
-    padding: 0 0 2.5% 0;
+    padding: 0 0 1% 0;
     width: 90%;
 }
 nav {
@@ -86,17 +86,17 @@ nav {
 .burger {
     display: none;
     flex-direction: column;
-    height: 10px;
+    height: 15px;
     justify-content: space-between;
     position: absolute;
-    right: 1rem;
-    top: 0.75rem;
-    width: 10px;
+    right: 0.45em;
+    top: 0.45rem;
+    width: 15px;
 }
 .burger .bar {
     background: #60affe;
     border-radius: 10px;
-    height: 1.5px;
+    height: 2px;
     width: 100%;
 }
 header h2 {
@@ -145,7 +145,7 @@ footer ul {
     list-style: none;
     justify-content: center;
     padding: 0;
-    width: 60%;
+    width: 90%;
 }
 footer ul li {
     display: inline-block;
@@ -290,33 +290,6 @@ footer i:hover {
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
-.chair-title,
-.bean-title,
-.house-title {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 0 2% 0 2%;
-    text-transform: uppercase;
-}
-.house-logo,
-.bean-logo,
-.chair-logo,
-.house-style,
-.bean-style,
-.chair-style,
-.house-comp,
-.bean-comp,
-.chair-comp {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 figure {
     margin: 0;
 }
@@ -369,6 +342,9 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     width: 30%;
+}
+#contact i {
+    font-size: 1.5em;
 }
 @media (max-width: 600px) {
     .burger {
@@ -560,16 +536,16 @@ footer p {
     font-size: 1em;
 }
 .content:nth-child(2) {
-    padding: 10% 0 0 0;
+    padding: 4% 0 0 0;
 }
 .content:nth-child(3) {
-    padding: 19.5% 0 0 0;
+    padding: 8% 0 0 0;
 }
 .content:nth-child(5) {
     padding: 4% 0 0 0;
 }
 .content:nth-child(6) {
-    padding: 13% 0 0 0;
+    padding: 2% 0 0 0;
 }
 .content:nth-child(8) {
     padding: 9% 0 0 0;
@@ -592,20 +568,6 @@ img {
 p {
     font-size: 1em;
 }
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp {
-    width: 90%;
-}
-.house-brand,
-.house-comp {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -754,14 +716,16 @@ footer p {
     font-size: 1.25em;
 }
 .content:nth-child(2) {
-    padding: 6.7% 0 0 0;
+    padding: 2.3% 0 0 0;
 }
-.content:nth-child(3),
+.content:nth-child(3) {
+    padding: 5.5% 0 0 0;
+}
 .content:nth-child(5) {
-    padding: 10% 0 0 0;
+    padding: 10.5% 0 0 0;
 }
 .content:nth-child(6) {
-    padding: 13% 0 0 0;
+    padding: 7.7% 0 0 0;
 }
 .content:nth-child(8) {
     padding: 6.5% 0 0 0;
@@ -797,9 +761,13 @@ figure {
 .bean-comp {
     width: 90%;
 }
+.chair-logo {
+    margin: 0 0 0 40%;
+    width: 25%;
+}
 /***** CONTACT *****/
 #contact form {
-    width: 45%;
+    width: 50%;
 }
 #contact p {
     font-size: 1.25em;
