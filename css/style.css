@@ -482,7 +482,7 @@ footer p {
 }
 .reviews p {
     font-size: 1em;
-    width: 45%;
+    width: 90%;
 }
 /***** ABOUT *****/
 #about {
@@ -567,6 +567,32 @@ img {
 }
 p {
     font-size: 1em;
+}
+#house {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+.house-type,
+.house-style,
+.house-role,
+.house-home,
+.house-old,
+.house-about,
+.house-view,
+.house-services,
+.house-ghana,
+.house-goals,
+.house-partners,
+.house-press,
+.house-design,
+.house-products,
+.house-blog,
+.house-contact,
+.house-faq {
+    width: 45%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -753,17 +779,6 @@ figure {
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
-}
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp {
-    width: 90%;
-}
-.chair-logo {
-    margin: 0 0 0 40%;
-    width: 25%;
 }
 /***** CONTACT *****/
 #contact form {
