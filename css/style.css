@@ -259,6 +259,21 @@ footer i:hover {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
+.chair-title,
+.bean-title,
+.house-title {
+    align-items: center;
+    border: none;
+    background: #60affe;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 2% 0;
+    padding: 0 2% 0 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .folio {
     align-items: center;
     display: flex;
@@ -568,7 +583,9 @@ img {
 p {
     font-size: 1em;
 }
-#house {
+#house,
+#chair,
+#bean {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
@@ -591,7 +608,23 @@ p {
 .house-products,
 .house-blog,
 .house-contact,
-.house-faq {
+.house-faq,
+.chair-type,
+.chair-role,
+.chair-view,
+.chair-goals,
+.chair-design,
+.chair-style,
+.chair-comp,
+.chair-challenge,
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-style,
+.bean-comp,
+.bean-challenge {
     width: 45%;
 }
 /***** CONTACT *****/
