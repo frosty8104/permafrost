@@ -302,6 +302,9 @@ footer i:hover {
     font-size: 1.25em;
     width: 90%;
 }
+.house-logo {
+    width: 90%;
+}
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -610,13 +613,7 @@ p {
 .house-contact,
 .house-faq,
 .chair-type,
-.chair-role,
 .chair-view,
-.chair-goals,
-.chair-design,
-.chair-style,
-.chair-comp,
-.chair-challenge,
 .bean-type,
 .bean-role,
 .bean-view,
@@ -626,6 +623,9 @@ p {
 .bean-comp,
 .bean-challenge {
     width: 45%;
+}
+.house-old img {
+    width: 90%;
 }
 /***** CONTACT *****/
 #contact h2 {
