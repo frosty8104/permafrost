@@ -302,9 +302,6 @@ footer i:hover {
     font-size: 1.25em;
     width: 90%;
 }
-.house-logo {
-    width: 90%;
-}
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -595,6 +592,21 @@ p {
     justify-content: space-between;
     width: 90%;
 }
+.house-logo {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+}
+.chair-logo,
+.bean-logo {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 55%;
+}
 .house-type,
 .house-style,
 .house-role,
@@ -613,7 +625,17 @@ p {
 .house-contact,
 .house-faq,
 .chair-type,
+.chair-role,
 .chair-view,
+.chair-goals,
+.chair-challenge,
+.chair-design,
+.chair-palette,
+.chair-font,
+.chair-content,
+.chair-layout,
+.chair-style,
+.chair-comp,
 .bean-type,
 .bean-role,
 .bean-view,
