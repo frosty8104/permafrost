@@ -302,6 +302,15 @@ footer i:hover {
     font-size: 1.25em;
     width: 90%;
 }
+.house-logo,
+.chair-logo,
+.bean-logo {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+}
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
