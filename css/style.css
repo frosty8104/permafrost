@@ -574,7 +574,10 @@ footer p {
 .content:nth-child(8) {
     padding: 9% 0 0 0;
 }
-/***** CASE STUDY *****/    
+/***** CASE STUDY *****/
+p a {
+    color: #162252;
+}    
 .folio a {
     font-size: 1.25em;
     padding: 0 1.5% 0 1.5%;
@@ -601,11 +604,19 @@ p {
     justify-content: space-between;
     width: 90%;
 }
+header p {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+}
 .house-logo {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-width: 800px;
     width: 90%;
 }
 .chair-logo,
@@ -614,7 +625,8 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 55%;
+    max-width: 400px;
+    width: 80%;
 }
 .house-type,
 .house-style,
@@ -654,9 +666,6 @@ p {
 .bean-comp,
 .bean-challenge {
     width: 45%;
-}
-.house-old img {
-    width: 90%;
 }
 /***** CONTACT *****/
 #contact h2 {
