@@ -259,6 +259,9 @@ footer i:hover {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
+header a {
+    font-size: 1.25em;
+}
 .chair-title,
 .bean-title,
 .house-title {
@@ -662,7 +665,11 @@ header p {
 .bean-view,
 .bean-goals,
 .bean-design,
+.bean-palette,
 .bean-style,
+.bean-font,
+.bean-content,
+.bean-layout,
 .bean-comp,
 .bean-challenge {
     width: 45%;
