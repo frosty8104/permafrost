@@ -262,8 +262,8 @@ footer i:hover {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
-header a {
-    font-size: 1.25em;
+main a {
+    color: #162252;
 }
 .chair-title,
 .bean-title,
@@ -305,16 +305,25 @@ header a {
 .house-conclude,
 .chair-conclude,
 .bean-conclude {
-    font-size: 1.25em;
     width: 90%;
 }
-.house-logo,
-.chair-logo,
+.house-conclude p,
+.chair-conclude p,
+.bean-conclude p {
+    font-size: 1em;
+    padding: 0;
+    width: 100%;
+}
+.house-logo {
+    padding: 0 0 0 4%;
+    width: 100%;
+}
+.chair-logo {
+    padding: 0 0 0 25%;
+    width: 80%;
+}
 .bean-logo {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    padding: 0 0 0 10%;
     width: 90%;
 }
 header h2 {
@@ -322,9 +331,6 @@ header h2 {
 }
 figure {
     margin: 0;
-}
-img {
-    width: 100%;
 }
 p {
     font-size: 1em;
@@ -580,16 +586,10 @@ footer p {
 .content:nth-child(8) {
     padding: 9% 0 0 0;
 }
-/***** CASE STUDY *****/
-p a {
-    color: #162252;
-}    
+/***** CASE STUDY *****/ 
 .folio a {
     font-size: 1.25em;
     padding: 0 1.5% 0 1.5%;
-}
-img {
-    width: 100%;
 }
 .chair-title,
 .bean-title,
@@ -617,28 +617,10 @@ header p {
     justify-content: center;
     width: 90%;
 }
-.house-logo {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    max-width: 800px;
-    width: 90%;
-}
-.chair-logo,
-.bean-logo {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    max-width: 400px;
-    width: 80%;
-}
 .house-type,
 .house-style,
 .house-role,
 .house-home,
-.house-old,
 .house-about,
 .house-view,
 .house-services,
@@ -846,16 +828,6 @@ footer p {
 .folio a {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
-}
-img {
-    width: 100%;
-}
-figure {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 27%;
 }
 .chair-title,
 .bean-title,
