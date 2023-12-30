@@ -30,6 +30,9 @@ main {
     padding: 5% 0 5% 0;
     width: 100%;
 }
+img {
+    width: 100%;
+}
 ul {
     list-style-type: none;
 }
