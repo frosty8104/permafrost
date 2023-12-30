@@ -8,3 +8,6 @@ burger.addEventListener('click', () => {
 const year = new Date().getFullYear();
 const date = document.querySelector(".date");
 date.innerHTML = year;
+// Case study image modal
+const img = document.querySelector("img");
+const modal = document.querySelector(".modal");

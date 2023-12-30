@@ -53,7 +53,7 @@ header {
     border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
 }
 #typeface-logo {
-    padding: 0 0 2.5% 0;
+    padding: 0 0 1% 0;
     width: 90%;
 }
 nav {
@@ -86,17 +86,17 @@ nav {
 .burger {
     display: none;
     flex-direction: column;
-    height: 10px;
+    height: 15px;
     justify-content: space-between;
     position: absolute;
-    right: 1rem;
-    top: 0.75rem;
-    width: 10px;
+    right: 0.45em;
+    top: 0.45rem;
+    width: 15px;
 }
 .burger .bar {
     background: #60affe;
     border-radius: 10px;
-    height: 1.5px;
+    height: 2px;
     width: 100%;
 }
 header h2 {
@@ -145,7 +145,7 @@ footer ul {
     list-style: none;
     justify-content: center;
     padding: 0;
-    width: 60%;
+    width: 90%;
 }
 footer ul li {
     display: inline-block;
@@ -185,7 +185,6 @@ footer i:hover {
 .samples img {
     border: 1px solid #808080;
     padding: 1px;
-    margin: 5% 0 5% 0;
     width: 100%;
 }
 /***** REVIEWS *****/
@@ -260,6 +259,24 @@ footer i:hover {
     font-size: 1em;
 }
 /***** CASE STUDY *****/
+header a {
+    font-size: 1.25em;
+}
+.chair-title,
+.bean-title,
+.house-title {
+    align-items: center;
+    border: none;
+    background: #60affe;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 2% 0;
+    padding: 0 2% 0 2%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 .folio {
     align-items: center;
     display: flex;
@@ -288,35 +305,17 @@ footer i:hover {
     font-size: 1.25em;
     width: 90%;
 }
-header h2 {
-    font-family: 'Open Sans', sans-serif;
-}
-.chair-title,
-.bean-title,
-.house-title {
-    background: #60affe;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 0 2% 0 2%;
-    text-transform: uppercase;
-}
 .house-logo,
 .chair-logo,
-.bean-logo,
-.house-style,
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp,
-.house-comp {
+.bean-logo {
     align-items: center;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
+    width: 90%;
+}
+header h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 figure {
     margin: 0;
@@ -370,6 +369,9 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     width: 30%;
+}
+#contact i {
+    font-size: 1.5em;
 }
 @media (max-width: 600px) {
     .burger {
@@ -481,7 +483,6 @@ footer p {
     font-size: 1.5em;
 }
 .skills {
-    padding: 0 0 45% 0;
     width: 45%;
 }
 .skills ul li a {
@@ -490,7 +491,6 @@ footer p {
     text-transform: uppercase;
 }
 .samples {
-    padding: 2% 0 0 0;
     width: 45%;
 }
 .samples img {
@@ -509,7 +509,7 @@ footer p {
 }
 .reviews p {
     font-size: 1em;
-    width: 45%;
+    width: 90%;
 }
 /***** ABOUT *****/
 #about {
@@ -563,21 +563,24 @@ footer p {
     font-size: 1em;
 }
 .content:nth-child(2) {
-    padding: 10% 0 0 0;
+    padding: 4% 0 0 0;
 }
 .content:nth-child(3) {
-    padding: 19.5% 0 0 0;
+    padding: 8% 0 0 0;
 }
 .content:nth-child(5) {
     padding: 4% 0 0 0;
 }
 .content:nth-child(6) {
-    padding: 13% 0 0 0;
+    padding: 2% 0 0 0;
 }
 .content:nth-child(8) {
     padding: 9% 0 0 0;
 }
-/***** CASE STUDY *****/    
+/***** CASE STUDY *****/
+p a {
+    color: #162252;
+}    
 .folio a {
     font-size: 1.25em;
     padding: 0 1.5% 0 1.5%;
@@ -595,18 +598,81 @@ img {
 p {
     font-size: 1em;
 }
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp {
+#house,
+#chair,
+#bean {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     width: 90%;
 }
-.house-brand,
-.house-comp {
+header p {
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+}
+.house-logo {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 800px;
+    width: 90%;
+}
+.chair-logo,
+.bean-logo {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 400px;
+    width: 80%;
+}
+.house-type,
+.house-style,
+.house-role,
+.house-home,
+.house-old,
+.house-about,
+.house-view,
+.house-services,
+.house-ghana,
+.house-goals,
+.house-partners,
+.house-press,
+.house-design,
+.house-products,
+.house-blog,
+.house-contact,
+.house-faq,
+.chair-type,
+.chair-role,
+.chair-view,
+.chair-goals,
+.chair-challenge,
+.chair-design,
+.chair-palette,
+.chair-font,
+.chair-content,
+.chair-layout,
+.chair-style,
+.chair-comp,
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-style,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-comp,
+.bean-challenge {
+    width: 45%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -724,6 +790,9 @@ footer p {
     padding: 0;
     width: 25%;
 }
+.samples {
+    width: 35%;
+}
 /***** REVIEWS *****/
 #reviews h2 {
     font-size: 2em;
@@ -753,14 +822,16 @@ footer p {
     font-size: 1.25em;
 }
 .content:nth-child(2) {
-    padding: 6.7% 0 0 0;
+    padding: 2.3% 0 0 0;
 }
-.content:nth-child(3),
+.content:nth-child(3) {
+    padding: 5.5% 0 0 0;
+}
 .content:nth-child(5) {
-    padding: 10% 0 0 0;
+    padding: 10.5% 0 0 0;
 }
 .content:nth-child(6) {
-    padding: 13% 0 0 0;
+    padding: 7.7% 0 0 0;
 }
 .content:nth-child(8) {
     padding: 6.5% 0 0 0;
@@ -776,25 +847,22 @@ footer p {
 img {
     width: 100%;
 }
+figure {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 27%;
+}
 .chair-title,
 .bean-title,
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
 }
-.house-style figure {
-    width: 20%;
-}
-.chair-style,
-.bean-style,
-.house-comp,
-.chair-comp,
-.bean-comp {
-    width: 90%;
-}
 /***** CONTACT *****/
 #contact form {
-    width: 45%;
+    width: 50%;
 }
 #contact p {
     font-size: 1.25em;
