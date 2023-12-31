@@ -273,7 +273,7 @@ main a {
     background: #60affe;
     color: #ffffff;
     border-radius: 5px;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: bold;
     margin: 0 0 2% 0;
     padding: 0 2% 0 2%;
@@ -334,6 +334,69 @@ figure {
 }
 p {
     font-size: 1em;
+}
+#comp {
+   border: 1px solid #808080;
+   padding: 1px;
+   transition: 0.3s; 
+}
+#comp:hover {
+    opacity: 0.8;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+}
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 700px;
+    width: 80%;
+}
+.caption {
+    color: #ccc;
+    display: block;
+    height: 150px;
+    margin: auto;
+    max-width: 700px;
+    padding: 10px 0;
+    text-align: center;
+    width: 80%;
+}
+.modal-content, .caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {
+        transform:scale(0)
+    }
+    to {
+        transform:scale(1)
+    }
+}
+.close {
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    transition: 0.3s;
+}
+.close:hover, 
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
 }
 /***** CONTACT *****/
 #contact {
