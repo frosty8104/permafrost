@@ -471,6 +471,9 @@ p {
     .links.active {
         display: flex;
     }
+    .modal-content {
+        width: 100%;
+    }
 }
 @media (min-width: 768px) {
 /* FONTS: (tablet) nav & a: 1.25em; h2: 1.5em; p: 1em */

@@ -13,12 +13,12 @@ const img = document.querySelector("img");
 const modal = document.querySelector(".modal");
 const modalImg = document.querySelector("#page");
 const captionText = document.querySelector("#caption");
-img.onclick = function(){
+img.addEventListener('click', () => {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText = this.alt;
-}
+});
 const span = document.querySelector(".close")[0];
-span.onclick = function() {
+span.addEventListener('click', () => {
     modal.style.display = "none";
-}
+});
