@@ -317,9 +317,6 @@ header a {
 header h2 {
     font-family: 'Open Sans', sans-serif;
 }
-figure {
-    margin: 0;
-}
 img {
     width: 100%;
 }
@@ -674,6 +671,9 @@ header p {
 .bean-challenge {
     width: 45%;
 }
+.bean-comp img {
+    width: 60%;
+}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -847,18 +847,14 @@ footer p {
 img {
     width: 100%;
 }
-figure {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 27%;
-}
 .chair-title,
 .bean-title,
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
+}
+.bean-logo {
+    margin: 0 0 0 10%;
 }
 /***** CONTACT *****/
 #contact form {
