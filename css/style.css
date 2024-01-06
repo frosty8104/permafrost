@@ -726,9 +726,6 @@ header p {
 .bean-challenge {
     width: 45%;
 }
-.bean-comp img {
-    width: 60%;
-}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -910,6 +907,54 @@ img {
 }
 .bean-logo {
     margin: 0 0 0 10%;
+}
+.house-type,
+.house-style,
+.house-role,
+.house-home,
+.house-old,
+.house-about,
+.house-view,
+.house-services,
+.house-ghana,
+.house-goals,
+.house-partners,
+.house-press,
+.house-design,
+.house-palette,
+.house-font,
+.house-content,
+.house-layout,
+.house-challenge,
+.house-products,
+.house-blog,
+.house-contact,
+.house-faq,
+.chair-type,
+.chair-role,
+.chair-view,
+.chair-goals,
+.chair-challenge,
+.chair-design,
+.chair-palette,
+.chair-font,
+.chair-content,
+.chair-layout,
+.chair-style,
+.chair-comp,
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-style,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-comp,
+.bean-challenge {
+    width: 30%;
 }
 /***** CONTACT *****/
 #contact form {
