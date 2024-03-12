@@ -11,10 +11,9 @@ body {
     padding: 0;
     width: 100%;
 }
-header, 
-footer {
+header {
     align-items: center;
-    background: #f1f1f1;
+    background-image: linear-gradient(#bebebe, #ffffff, #bebebe);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -23,9 +22,18 @@ footer {
 }
 main {
     align-items: center;
-    background: #eef9fe;
+    background-image: linear-gradient(#bbffff, #eef9fe, #bbffff);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+    width: 100%;
+}
+footer {
+    align-items: center;
+    background-image: linear-gradient(#bebebe, #ffffff, #bebebe);
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     padding: 5% 0 5% 0;
     width: 100%;
@@ -158,6 +166,19 @@ footer i:hover {
     color: #162252;
 }
 /***** SKILLS *****/
+.skills ul {
+    list-style: "*";
+}
+.skills ul li a {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.skills li img {
+    padding: 0 0 10px 0;
+    width: 4%;
+}
 .sam {
     align-items: center;
     background: #808080;
@@ -175,15 +196,6 @@ footer i:hover {
 }
 #samples h2 {
     font-size: 1.25em;
-}
-.skills ul {
-    list-style: "*";
-}
-.skills ul li a {
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 .samples img {
     border: 1px solid #808080;
@@ -265,6 +277,9 @@ footer i:hover {
 main a {
     color: #162252;
 }
+caption {
+    font-size: 0.5em;
+}
 .chair-title,
 .bean-title,
 .house-title {
@@ -315,16 +330,14 @@ main a {
     width: 100%;
 }
 .house-logo {
-    padding: 0 0 0 4%;
     width: 100%;
 }
 .chair-logo {
-    padding: 0 0 0 25%;
     width: 80%;
 }
 .bean-logo {
-    padding: 0 0 0 10%;
-    width: 90%;
+    padding: 2% 0 0 0;
+    width: 80%;
 }
 header h2 {
     font-family: 'Open Sans', sans-serif;
@@ -363,7 +376,7 @@ p {
     width: 80%;
 }
 .caption {
-    color: #ccc;
+    color: #000;
     display: block;
     height: 150px;
     margin: auto;
@@ -683,6 +696,7 @@ header p {
     justify-content: center;
     width: 90%;
 }
+.house-logo,
 .house-type,
 .house-style,
 .house-role,
@@ -705,6 +719,7 @@ header p {
 .house-blog,
 .house-contact,
 .house-faq,
+.chair-logo,
 .chair-type,
 .chair-role,
 .chair-view,
@@ -716,7 +731,7 @@ header p {
 .chair-content,
 .chair-layout,
 .chair-style,
-.chair-comp,
+.bean-logo,
 .bean-type,
 .bean-role,
 .bean-view,
@@ -727,9 +742,15 @@ header p {
 .bean-font,
 .bean-content,
 .bean-layout,
-.bean-comp,
 .bean-challenge {
     width: 45%;
+}
+.bean-comp {
+    margin: 0 0 0 30%;
+    width: 50%;
+}
+.bean-comp img {
+    width: 80%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -910,9 +931,7 @@ img {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
 }
-.bean-logo {
-    margin: 0 0 0 10%;
-}
+.house-logo,
 .house-type,
 .house-style,
 .house-role,
@@ -935,6 +954,7 @@ img {
 .house-blog,
 .house-contact,
 .house-faq,
+.chair-logo,
 .chair-type,
 .chair-role,
 .chair-view,
@@ -947,6 +967,7 @@ img {
 .chair-layout,
 .chair-style,
 .chair-comp,
+.bean-logo,
 .bean-type,
 .bean-role,
 .bean-view,
@@ -957,7 +978,6 @@ img {
 .bean-font,
 .bean-content,
 .bean-layout,
-.bean-comp,
 .bean-challenge {
     width: 30%;
 }
