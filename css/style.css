@@ -13,7 +13,7 @@ body {
 }
 header {
     align-items: center;
-    background-image: linear-gradient(#808080, #ebebeb);
+    background-image: linear-gradient(#60affe, #eef9fe);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -22,7 +22,7 @@ header {
 }
 main {
     align-items: center;
-    background-image: linear-gradient(#60affe, #eef9fe, #60affe);
+    background-image: linear-gradient(#808080, #ebebeb, #808080);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,7 @@ main {
 }
 footer {
     align-items: center;
-    background-image: linear-gradient(#ebebeb, #808080);
+    background-image: linear-gradient(#eef9fe, #60affe);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
