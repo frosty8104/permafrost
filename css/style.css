@@ -289,7 +289,7 @@ footer i:hover {
 main a {
     color: #162252;
 }
-caption {
+.caption {
     font-size: 0.5em;
 }
 .chair-title,
@@ -715,7 +715,6 @@ figure {
 .house-type,
 .house-style,
 .house-role,
-.house-home,
 .house-old,
 .house-about,
 .house-view,
@@ -760,6 +759,7 @@ figure {
 .bean-challenge {
     width: 45%;
 }
+.house-feature,
 .bean-feature {
     margin: 0 0 0 30%;
     width: 50%;
