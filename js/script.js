@@ -12,13 +12,13 @@ date.innerHTML = year;
 const img = document.querySelector("img");
 const modal = document.querySelector(".modal");
 const modalImg = document.querySelector("#page");
-const captionText = document.querySelector("#caption");
-img.addEventListener('click', () => {
+let captionText = document.querySelector(".caption");
+img.addEventListener('click', function() {
     modal.style.display = "block";
     modalImg.src = this.src;
-    captionText = this.alt;
+    captionText.textContent = this.alt;
 });
-const span = document.querySelector(".close")[0];
-span.addEventListener('click', () => {
+const span = document.querySelector(".close");
+span.addEventListener('click', function() {
     modal.style.display = "none";
 });

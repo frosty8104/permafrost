@@ -708,6 +708,9 @@ header p {
     justify-content: center;
     width: 90%;
 }
+figure {
+    width: 50%;
+}
 .house-logo,
 .house-type,
 .house-style,
@@ -757,12 +760,9 @@ header p {
 .bean-challenge {
     width: 45%;
 }
-.bean-comp {
+.bean-feature {
     margin: 0 0 0 30%;
     width: 50%;
-}
-.bean-comp img {
-    width: 80%;
 }
 /***** CONTACT *****/
 #contact h2 {
