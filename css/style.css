@@ -175,21 +175,8 @@ footer i:hover {
     text-decoration: none;
     text-transform: uppercase;
 }
-.skills .html {
-    text-transform: uppercase;
-}
-.skills .html span {
-    background: #000000;
-    color: #ffffff;
-    padding: 0 0.5% 0 0.5%;
-}
-.skills .css {
-    text-transform: uppercase;
-}
-.skills .css span {
-    background: #60affe;
-    color: #ffffff;
-    padding: 0 0.5% 0 0.5%;
+.skills li img {
+    width: 7%;
 }
 .sam {
     align-items: center;
@@ -877,7 +864,7 @@ footer p {
     text-transform: uppercase;
 }
 .sam {
-    padding: 0;
+    margin: 10%;
     width: 25%;
 }
 .samples {
