@@ -181,7 +181,7 @@ footer i:hover {
 }
 .sam {
     align-items: center;
-    background: #808080;
+    background: #000000;
     display: flex;
     justify-content: center;
     margin: 0 0 0 25%;
@@ -333,10 +333,6 @@ main a {
     width: 100%;
 }
 .chair-logo {
-    width: 80%;
-}
-.bean-logo {
-    padding: 2% 0 0 0;
     width: 80%;
 }
 header h2 {
@@ -742,10 +738,15 @@ figure {
 .bean-palette,
 .bean-style,
 .bean-font,
+.bean-menu,
 .bean-content,
+.bean-product,
+.bean-barista,
+.bean-coffee,
+.bean-lanterns,
 .bean-layout,
 .bean-challenge {
-    width: 45%;
+    width: 30%;
 }
 .house-feature,
 .bean-feature {
@@ -976,7 +977,12 @@ img {
 .bean-palette,
 .bean-style,
 .bean-font,
+.bean-menu,
 .bean-content,
+.bean-product,
+.bean-barista,
+.bean-coffee,
+.bean-lanterns,
 .bean-layout,
 .bean-challenge {
     width: 30%;

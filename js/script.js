@@ -22,3 +22,4 @@ const span = document.querySelector(".close");
 span.addEventListener('click', function() {
     modal.style.display = "none";
 });
+// Daily image replacement
