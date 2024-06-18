@@ -175,9 +175,11 @@ footer i:hover {
     text-decoration: none;
     text-transform: uppercase;
 }
-.skills li img {
-    padding: 0 0 0 1%;
-    width: 7%;
+.skills ul li span {
+    background: #000000;
+    color: #ffffff;
+    margin: 0 0 0 1%;
+    padding: 0.5% 1%;
 }
 .sam {
     align-items: center;

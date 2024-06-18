@@ -1,0 +1,27 @@
+<!-- PORTFOLIO SITEMAP -->
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+<url>
+    <loc>https://frosty8104.github.io/portfolio/</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+</url>
+<url>
+    <loc>https://Frosty8104.github.io/portfolio/about</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+</url>
+<url>
+    <loc>https://Frosty8104.github.io/portfolio/portfolio</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+</url>
+<url>
+    <loc>https://Frosty8104.github.io/portfolio/contact</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority></priority>
+</url>
+</urlset>
