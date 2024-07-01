@@ -5,15 +5,15 @@ html {
     box-sizing: border-box;
 }
 body {
+    background: #f1f1f1;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
 }
-header {
+header, footer {
     align-items: center;
-    background-image: linear-gradient(#808080, #eef9fe);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -22,18 +22,8 @@ header {
 }
 main {
     align-items: center;
-    background-image: linear-gradient(#3c77bc, #ebebeb, #3c77bc);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 5% 0 5% 0;
-    width: 100%;
-}
-footer {
-    align-items: center;
-    background-image: linear-gradient(#eef9fe, #808080);
-    display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     padding: 5% 0 5% 0;
     width: 100%;
@@ -62,6 +52,9 @@ p {
 header {
     border-bottom: 2px solid; 
     border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
+}
+header nav {
+    background: #cbf0ff;
 }
 #typeface-logo {
     padding: 0 0 1% 0;
@@ -166,20 +159,26 @@ footer i:hover {
     color: #162252;
 }
 /***** SKILLS *****/
-.skills ul {
-    list-style: "*";
+.skills {
+    background: #cbf0ff;
 }
-.skills ul li a {
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    text-decoration: none;
+.skills h2 {
+    color: #4d81ba;
     text-transform: uppercase;
 }
-.skills li img {
-    padding: 0 0 0 1%;
-    width: 7%;
+.skills ul li {
+    background: #388de9;
+    border-radius: 10%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    margin: 0.5% 0;
+    padding: 0.75%;
+    text-decoration: none;
 }
-.sam {
+/*.sam {
     align-items: center;
     background: #000000;
     display: flex;
@@ -189,8 +188,12 @@ footer i:hover {
 }
 .sam img {
     width: 100%;
-}
+}*/
 /***** SAMPLES *****/
+#samples h2 {
+    color: #4d81ba;
+    text-transform: uppercase;
+}
 #samples {
     width: 90%;
 }
@@ -203,6 +206,11 @@ footer i:hover {
     width: 100%;
 }
 /***** REVIEWS *****/
+#reviews h2 {
+    color: #4d81ba;
+    display: none;
+    text-transform: uppercase;
+}
 #reviews {
     width: 90%;
 }
@@ -567,7 +575,7 @@ footer p {
     font-size: 1.5em;
 }
 .skills {
-    width: 45%;
+    width: 100%;
 }
 .skills ul li a {
     font-size: 1.25em;
@@ -859,6 +867,9 @@ footer p {
 /***** SAMPLES *****/
 #samples h2 {
     font-size: 2em;
+}
+.skills ul li {
+    display: inline-flex;
 }
 .skills ul li a {
     font-size: 1.25em;
