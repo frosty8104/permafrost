@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import header from "./Header.js";
 import footer from "./Footer.js";
@@ -15,3 +16,22 @@ class App extends Component {
 };
 
 export default App;
+=======
+import React from "react";
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
+
+class App extends { Component } {
+
+}
+render() {
+    return(
+        <div>
+            <Header />
+            <Footer />
+        </div>
+    );
+}
+
+export default App;
+>>>>>>> main

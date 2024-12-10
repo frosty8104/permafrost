@@ -5,13 +5,14 @@ html {
     box-sizing: border-box;
 }
 body {
+    background: #f1f1f1;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
 }
-header {
+header, footer {
     align-items: center;
     background: #eef9fe;
     display: flex;
@@ -29,16 +30,8 @@ main {
     padding: 5% 0 5% 0;
     width: 100%;
 }
-footer {
-    align-items: center;
-    background: #eef9fe;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 5% 0 5% 0;
-    width: 100%;
-}
 img {
+    padding: 5% 0 0 0;
     width: 100%;
 }
 ul {
@@ -69,9 +62,11 @@ header {
 }
 nav {
     align-items: center;
+    background: #cbf0ff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0 1%;
     text-align: center;
     width: 80%;
 }
@@ -166,22 +161,32 @@ footer i:hover {
     color: #162252;
 }
 /***** SKILLS *****/
-.skills ul {
-    list-style: "*";
-}
-.skills ul li a {
-    font-family: 'Lora', serif;
-    font-size: 1em;
-    text-decoration: none;
+.skills h2 {
+    background: #f1f1f1;
+    color: #4d81ba;
     text-transform: uppercase;
 }
-.skills ul li span {
-    background: #000000;
-    color: #ffffff;
-    margin: 0 0 0 1%;
-    padding: 0.5% 1%;
+.skills ul {
+    padding: 0;
 }
-.sam {
+.skills ul li {
+    align-items: center;
+    background: #68c7e5;
+    border-radius: 5%;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    justify-content: center;
+    margin: 0.5%;
+    padding: 0.75%;
+    text-decoration: none;
+}
+.skills .recolor {
+    background: #2b81e6;
+}
+/*.sam {
     align-items: center;
     background: #000000;
     display: flex;
@@ -191,13 +196,22 @@ footer i:hover {
 }
 .sam img {
     width: 100%;
-}
+}*/
 /***** SAMPLES *****/
 #samples {
+    background: #cbf0ff;
     width: 90%;
 }
 #samples h2 {
+    color: #4d81ba;
     font-size: 1.25em;
+    text-transform: uppercase;
+}
+#samples h2 span {
+    background: #68c7e5;
+    color: #ffffff;
+    padding: 1% 2%;
+    text-transform: none;
 }
 .samples img {
     border: 1px solid #808080;
@@ -206,10 +220,20 @@ footer i:hover {
 }
 /***** REVIEWS *****/
 #reviews {
+    background: #cbf0ff;
     width: 90%;
 }
 #reviews h2 {
+    color: #4d81ba;
     font-size: 1.25em;
+    text-transform: uppercase;
+}
+#reviews h2 span {
+    background: #68c7e5;
+    color: #ffffff;
+    padding: 1% 2%;
+    text-align: left;
+    text-transform: none;
 }
 .reviews p {
     color: #000000;
@@ -217,6 +241,7 @@ footer i:hover {
 }
 /***** ABOUT *****/
 #about {
+    background: #cbf0ff;
     width: 90%;
 }
 #about h2 {
@@ -231,6 +256,7 @@ footer i:hover {
     width: 100%;
 }
 .intro, .hobby {
+    background: #f1f1f1;
     width: 90%;
 }
 .intro p, .hobby p {
@@ -275,12 +301,23 @@ footer i:hover {
 #portfolio p {
     font-size: 1em;
 }
+.dorothy-delong,
+.fireball-app,
+.restaurant-app,
+.recipes-app,
+.dinosaur-app,
+.color-app {
+    display: none;
+}
 /***** CASE STUDY *****/
 main a {
     color: #162252;
 }
-.caption {
+figcaption {
+    align-items: center;
     font-size: 0.5em;
+    justify-content: center;
+    text-align: center;
 }
 .chair-title,
 .bean-title,
@@ -331,11 +368,36 @@ main a {
     padding: 0;
     width: 100%;
 }
-.house-logo {
+.house-logo,
+.chair-logo {
+    display: inline-block;
+    position: relative;
+    width: 90%;
+}
+.house-logo img,
+.chair-logo img {
+    display: block;
+    height: auto;
     width: 100%;
 }
-.chair-logo {
-    width: 80%;
+.chair-logo img {
+    padding: 5% 0 0 10%;
+}
+.bean-logo,
+.bean-menu,
+.bean-product {
+    margin: 0 0 0 25%;
+    width: 50%;
+}
+.overlay {
+    color: #000000;
+    font-size: 0.5em;
+    left: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    top: 86%;
+    transform: translate(-50%, -50%);
 }
 header h2 {
     font-family: 'Open Sans', sans-serif;
@@ -427,7 +489,7 @@ p {
 }
 #contact form {
     align-items: center;
-    background: #eef9fe;
+    background: #cbf0ff;
     border-radius: 15px;
     display: flex;
     flex-flow: row wrap;
@@ -457,6 +519,7 @@ p {
     font-size: 1.5em;
 }
 @media (max-width: 600px) {
+    /* NAV BURGER */
     .burger {
         display: flex;
         padding: 0 0 1% 0;
@@ -569,7 +632,7 @@ footer p {
     font-size: 1.5em;
 }
 .skills {
-    width: 45%;
+    width: 100%;
 }
 .skills ul li a {
     font-size: 1.25em;
@@ -630,6 +693,10 @@ footer p {
     justify-content: space-between;
     width: 90%;
 }
+#portfolio h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
 #portfolio a {
     font-size: 1.25em;
     margin: 0 0 2% 0;
@@ -638,30 +705,14 @@ footer p {
     width: 45%;
 }
 .content img {
-   padding: 1px;
+    padding: 1px;
     width: 100%;
-}
-#portfolio h2 {
-    font-size: 1.5em;
-    font-weight: 700;
 }
 .content p {
     font-size: 1em;
 }
 .content:nth-child(2) {
-    padding: 4% 0 0 0;
-}
-.content:nth-child(3) {
-    padding: 8% 0 0 0;
-}
-.content:nth-child(5) {
-    padding: 4% 0 0 0;
-}
-.content:nth-child(6) {
-    padding: 2% 0 0 0;
-}
-.content:nth-child(8) {
-    padding: 9% 0 0 0;
+    margin: 4% 0 0 0;
 }
 /***** CASE STUDY *****/ 
 .folio a {
@@ -694,44 +745,29 @@ header p {
     justify-content: center;
     width: 90%;
 }
-figure {
-    width: 50%;
-}
-.house-logo,
-.house-type,
 .house-style,
+.house-type,
 .house-role,
-.house-old,
-.house-about,
 .house-view,
-.house-services,
-.house-ghana,
 .house-goals,
-.house-partners,
-.house-press,
 .house-design,
 .house-palette,
 .house-font,
 .house-content,
 .house-layout,
 .house-challenge,
-.house-products,
-.house-blog,
-.house-contact,
-.house-faq,
-.chair-logo,
+.chair-style,
 .chair-type,
 .chair-role,
+.chair-owner,
 .chair-view,
 .chair-goals,
-.chair-challenge,
 .chair-design,
 .chair-palette,
 .chair-font,
 .chair-content,
 .chair-layout,
-.chair-style,
-.bean-logo,
+.chair-challenge,
 .bean-type,
 .bean-role,
 .bean-view,
@@ -740,20 +776,61 @@ figure {
 .bean-palette,
 .bean-style,
 .bean-font,
-.bean-menu,
 .bean-content,
-.bean-product,
-.bean-barista,
-.bean-coffee,
-.bean-lanterns,
 .bean-layout,
 .bean-challenge {
     width: 45%;
 }
+.bean-logo,
+.bean-menu,
+.bean-product {
+    margin: 0 5% 0 0;
+    width: 30%;
+}
 .house-feature,
+.chair-feature,
 .bean-feature {
-    margin: 0 0 0 30%;
+    margin: 0 0 0 25%;
     width: 50%;
+}
+.house-old,
+.house-services,
+.house-ghana,
+.chair-green,
+.chair-jade,
+.chair-red,
+.chair-white {
+    padding: 0 0 0 2%;
+    width: 20%;
+}
+.house-about,
+.house-partners,
+.house-press,
+.house-products,
+.house-blog,
+.house-contact,
+.house-faq {
+    padding: 0 0 0 2%;
+    width: 25%;
+}
+.chair-tablet {
+    width: 15%;
+}
+.chair-mobile {
+    padding: 0 2%;
+    width: 10%;
+}
+.bean-barista,
+.bean-coffee,
+.bean-lanterns {
+    padding: 0 0 0 3%;
+    width: 30%;
+}
+.house-logo,
+.chair-logo {
+    display: inline-block;
+    position: relative;
+    width: 45%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -862,6 +939,9 @@ footer p {
 #samples h2 {
     font-size: 2em;
 }
+.skills ul li {
+    display: inline-flex;
+}
 .skills ul li a {
     font-size: 1.25em;
     text-decoration: none;
@@ -872,7 +952,10 @@ footer p {
     width: 25%;
 }
 .samples {
-    width: 35%;
+    width: 90%;
+}
+.samples img {
+    width: 30%;
 }
 /***** REVIEWS *****/
 #reviews h2 {
@@ -902,28 +985,16 @@ footer p {
 .content p {
     font-size: 1.25em;
 }
-.content:nth-child(2) {
-    padding: 2.3% 0 0 0;
-}
-.content:nth-child(3) {
-    padding: 5.5% 0 0 0;
-}
-.content:nth-child(5) {
-    padding: 10.5% 0 0 0;
-}
-.content:nth-child(6) {
-    padding: 7.7% 0 0 0;
-}
-.content:nth-child(8) {
-    padding: 6.5% 0 0 0;
-}
-.content:nth-child(9) {
-    padding: 15.5% 0 0 0;
-}
 /***** CASE STUDY *****/
 .folio a {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
+}
+figcaption {
+    align-items: center;
+    font-size: 0.5em;
+    justify-content: center;
+    text-align: center;
 }
 img {
     width: 100%;
@@ -933,6 +1004,70 @@ img {
 .house-title {
     font-size: 1.5em;
     padding: 0 1% 0 1%;
+}
+.house-style,
+.house-type,
+.house-role,
+.house-view,
+.house-goals,
+.house-design,
+.house-palette,
+.house-font,
+.house-content,
+.house-layout,
+.house-challenge,
+.chair-style,
+.chair-owner,
+.bean-style,
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-challenge {
+    padding: 0 0 0 5%;
+    width: 30%;
+}
+.house-old,
+.house-services,
+.house-ghana {
+    padding: 0 0 0 5%;
+    width: 10%;
+}
+.house-about,
+.house-partners,
+.house-press,
+.house-products,
+.house-blog,
+.house-contact,
+.house-faq {
+    padding: 0 0 0 2%;
+    width: 15%;
+}
+.house-logo,
+.chair-logo {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+}
+.chair-green,
+.chair-jade,
+.chair-red,
+.chair-white {
+    padding: 0 0 0 2%;
+    width: 20%;
+}
+.bean-logo {
+    width: 25%;
+}
+.bean-menu,
+.bean-product {
+    margin: 0 0 0 2%;
+    width: 15%;
 }
 /***** CONTACT *****/
 #contact form {

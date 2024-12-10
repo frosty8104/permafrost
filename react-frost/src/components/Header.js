@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import logo from "./img/permafrostlogo.svg";
 
 const Header = () => {
@@ -10,3 +11,15 @@ const Header = () => {
     )
 }
 export default Header 
+=======
+
+const Header = (props) => {
+
+    return (
+        <header className="app-header"></header>
+    );
+};
+
+export default Header;
+
+>>>>>>> main
