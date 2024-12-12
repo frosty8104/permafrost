@@ -161,6 +161,13 @@ footer i:hover {
     color: #162252;
 }
 /***** SKILLS *****/
+.skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
 .skills h2 {
     background: #f1f1f1;
     color: #4d81ba;
@@ -175,7 +182,7 @@ footer i:hover {
     border-radius: 5%;
     color: #ffffff;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     font-family: 'Lora', serif;
     font-size: 1em;
     justify-content: center;
@@ -199,7 +206,6 @@ footer i:hover {
 }*/
 /***** SAMPLES *****/
 #samples {
-    background: #cbf0ff;
     width: 90%;
 }
 #samples h2 {
@@ -221,6 +227,7 @@ footer i:hover {
 /***** REVIEWS *****/
 #reviews {
     background: #cbf0ff;
+    display: none;
     width: 90%;
 }
 #reviews h2 {
@@ -620,6 +627,29 @@ footer p {
     padding: 0;
     text-align: center;
 }
+/***** SKILLS *****/
+.skills {
+    align-items: flex-start;
+    width: 80%;
+}
+.skills h2 {
+    width: 100%;
+}
+.skills ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 100%;
+}
+.skills ul li {
+    justify-content: space-between;
+    margin: 2%;
+}
+.skills ul li a {
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 /***** SAMPLES *****/
 #samples {
     align-items: center;
@@ -630,14 +660,6 @@ footer p {
 }
 #samples h2 {
     font-size: 1.5em;
-}
-.skills {
-    width: 100%;
-}
-.skills ul li a {
-    font-size: 1.25em;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 .samples {
     width: 45%;
