@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background: #f1f1f1;
+    background: #ebebeb;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -14,11 +14,11 @@ body {
 }
 header, footer {
     align-items: center;
-    background: #eef9fe;
+    background: #ebebeb;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 5% 0 5% 0;
+    padding: 3% 0;
     width: 100%;
 }
 main {
@@ -27,12 +27,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5% 0 5% 0;
+    padding: 3% 0;
     width: 100%;
 }
 img {
     padding: 5% 0 0 0;
     width: 100%;
+}
+figcaption {
+    font-size: 0.5em;
 }
 ul {
     list-style-type: none;
@@ -54,10 +57,10 @@ p {
 /* HEADER */
 header {
     border-bottom: 2px solid; 
-    border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
+    border-image: linear-gradient(90deg, #808080, #60affe) 1;
 }
 #typeface-logo {
-    padding: 0 0 1% 0;
+    padding: 3% 0;
     width: 90%;
 }
 nav {
@@ -110,18 +113,22 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
-    padding: 5% 0 5% 0;
+    padding: 2% 0 3% 0;
     width: 96%;
 }
 header h2 strong {
     color: #60affe;
     font-weight: 700;
 }
+header .filter {
+    filter: grayscale(100%) brightness(75%) contrast(150%);
+    padding: 0 0 0 1%;
+}
 /***** FOOTER *****/
 footer {
     align-items: center;
     border-top: 2px solid;
-    border-image: linear-gradient(90deg, #808080, #ebebeb, #60affe, #eef9fe, #000000) 1;
+    border-image: linear-gradient(90deg, #808080, #60affe) 1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -169,7 +176,6 @@ footer i:hover {
     width: 60%;
 }
 .skills h2 {
-    background: #f1f1f1;
     color: #4d81ba;
     text-transform: uppercase;
 }
@@ -179,7 +185,7 @@ footer i:hover {
 .skills ul li {
     align-items: center;
     background: #68c7e5;
-    border-radius: 5%;
+    border-radius: 3%;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -187,8 +193,9 @@ footer i:hover {
     font-size: 1em;
     justify-content: center;
     margin: 0.5%;
-    padding: 0.75%;
+    padding: 0.5%;
     text-decoration: none;
+    width: 110%;
 }
 .skills .recolor {
     background: #2b81e6;
@@ -224,6 +231,9 @@ footer i:hover {
     padding: 1px;
     width: 100%;
 }
+figcaption {
+    padding: 0 0 1% 0;
+}
 /***** REVIEWS *****/
 #reviews {
     background: #cbf0ff;
@@ -248,7 +258,6 @@ footer i:hover {
 }
 /***** ABOUT *****/
 #about {
-    background: #cbf0ff;
     width: 90%;
 }
 #about h2 {
@@ -263,7 +272,6 @@ footer i:hover {
     width: 100%;
 }
 .intro, .hobby {
-    background: #f1f1f1;
     width: 90%;
 }
 .intro p, .hobby p {
@@ -322,7 +330,6 @@ main a {
 }
 figcaption {
     align-items: center;
-    font-size: 0.5em;
     justify-content: center;
     text-align: center;
 }
@@ -385,10 +392,8 @@ figcaption {
 .chair-logo img {
     display: block;
     height: auto;
+    padding: 0 0 0 10%;
     width: 100%;
-}
-.chair-logo img {
-    padding: 5% 0 0 10%;
 }
 .bean-logo,
 .bean-menu,
@@ -396,14 +401,17 @@ figcaption {
     margin: 0 0 0 25%;
     width: 50%;
 }
+.house-about {
+    width: 90%;
+}
 .overlay {
     color: #000000;
     font-size: 0.5em;
     left: 50%;
-    padding: 5px 10px;
+    padding: 0 0 0 10%;
     position: absolute;
     text-align: center;
-    top: 86%;
+    top: 88%;
     transform: translate(-50%, -50%);
 }
 header h2 {
@@ -465,7 +473,7 @@ p {
     }
 }
 .close {
-    color: #f1f1f1;
+    color: #ffffff;
     font-size: 40px;
     font-weight: bold;
     position: absolute;
@@ -475,7 +483,7 @@ p {
 }
 .close:hover, 
 .close:focus {
-    color: #bbb;
+    color: #ebebeb;
     text-decoration: none;
 }
 /***** CONTACT *****/
@@ -629,13 +637,13 @@ footer p {
 }
 /***** SKILLS *****/
 .skills {
-    align-items: flex-start;
     width: 80%;
 }
 .skills h2 {
     width: 100%;
 }
 .skills ul {
+    align-items: flex-start;
     display: flex;
     flex-flow: row wrap;
     padding: 0;
@@ -643,7 +651,8 @@ footer p {
 }
 .skills ul li {
     justify-content: space-between;
-    margin: 2%;
+    margin: 1%;
+    width: 25%;
 }
 .skills ul li a {
     font-size: 1.25em;
@@ -660,17 +669,12 @@ footer p {
 }
 #samples h2 {
     font-size: 1.5em;
-}
-.samples {
-    width: 45%;
-}
-.samples img {
     width: 100%;
 }
 /***** REVIEWS *****/
 #reviews {
     align-items: center;
-    display: flex;
+    display: none;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 90%;
@@ -734,7 +738,7 @@ footer p {
     font-size: 1em;
 }
 .content:nth-child(2) {
-    margin: 4% 0 0 0;
+    padding: 3.7% 0 0 0;
 }
 /***** CASE STUDY *****/ 
 .folio a {
@@ -807,7 +811,7 @@ header p {
 .bean-menu,
 .bean-product {
     margin: 0 5% 0 0;
-    width: 30%;
+    width: 45%;
 }
 .house-feature,
 .chair-feature,
@@ -848,11 +852,15 @@ header p {
     padding: 0 0 0 3%;
     width: 30%;
 }
-.house-logo,
-.chair-logo {
+.house-logo {
     display: inline-block;
     position: relative;
     width: 45%;
+}
+.chair-logo {
+    display: inline-block;
+    position: relative;
+    width: 30%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -957,12 +965,13 @@ footer h2 a {
 footer p {
     font-size: 1em;
 }
-/***** SAMPLES *****/
-#samples h2 {
-    font-size: 2em;
+/***** SKILLS *****/
+.skills ul {
+    width: 100%;
 }
 .skills ul li {
     display: inline-flex;
+    width: 12%;
 }
 .skills ul li a {
     font-size: 1.25em;
@@ -973,11 +982,19 @@ footer p {
     margin: 10%;
     width: 25%;
 }
+/***** SAMPLES *****/
+#samples h2 {
+    font-size: 2em;
+}
 .samples {
-    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 30%;
 }
 .samples img {
-    width: 30%;
+    width: 100%;
 }
 /***** REVIEWS *****/
 #reviews h2 {
@@ -1014,7 +1031,6 @@ footer p {
 }
 figcaption {
     align-items: center;
-    font-size: 0.5em;
     justify-content: center;
     text-align: center;
 }
@@ -1052,7 +1068,7 @@ img {
 .bean-layout,
 .bean-challenge {
     padding: 0 0 0 5%;
-    width: 30%;
+    width: 45%;
 }
 .house-old,
 .house-services,
@@ -1070,7 +1086,11 @@ img {
     padding: 0 0 0 2%;
     width: 15%;
 }
-.house-logo,
+.house-logo {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+}
 .chair-logo {
     display: inline-block;
     position: relative;

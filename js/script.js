@@ -22,7 +22,8 @@ const span = document.querySelector(".close");
 span.addEventListener('click', function() {
     modal.style.display = "none";
 });
-// Daily image replacement [replace images/text every 24 hours with local storage: reference Sticky Notes & Name Tag app projects in Skillcrush]
+// Daily image replacement [replace images/text every 24 hours with local storage: reference Sticky Notes & Name Tag app projects in 
+// Skillcrush]
 const house = document.querySelector(".house-of-light");
 const conmigo = document.querySelector(".sit-conmigo");
 const bean = document.querySelector(".whole-bean");
@@ -42,3 +43,5 @@ const folioMap = folioArray.map(function (item) {
     return item;
 });
 console.log(folioMap);
+
+// JS elements needed: map, includes (?), indexOf (?), filter (?), localStorage
