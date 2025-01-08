@@ -224,6 +224,13 @@ footer i:hover {
     padding: 1px;
     width: 100%;
 }
+#serve-list {
+    display: none;
+}
+#serve-list button {
+    color: #ffffff;
+    background: #60affe;
+}
 /***** REVIEWS *****/
 #reviews {
     background: #cbf0ff;
