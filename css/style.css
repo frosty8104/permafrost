@@ -169,7 +169,6 @@ footer i:hover {
     width: 60%;
 }
 .skills h2 {
-    background: #f1f1f1;
     color: #4d81ba;
     text-transform: uppercase;
 }
@@ -193,17 +192,6 @@ footer i:hover {
 .skills .recolor {
     background: #2b81e6;
 }
-/*.sam {
-    align-items: center;
-    background: #000000;
-    display: flex;
-    justify-content: center;
-    margin: 0 0 0 25%;
-    width: 50%;
-}
-.sam img {
-    width: 100%;
-}*/
 /***** SAMPLES *****/
 #samples {
     width: 90%;
@@ -231,6 +219,11 @@ footer i:hover {
     color: #ffffff;
     background: #60affe;
 }
+figcaption {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 /***** REVIEWS *****/
 #reviews {
     background: #cbf0ff;
@@ -255,7 +248,6 @@ footer i:hover {
 }
 /***** ABOUT *****/
 #about {
-    background: #cbf0ff;
     width: 90%;
 }
 #about h2 {
@@ -270,11 +262,13 @@ footer i:hover {
     width: 100%;
 }
 .intro, .hobby {
-    background: #f1f1f1;
     width: 90%;
 }
 .intro p, .hobby p {
     font-family: 'Lora', serif;
+}
+.clients {
+    display: none;
 }
 /***** PORTFOLIO *****/
 #portfolio {
