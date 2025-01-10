@@ -18,7 +18,11 @@ header, footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+<<<<<<< HEAD
     padding: 3% 0;
+=======
+    padding: 2% 0;
+>>>>>>> main
     width: 100%;
 }
 main {
@@ -27,11 +31,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
     padding: 3% 0;
+=======
+    padding: 2% 0;
+>>>>>>> main
     width: 100%;
 }
 img {
-    padding: 5% 0 0 0;
+    padding: 2% 0 0 0;
     width: 100%;
 }
 figcaption {
@@ -850,7 +858,7 @@ header p {
 .bean-barista,
 .bean-coffee,
 .bean-lanterns {
-    padding: 0 0 0 3%;
+    padding: 0 0 0 2%;
     width: 30%;
 }
 .house-logo {
@@ -1074,7 +1082,7 @@ img {
 .house-old,
 .house-services,
 .house-ghana {
-    padding: 0 0 0 5%;
+    padding: 0 2%;
     width: 10%;
 }
 .house-about,
