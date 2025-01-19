@@ -18,11 +18,7 @@ header, footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-<<<<<<< HEAD
-    padding: 3% 0;
-=======
     padding: 2% 0;
->>>>>>> main
     width: 100%;
 }
 main {
@@ -31,11 +27,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
-    padding: 3% 0;
-=======
     padding: 2% 0;
->>>>>>> main
     width: 100%;
 }
 img {
