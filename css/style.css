@@ -738,9 +738,6 @@ footer p {
 .content p {
     font-size: 1em;
 }
-.content:nth-child(2) {
-    padding: 3.7% 0 0 0;
-}
 /***** CASE STUDY *****/ 
 .folio a {
     font-size: 1.25em;
@@ -877,6 +874,7 @@ header p {
 }
 #contact form {
     align-items: center;
+    border: 1px solid #808080;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
