@@ -487,6 +487,22 @@ p {
     color: #ebebeb;
     text-decoration: none;
 }
+/***** SERVICES *****/
+#services {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+/***** RECIPES *****/
+#recipes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -534,6 +550,7 @@ p {
 #contact i {
     font-size: 1.5em;
 }
+/***** BLOG *****/
 @media (max-width: 600px) {
     /* NAV BURGER */
     .burger {
@@ -860,6 +877,8 @@ header p {
     position: relative;
     width: 30%;
 }
+/***** SERVICES *****/
+/***** RECIPES *****/
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -900,6 +919,7 @@ header p {
     width: 20%;
 }
 }
+/***** BLOG *****/
 @media (min-width: 1200px) {
 /* FONTS: (desktop) nav & a: 1.5em; h2: 2em; p: 1.25em */
 /***** BASE STYLE *****/
@@ -1110,6 +1130,8 @@ img {
     margin: 0 0 0 2%;
     width: 15%;
 }
+/***** SERVICES *****/
+/***** RECIPES *****/
 /***** CONTACT *****/
 #contact form {
     width: 50%;
@@ -1130,4 +1152,5 @@ img {
     text-decoration: none;
     text-transform: uppercase;
 }
+/***** BLOG *****/
 }
