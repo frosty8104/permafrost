@@ -490,7 +490,7 @@ p {
 /***** SERVICES *****/
 #services {
     align-items: center;
-    display: none;
+    display: none   ;
     flex-direction: column;
     justify-content: center;
     width: 90%;
