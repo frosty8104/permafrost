@@ -113,7 +113,7 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
-    padding: 2% 0 3% 0;
+    padding: 2% 0;
     width: 96%;
 }
 header h2 strong {
@@ -490,7 +490,7 @@ p {
 /***** SERVICES *****/
 #services {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     width: 90%;
@@ -498,7 +498,7 @@ p {
 /***** RECIPES *****/
 #recipes {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     width: 90%;
@@ -551,6 +551,16 @@ p {
     font-size: 1.5em;
 }
 /***** BLOG *****/
+#blog {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+#blog h2 {
+    font-size: 1.25em;
+}
 @media (max-width: 600px) {
     /* NAV BURGER */
     .burger {
