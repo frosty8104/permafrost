@@ -907,13 +907,14 @@ header p {
     width: 45%;
 }
 /***** RECIPES *****/
-.breakfast {
+.ingredients {
     align-items: center;
 }
-.breakfast ul {
+.ingredients ul {
     flex-flow: row wrap;
+    padding: 0;
 }
-.breakfast ul li {
+.ingredients ul li {
     justify-content: space-between;
     width: 50%;
 }
