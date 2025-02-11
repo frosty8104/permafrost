@@ -495,14 +495,6 @@ p {
     justify-content: center;
     width: 90%;
 }
-/***** RECIPES *****/
-#recipes {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -906,18 +898,6 @@ header p {
 .photo {
     width: 45%;
 }
-/***** RECIPES *****/
-.ingredients {
-    align-items: center;
-}
-.ingredients ul {
-    flex-flow: row wrap;
-    padding: 0;
-}
-.ingredients ul li {
-    justify-content: space-between;
-    width: 50%;
-}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -1170,7 +1150,6 @@ img {
     width: 15%;
 }
 /***** SERVICES *****/
-/***** RECIPES *****/
 /***** CONTACT *****/
 #contact form {
     width: 50%;
