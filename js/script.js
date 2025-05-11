@@ -37,7 +37,7 @@ const recipes = document.querySelector(".recipes-app");
 const dinosaur = document.querySelector(".dinosaur-app");
 const color = document.querySelector(".color-app");
 
-const folioArray = [ house, conmigo, bean, delong, fireball, restaurant, rescue, retreat, wordpress, recipes, dinosaur, color ];
+const folioArray = [ "house", "conmigo", "bean", "delong", "fireball", "restaurant", "rescue", "retreat", "wordpress", "recipes", "dinosaur", "color" ];
 
 const folioMap = folioArray.map(function (item) {
     return item;
