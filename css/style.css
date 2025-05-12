@@ -45,6 +45,9 @@ a {
     font-size: 1em;
     text-decoration: none;
 }
+h1 {
+    font-size: 1.5em;
+}
 h2 {
     font-size: 1.25em;
 }
@@ -564,7 +567,7 @@ p {
 .sidebar {
     border-top: 1px solid #808080;
 }
-.sidebar a {
+#blog a {
     font-size: 1em;
 }
 @media (max-width: 600px) {

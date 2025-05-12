@@ -29,12 +29,166 @@
         <main>
             <section id="blog">
                 <div class="posts">
-                    <!-- WEB DESIGN/DEV -->
+                    <h1>WEB DESIGN/DEV</h1> 
                     <h2 id="box-flex">Box Model Vs Flexbox</h2>
+                    <p>Progress requires steps, and one of the frst steps to modern web design afer learning about HTML and CSS was to 
+                    create a website from a design composite. For example, Rogue Pickings is a mobile meal delivery service.<br>
+                    Rogue Pickings prides itself on providing meals with fresh ingredients, and the whole website is geared toward 
+                    letting people know where they are, what they do, and what they offer. As a web developer, I was taught by 
+                    Skillcrush’s Break Into Tech Blueprint to start with HTML and CSS using the box model, employing foat, clear, 
+                    margin, padding, box-sizing, text-align, display, and width propertes to set up content placing for the site. For 
+                    styling, color for text, background for background-color, font-size, font-weight, font-family, text-transform, 
+                    text-decoraton, border-botom, border-top, border-right, and list-style propertes are used.<br>
+                    So, since Rogue Pickings is an example, frst we set the body font size to 16 pixels, font-family to Montserrat with 
+                    alternatve optons of Helvetca and Arial if the browser can’t use the frst font, and ’sans serif’ for font style. 
+                    Then we set the header h1, h2, h3, and h4 to font-weight 700 resultng in bolded headings, and text-transform 
+                    uppercase so all the headers are in capitals; afer that, you set h1 to font-size 30px, h2 to font-size 24px, h3 to 
+                    20px, h4 to 12px, and p line-height to 36px. That takes care of main styles, so what’s next? Time to set header 
+                    styles and placement. H1 needs to be foated to the lef, margin should be set to 0, padding, which will push h1 down 
+                    from the top and give space at the bottom, should be set to 36px 0, which means 36px top and botom, and 0px lef and 
+                    right. Phase two is to make Rogue Pickings responsive. For starters, you need to delete all floats, clears, margins, 
+                    and padding propertes. You may have to add some padding later, but for now clear all the aforementioned properties 
+                    out. Flexbox properties include align-items, flex-directon, justify-content, wrap, and flex-flow. Flex-flow is a 
+                    hybrid property using fex-directon and wrap. For starters, Rogue Pickings has a green theme, so you will want to 
+                    apply #77a466, a light forest green, to your header, header h1, and .main-image img as a 3px solid border-bottom, 
+                    and color for header h1 span, header nav ul li a, .main-ttle h2, .menu li, and footer span. (Apologies, Canadian 
+                    and/or Britsh speakers, yes, you have to use the United States spelling or it won’t work.) H1, h2, and h3 headers 
+                    are assigned the color black, .reviews are assigned color: #333, and .secton-one, .secton-two, .secton-three, and 
+                    footer are assigned border-top: 1px solid #eee. Assign font-size 16px to html, and font-family ‘Montserrat’, 
+                    Helvetica, Arial, sans-serif to body, providing default fonts for each browser if the first one is not available. 
+                    Next, block up h1, h2, and h3 and apply text-transform: uppercase and font-weight: 700 to bold the headings; next, 
+                    assign a font size of 1.875em to h1, 1.125em to h2, 0.75em to h3, and 0.875em to p, respectvely. Let’s take a break 
+                    for styling and work on positoning; for body, align-items: center and display: flex, for .container, header, 
+                    .top-secton, .botom-secton, and footer you need align-items: center, display: flex, flex-flow: row wrap, and 
+                    justify-content: center. How about secton and div widths? Assign .container max-width: 1200px, and width: 90%, header, 
+                    header h1, .main-image img, .secton-one, .secton-two, .secton-three, and footer are given width: 100%. Add text-align: 
+                    center to header and footer, text-align: lef to .main-ttle h2, font-size: 1em to .main-ttle p, .reviews, and .address, 
+                    as well as line-height: 1.56 to .main-title p, 1.5625 to .reviews and 1.5 to .address, respectvely. Assign padding: 
+                    20px to header h1 and padding-top: 10px to .secton-one, .secton-two, and .secton-three; footer span is given 
+                    font-family: ‘Galada’, cursive, text-transform: lowercase, and font-size: 0.875em. (Note: all property/descripton 
+                    pairings must be writen with a colon afer a property, and a semicolon afer the descripton to work. For example: color: 
+                    #77a466;) Last, but not least, are the two lists on the website: ul is assigned margin: 0, header nav is given width:
+                    50%, header nav ul is given padding: 0, header nav ul li is assigned font-weight: 700 (bold), font-size 0.875em, and 
+                    text-transform: uppercase. Both header nav ul li and .menu li are assigned padding: 10px 0; .menu and header nav ul li 
+                    is given list-style: none. Margin: 0 is assigned to ul, and header nav ul li a gets text-decoraton: none. Padding or 
+                    margin: 0, list-style: none, and text-decoraton: none are given to lists to remove the indent from the side, remove 
+                    any bullets or numbers from a list, and text- decoraton: none removes lines from under links.<br>
+                    On to the media queries! For tablet, @media all and (min-width: 768px) with .bottom section being assigned align-items: 
+                    flex-start, justfy-content: space-between, and width: 100%, .section-one, .section-two, and .section-three assigned 
+                    border-top 1px solid #eee, and flex-basis: 31.4% to fill their assigned areas. Lastly, .section-two is assigned border-left 
+                    and .border-right 1px solid #eee, and padding: 0 20px. For desktop, @media all and (min-width: 1200px) header is assigned 
+                    justfy-content: space-between, header h1 gets border-botiom: none, padding: 2% 0 2% 0, text-align: lefi, and width: 30%; 
+                    header nav is assigned width: 40%, and header nav ul is assigned display: flex and justify- content: space-between. If you 
+                    enjoyed this dissecton of writng a website, go look at Skillcrush.com for more coding and design fun. This is just a 
+                    sample of the projects they teach you to build.</p>
                     <h2 id="git">Git Goin on Design!</h2>
+                    <p>Git? What’s that? Version control... well, that doesn’t mean much to me. Wait, I can backup my projects with it? 
+                    Excellent! THAT makes it useful! And helps me work with other developers on a code project without overwritng any 
+                    of their parts – now we’re getting somewhere.<br>
+                    So how do I do that? Apparently, there’s a tool called terminal native to a computer’s operatng system – hmmm, 
+                    think I’ve come across that before. Let’s see... Applicatons/Utlites/Terminal (apologies, Microsof folks, using a 
+                    Macintosh, so no idea where Terminal would be on your computers). So, time to free up Terminal and take it for a 
+                    test drive!<br>
+                    Sooo... terminal opened, now what do I do? Hmm, so git – -version will tell me if I have it already or not; 
+                    git-scm.com gets me either git if I don’t have it or an update if I do. Wonderful, now I can play with it. 
+                    Alrighty, so... now I need to confgure the git environment if it’s a new install; git confg user.name for username, 
+                    git config user.email for e-mail – straight forward enough. And there we go – all set up! Now I can actually use it. 
+                    So, navigate to the folder where you want your repository, and then create repository in the command line of your 
+                    terminal: git init .... I assume that means initalize repository; git status tells you what fles in the folder are 
+                    available to add to the repository. To add fles to the folder: frst git add and the fle name, and then git commit -m 
+                    “Message you want to leave”. Git status will tell you where you are in the repository process, or you can git log to 
+                    see a history of commands that you’ve entered into the command line in terminal. Git is built like a tree, so you 
+                    create branches of the main code and then merge them with that code when you’re done. So, to make a change to your 
+                    base code, enter git branch into the command line; now you can make the changes you want on your code (say maybe you 
+                    want to change your white background to grey), and then git merge to merge it back into the main code. To create the 
+                    branch and switch to it you input git checkout -b branchname... that makes sure you’re in the right code to begin 
+                    with. Git checkout master sends you back to the main code; stll with me? Now to merge: git merge branchname; we’ve 
+                    now taken care pf making a local repository, but we stll need a remote repository, right? To both keep us from losing 
+                    all the work we did as well as to have it available to other members on the team if we’re working on said project as 
+                    part of a group.<br>
+                    Enter github, where remote repositories are stored. So, over to github.com to sign up... don’t you just love how you 
+                    have to sign up for everything? Anyway, username, e-mail, password – all the usual stuf. For creatng remote 
+                    repositories, you can either use htps protocol or ssh protocol; recommended protocol is the ssh, as it’s more secure. 
+                    Ssh is a pair of keys, one private and one public, that verifes your identty.<br>
+                    New repository (green buton on your Github dashboard) creates a new repository. If you want to fnd out if you have 
+                    any remote repositories connected to your local one, git remote -v; git remote add origin 
+                    git@github.com:your-username/local-git-repository.git. Now we need to push the fles to github: git push -u origin 
+                    master. (I’ve covered most but not all material in this module of Skillcrush Tech Blueprint – there is a lot to 
+                    cover; (Informaton taken from the Skillcrush Tech Blueprint website and paraphrased)</p>
                     <h2 id="HoL">House of Light</h2>
+                    <p>Redesigned House of Light website: <a href="https://houseoflightllc.org">https://houseoflightllc.org/</a><br>
+                    Few projects hit home like this did. I can’t just believe that it was chance that I was invited to collaborate on 
+                    this project because it directly relates to my history from birth. I was invited to collaborate on a redesign of 
+                    this company website called House of Light. At the tme, I had no idea what the company did out in the world, I just 
+                    knew that my fellow Skillcrush student colleague, Tauri StClaire, was in a volunteer team to redesign the website.
+                    <br>
+                    A litle bit of background on me: I was born legally blind, and at two years old was diagnosed with underdeveloped 
+                    optic nerve, and would have ended up with a seeing-eye dog if not for my parents bringing me to a miracle service that 
+                    restored my sight, though I will note it’s not perfect, as I’m stll nearsighted.<br>
+                    Anyway, on to the project. House of Light is a company that offers teaching to blind and low-vision individuals for 
+                    both educaton and corporate needs. Nuff said? I was one designer of two on a team of two designers and two developers, 
+                    and I have to say I really enjoyed the experience overall and learned a lot through feedback from the rest of the team 
+                    as well as pointers from the owner of the company herself. My fellow designer, Matt, designed the header and footer, 
+                    along with the hero image for the homepage. Thanks to his inital design, I was able to copy the brand theme of the 
+                    website onto future pages that I designed. I now feel tons more comfortable with Figma, whereas before I preferred to 
+                    use Affinity Photo for designing pages, although the one downside of Affinity is that the font sizes don’t actually 
+                    translate straight across. Alas, I stll feel like my graphic design skills are sadly lacking, especially regarding 
+                    logos. Something to work on, right? Anyway, back to designing, or rather redesigning this website.<br>
+                    Brand colours by hex were black: #040707, dark blue: #102e96, dark gold: #a58129, white: #fff, and medium grey: 
+                    #8f9194, or by Coolors name Dark Goldenrod, Internatonal Klein Blue, Black, White, and Batleship Grey. Part of 
+                    designing a website is to check for contrast and accessibility, and I found out that Dark Goldenrod did not mesh with 
+                    the black. I found a similar gold that did, hex #bc429f, or Satn Sheen Gold according to Coolors, and replaced that 
+                    gold with the original, and then was able to ask the client during one of our meetngs if she was ok with that, afer 
+                    explaining why I changed it. She was, and so we that gold replaced the original gold in the brand colours. Original 
+                    fonts were Apple SD Gothic Neo for main typeface, Hiragino Kaku Gothic for primary typeface, and Avenir for secondary 
+                    typeface. I’m not entrely sure what’s meant by primary and secondary, but I’m kinda assuming primary is for headings 
+                    besides the main header, and secondary for the paragraphs. Those fonts were felt by the client/owner to be too 
+                    educatonally professional, and she wanted a more corporate professional feel, so we were asked to change fonts. Also, 
+                    this was a volunteer team for the redesign, and the owner wanted to save costs, so the fonts had to be free and 
+                    readily available. The design team, mainly Matt, decided on Cormorant SD for the main header ttle, Montserrat for all 
+                    the other headers, and Quicksand for the paragraphs.<br>
+                    Pages that I designed or had a part in designing were the Partners, Careers, Press, Services, Contact, Products, and 
+                    Blog pages. It was good practce for the design aspect, and good practce for teamwork required in workplace setng, and 
+                    I learned a lot more than I would have if I had been doing it solo.</p>
                     <h2 id="perma">Permafrost - The Foundation</h2>
-                    <!-- WORLD OF WARCRAFT -->
+                    <p><b>HTML, CSS, Box Model, Git, and Github</b><br>
+                    So, now that I have a foundaton in HTML, CSS, Git, Github, and the Command Line in Terminal, next step is too make 
+                    a portolio website. Am I ready? Heck yes! I spent soo much tme trying to fgure out how to do it, and the new tools 
+                    I’ve become familiar with will defnitely do the trick. Finally I can display my works to the world properly.<br>
+                    Step one: fgure out my content. Let’s see... I have blue shades and black and white from my logo, and I know I want 
+                    blue in my brand colours, and not just because it’s my favourite colour. Blue in colour psychology means loyalty, 
+                    dependability, trust, reliability... all things I want to perpetuate in my business. Other brand colours: white 
+                    means clarity, black means serious, and grey, or silver, means balance and calm. Make sense?<br>
+                    Logo: wolf or dog paw in blue shades, with the biggest pad being a camera lens. Typography: Impact font with 
+                    rounded corners in white, with both logo and typeface outlined in black.<br>
+                    Website typography: Open Sans for headers and navigaton – sans means sans serif or missing the ‘tails’ on certain 
+                    letters, and Droid Serif for general text, like paragraphs, captons on pictures, things like that.<br>
+                    Pictures: need a picture of me for sure, for my About Me page, and then pictures of the various projects I’ve done 
+                    so far. So, fnished wireframe of my website homepage design, my fnished business card design, my logo icon design, 
+                    my fnished brand logo design for fcttous company The Whole Bean cofee shop, icons for The Whole Bean, my 
+                    personalized version of the WordPress website, a picture of my fnished client website WhereRV?, all from various 
+                    Skillcrush modules I’ve completed so far. Also, a picture of Ninja for both my portolio page and About Me page, and 
+                    a picture of a somewhat fnished 3D horse model in Blender, and social media icons for my contact page.<br>
+                    Okay, now that I have my content in order, tme to go about coding this thing to look like a website. So, I need a 
+                    header div for my logo & typeface, a secton with one div for my samples list, and a div for my sample pictures, a 
+                    section with two divs for my reviews, and a div for my footer on my homepage. For my about page, I need a logo div, 
+                    three sectons with a picture div and a text div each, and a footer div. Portolio page needs a logo div, three 
+                    sections with three divs each for my picture, heading, and a descripton of each picture, and a footer div. Contact 
+                    page need a logo div, a text div, and a footer div. I also recently added a blog page, which required a logo div, 
+                    a blog secton with picture, heading, and blog post div, a sidebar div, and a footer div. This page is stll very 
+                    much a work in progress – not that any site isn’t – so I will be adding more blog posts once I fgure out how to add 
+                    somethings, like a working comment box, a read more feature for blog posts, among other things. (Hint: WordPress 
+                    makes it so much easier to do this, but I’m stubborn, so I want it to work on my HTML website as well.)<br>
+                    Now for the css part of coding – adding colour, text style, all the things that make up the visual parts of a 
+                    website. Yeah, I could leave it at HTML, but then everyone would just see a list of black text, pictures, and blue 
+                    underline text denotng the links. No, thank you. Websites need structure! So, tme to style this website to make it 
+                    look good! Width, height, foat where needed, font sizes, and colours for background and text.<br>
+                    Now, tme to back it up with git and github. Terminal: cd path-to-folder-I-have-my-website-stuff-in, git init to 
+                    create local repository, git add all fles.extension. Over to github: create repository, copy and paste code git 
+                    remote add origin git@github.com:username/folder.git. Press enter, then paste git push -u origin master. There, 
+                    all backed up in a remote repository. Now, for displaying it: git branch gh-pages, and then git push origin 
+                    gh-pages. (Website can be viewed at htps://frosty8104.github.io/portolio/)</p>
+                    <h1>WORLD OF WARCRAFT</h1>
                     <h2 id="b-day">Birthday Surprise</h2>
                     <p><i>Disclaimer: WoW and all of its components (Gnomes, Draenei, etc) are copyright Blizzard.<br>
                     (Time period: Batle for Azeroth)</i><br>
@@ -603,12 +757,362 @@
                     “Would you mind being my teammate?”<br>
                     “Of course!”</p>
                     <h2 id="tinker">The Tinker and the Warrior</h2>
-                    <!-- KITTY VERSE -->
-                    <h2>Ninja's Fire Scare</h2>
-                    <h2>Squee's New Home</h2>
-                    <!-- WAVE RIDERS -->
-                    <h2>Wave Riders: Safety - Planetfall</h2>
-                    <h2>Wave Riders: Safety - Firewall</h2>
+                    <p><i>Disclaimer: WoW and all of its components (Gnomes, Draenei, etc) are copyright Blizzard.<br> 
+                    (Time period: Batle for Azeroth)</i><br>
+                    Tanky woke up disoriented, blinking up at a mechagnome she didn’t recognize.<br>
+                    “Where am I?”<br>
+                    “Mechagon. Your cousins brought you here afer you were incapacitated during the last battle.” Tanky raised her hand 
+                    – and stared at it in disbelief.<br>
+                    “What is this?!”<br>
+                    “Your original limbs were damaged beyond repair, we replaced them with beter ones.” The mechagnome showed her a 
+                    hologram of a deathly white gnome, arms and legs mangled beyond repair. Tanky gasped.<br>
+                    “Is that... me?”<br>
+                    “Indubitably. I regret that you were sent to us in such conditon.”<br>
+                    “Thank you for your... help.”<br>
+                    “If you require further assistance, don’t hesitate to ask.” She gingerly got up and walked away, testng out her 
+                    new, unfamiliar limbs. The gnome – er, mechagnone – made her way to the flight path, unsure of how she felt about 
+                    her new limbs. Her cousins gathered around her when she reached the fight master.<br>
+                    “How d’you feel?”<br>
+                    “I.. dunno. Diferent for sure.”<br>
+                    “We can help you adjust!” Nuffin piped up.<br>
+                    “Uh.. thanks? Sowwy, not zactly in a sociable mood at the moment. I’m kinda depressed.”<br>
+                    “Aww. Maybe we can think of something to cheer you up? Or maybe we could sit with you in silent support.” Irean 
+                    gave Tanky a sympathetic look. “I’m glad you’re stll alive. To be honest, when we first saw you, we didn’t think 
+                    you were.” Her eyes were slightly luminous with unshed tears.<br>
+                    “But the mechagnomes made it ok.” Tanky said grudgingly.<br>
+                    “I know this wasn’t the best outcome, that you would have rather kept your limbs, but they were kinda beyond repair. 
+                    I.. would think you would rather be whole than have no limbs a’tall. You are a warrior afer all... what’s a warrior 
+                    without feet to charge and hands to hold your weapons in?” Laurell had her bow nocked in her hands, as close a 
+                    demonstraton as she could manage, being a hunter. “Good point. I am thankful for the new limbs... seems easier to 
+                    carry my swords around now.”<br>
+                    “See? What is there to be depressed about?”<br>
+                    “My name doesn’t exactly suit anymore does it? I mean.. TankyTYKE denoted gnome, but I’m not exactly a gnome 
+                    anymore.”<br>
+                    “Hmm... something similar? Tankete.. YOU? Afer all, when Em’s not around, you fll the role quite well.” Lina pondered 
+                    a moment. “I hope this isn’t a rude queston, but how did you end up with the name Tankytyke?”<br>
+                    “‘M’parents didn’t know what to name me, untl I started carrying around mock swords as a toddler and startng mock 
+                    fights with shadows or anything else that wasn’t... normally part of the house. So, they started calling me a tank 
+                    instead of girl or girlie as they had been to that point, and Tankytyke came about when they went visitn’ and realized 
+                    that I was on the smallish side even for a gnome.” <br>
+                    “You’re stll a gnome y’know. Remember, Erazmin said all mechagnomes are gnomes at heart.” Noumi rested a hand on 
+                    ‘ete’s right metal shoulder.<br>
+                    “Pardon me?” The gnomish crowd turned around to see Prince Erazmin himself approaching. “I wanted to welcome our 
+                    newest mechagnome into our ranks, and offer what support I can give.” Irean stepped out from the crowd of her 
+                    cousins. “Thank you, Prince Erazmin, for your offer. I think right now our cousin needs some time, but I’m sure 
+                    that when she’s ready she will come looking.”<br> 
+                    “Thank you, Miss.. Irean?” The gnome mage nodded. “I will be waitng when she’s ready. Until then, please give her 
+                    my best.”<br>
+                    “I will. Thank you.” Irean extended her three-fngered hand to Erazmin’s. His mechanical grip was surprisingly 
+                    gentle.<br>
+                    ‘Ete trained every day to get used to her new arms, going on runs like she always had before the batle. Her 
+                    endurance increased as the new arms allowed her to carry the weight more easily. The day came when she was called 
+                    to battle again – a flash of fear, followed by a steel determinaton to do the best she could despite the fear. She 
+                    would NOT shrink back from her duty. She met her cousins at the Boralus flight path, and they flew over to Mechagon 
+                    in a group. They met the rest of the army at the entrance to Mechagon City, quickly breaking into groups: healers, 
+                    tanks, ranged, and melee. Erazmin and Gelbin motored in on spider mounts, stopping to survey their troops.<br>
+                    “Gnomes and mechagnomes! The time has come to end my father’s reign of terror!” Erazmin’s words were met with a roar 
+                    of cheers. “I, Prince Erazmin, and Gelbin Mekkatorque will personally lead the charge. Good luck to us all! For 
+                    Mechagon and Gnomeregan!” Erazmin and Gelbin charged into the city’s entrance, followed by the tanks and the melee 
+                    groups as the healers and ranged stood back dealing damage and healing, to enemies and troops, respectvely.<br>
+                    ‘Ete charged in with the melee group, swords swinging like she always practiced. As the war raged around her, she 
+                    could tell when the gnomes were tiring, and stepped in to bolster flagging warriors. All too soon, the battle was 
+                    over, and she realized she had surpassed her previous endurance. <i>Wow, these new arms and legs really are 
+                    amazing.</i></p>
+                    <h1>KITTY VERSE</h1>
+                    <h2 id="ninja">Ninja's Fire Scare</h2>
+                    <p>Today started like any other day. I got fed, let out, and started hunting. If you know where to look, there are 
+                    *so* many things to catch, and half the fun is stalking them before pouncing; your ears tune to that specific sound,
+                    your eyes narrow in on the locaton, and you prety much flatten yourself on the ground so your prey doesn’t see you. 
+                    The incessant squeaking of what humans call a mouse, the chirping of a bird perched on a limb that’s close enough 
+                    for you to take a mighty leap at.. it’s heaven. It was late in the day – I could tell because the bright orb that 
+                    keeps me warm during the day was sinking lower and lower and not providing as much warmth – when something happened 
+                    that scared the living daylights out of me. I’d notced a pile of wood – heck I’d caught some squeaky toys hiding in 
+                    that pile – but then there was this almighty BOOM, and the pile burst into flame. I was terrifed, and took of 
+                    running the other way like something was after me – I didn’t want to be near such a noisy, scary place. I ran and 
+                    ran and ran, putting as much distance between me and that .. THING before I fnally had to stop running because I was 
+                    out of breath, my heart beatng a mile a minute. And then.. wait, where was I? No place I recognized, that’s for 
+                    sure! Lost, terrifed – again – this time that I’d never fnd home again... what was I to do? That big scary pile of 
+                    flame was probably stll there, no way I wanted to go near THAT; but now that I’d slowed down, I was feeling thirsty, 
+                    soo thirsty. I glanced up at the bright ball in the place humans call the sky. Stll there, and making me so very hot.. 
+                    and thirsty. I looked around for shade – there was none that I could spot; I flopped down dejectedly on the ground, 
+                    not sure what to do next but knowing I was surely lost and not at all sure if I should try to fnd my way back home. 
+                    So I waited untl it cooled off. I slowly started heading in the directon I thought home was; nothing looked familiar 
+                    to begin with, but as I contnued on, I started to recognize landmarks so I knew I was headed in the right directon. 
+                    Trees! So tired, so thirsty.. but trees! Now I knew I was on the right track – progress! I kept going as fast as my 
+                    body would allow; I was excited to get home but felt sluggish like I couldn’t go very fast. So I trudged towards home, 
+                    putng one paw in front of the other; the bright ball had disappeared, replaced by chilly darkness, but stll, I kept 
+                    going, knowing that sooner or later I would get home. Night sounds put me on edge, and I slowed even more, stalking 
+                    through the night silently like only my kind can, seeking to avoid contact with anything else. The bright ball up 
+                    high came back, warming my chilled body as I contnued to trudge in the directon of home – thankfully I now had trees 
+                    to duck under for shade when it got too hot. *Finally* I spoted the building I called home, where I took shelter at 
+                    times when that bright ball in the sky got too hot. The human called Mom found me sprawled on a concrete pad at the 
+                    back of the house, took me in, offered me some water, and put me on my favourite box in the downstairs of the house, 
+                    where I could look out the window if I wanted too. So tired I didn’t even bother, just stayed on the box, content to 
+                    doze for a good long while. My favourite human called Laura came to visit me and gently peted me a bit before leaving 
+                    me in peace. I was glad to be home.</p>
+                    <h2 id="squee">Squee's New Home</h2>
+                    <p>It was so much fun exploring the outdoors with my siblings, climbing trees, chasing each other, just running 
+                    around in the grass that grew there. So why it had to come to a crashing end I have no idea; we were visited here 
+                    and there by two youngsters of the same species as the ones who raised us, and I kinda had the feeling they would 
+                    have taken us all away if they could, but that, I think, would have been just as bad as what did happen. This lady 
+                    came to see us, and she was very interested in me; I was enjoying the attention, but glad when she fnally put me 
+                    back with my siblings. Two others came with the lady, too; one of them smelled similar to those taking care of us, 
+                    while the other had traces of the same smell. I was to learn that this was the beginning of my separaton from my 
+                    siblings, though I didn’t know it then.<br>
+                    The trip ‘home’ – time has no meaning for cats like us – not like humans. We eat when our tummies say we’re hungry, 
+                    we sleep when we’re tired, we play when we have bursts of energy...I can’t tell you exactly how long or how short 
+                    the time was to the next visit that the people that smelled similar to our caretakers was, all I know is that I was 
+                    taken away from my siblings and never saw them again – or at least not in the same light anyway. I was picked up, 
+                    placed on a lap, and stayed there the whole trip – might have even fallen asleep for a bit. The trip there wasn’t 
+                    unpleasant, but it was rather jarring to be introduced to a new environment, minus all my siblings. I was put in a 
+                    room, why I don’t know, and I protested... loudly. I escaped first chance I got – but wait, who was this? Not one 
+                    of my siblings, for certain, but it was certainly another of my species; at that moment I didn’t really care. I 
+                    hissed at him, and hissed back at me; I was mad – how DARE they take me away from the only family I knew and drop 
+                    me in a strange place, with a stranger? I was closed in the room again, unhappy and confused. Time wore on, and I 
+                    got to meet this other member of my species, this tme having decided to make the best of my situaton.<br>
+                    “Who are you?”<br>
+                    “I am Duke Mal of Lafond Manor. Perhaps I can assist you in acclimatizing to your new home, if you wish.”<br>
+                    “Don’t suppose there’s any way of getng back to my family.”<br>
+                    “Unfortunately, that’s not possible. I understand your reaction to me last tme, it must be a shock.” <br>
+                    “Yes, well, I’ve decided to make the best of it, so I would appreciate your help in getng acclimatized. I’m 
+                    Princess Squee Foxtail, by the way.”<br>
+                    “I suppose I’m your new companion. Our caretakers are nice, so there is that; unless I get stressed out and pee 
+                    on something that they use.” I rubbed on him in thanks for the informaton, deciding I might as well be nice to the 
+                    current resident of this, my new home, according to him.<br>
+                    “Well, then, let me show you around, Litle Miss Squee. The room you are in now is called the bathroom, across the 
+                    hallway from there is the bedroom; down the hallway here is the kitchen – my favourite room in the whole house, as 
+                    I get fed there and can sometmes find snacks on the floor. Down the stairs is the basement – good for cooling of 
+                    when it’s hot and stuffy up here. Oh, and I forgot to tell you about the room past the bathroom on the same side – 
+                    that one’s called the office.”</p>
+                    <h1>WAVE RIDERS</h1>
+                    <h2 id="planet">Wave Riders: Safety - Planetfall</h2>
+                    <h3>Chapter 1: Planetfall</h3>
+                    <p>Micha peered over his shoulder to assess the condition of his fellow travelers; to a being, they were tired, 
+                    struggling to keep their wings flapping to maintain the precious foot of space between them and the water below. A 
+                    colossal blue head broke the surface, followed by an even bigger shell. The bronze Vorum started circling to land, 
+                    leading the rest of them to a landing on the shell. Upon landing, he began issuing orders.<br>
+                    “Ashir? Guard the herd while I’m gone. Galen, you’re with me. We’re going to patrol to see what else, if anything, 
+                    lives here. Everyone else, stay here; we should be back soon.” Micha cantered away with Galen not far behind. Ashir 
+                    huffed a sigh.<br>
+                    “Ok everyone. You have permission to forage for food and rest, but make sure that in your wanderings you stay 
+                    within sight of each other. If someone should see something they’re not sure of, either come tell me, or call me 
+                    over. Okay?” Mumbles and nodded assents met her statement, and she looked around for higher ground from which to 
+                    watch the herd.
+                    <span>*****</span>
+                    “What exactly do you expect to find here Micha?”<br>
+                    The bronze being swiveled his head to look at his companion. “Nothing really. Never hurts to check though, does
+                    it?”<br>
+                    “True. What exactly did our Commander say to you before we came here?”<br>
+                    “His exact words were: ‘I want you to set up a safehaven for sometime in the future.’ He also told me we were to 
+                    hide our true nature until an appointed time.”<br>
+                    Galen stared at the silver sea. His sharp eyes caught sight of clumps of stuff floating in the water. “Hmm, I 
+                    wonder what that is.” He swung his head toward Micha.<br>
+                    “Hmm.” The bronze pawed at the clump that was closest. His shoulders shuddered in a shrug. “I’m sure we’ll find out 
+                    sooner or later.” He took a look around again, neck twisting back and forth to take in the scenery. “Alright, I’m 
+                    satisfied for now. Let’s get back to the herd.” Micha turned back towards where the herd was, using his floating 
+                    trot to cover ground while conserving energy.<br>
+                    “Find anything?” Ashir descended from her cliff-like lookout carefully, asking the question on the way down to 
+                    where Micha and Galen were.<br>
+                    “Nothing, thankfully.” Micha briefly rested his neck on Ashir’s before dropping his head to graze. “What is this 
+                    stuff?” He said around a mouthful.<br>
+                    “It appears to be the only vegetation around. You get used to it after a few bites.” Micha eyed the vegetation 
+                    closely, noting how it grew in scraggly tufts; it reminded him of cat hair, actually. As did the fuzzy feeling in 
+                    his mouth when he grabbed bites of it. He heaved a sigh, and continued cropping the fuzzy moss as it was the only 
+                    food available.
+                    <span>*****</span>
+                    Ashir saw to it that the rest of the herd was bedded down for the night before joining Micha on a hill overlooking 
+                    the area.<br>
+                    “So, what did you see out there?”<br>
+                    “The usual, for the most part. Except for a clump of stuff – actually quite similar to the vegetation on this land 
+                    – floating in the water.”<br>
+                    “That’s...interesting.”<br>
+                    “Agreed. I’m very curious as to what this stuff is. We’ll have to keep an eye out.” “Indeed. Thank you for the 
+                    head’s up.”<br>
+                    The hot white sun woke the herd the next morning. Micha reluctantly opened his eyes, not really wanting to get up; 
+                    the next second, however, his eyes popped wide open to the sight that met them. Stands of trees covered some of 
+                    the fuzzy plains from last night.<br>
+                    Micha?<br>
+                    Are you seeing what I’m seeing? He shook his head, suddenly realizing that he wasn’t verbalizing. “Trees?”<br>
+                    “So you are seeing what I’m seeing.”<br>
+                    “Yes.”<br>
+                    “And you just...”<br>
+                    I did.<br>
+                    The two equinids ambled over to join the rest of their herd, sniffing a tree in it’s entirety as high as their noses 
+                    would go. The trunk was smooth; no chance of relieving bodily itches from there. The grey colour of the bark was a 
+                    little bit shiny, like some metal or mineral substance, but the smoothness of the trunk felt almost fuzzy.<br>
+                    Ashir stood on the shore, gazing out on the silver water. Sorely tempted to go for a swim, she extended her right 
+                    foreleg to paw at the liquid. Bending her black head, she watched silver droplets run down the hoof, reach the end, 
+                    and stretch towards the body of water until they fell in. The black head twisted to the side at the sound of hooves 
+                    approaching; Micha came to a straight-legged halt beside her.<br>
+                    “Galen is keeping watch.” He pointed his muzzle at the water while eyeing her. “Shall we?”<br>
+                    She stretched her muzzle to touch his in answer. Together they bounded forward, plunging through the silver 
+                    liquid.<br>
+                    Micha took the lead, swimming deeper down into the water with Ashir following; the water shone like silver glass. 
+                    Upon looking up, the equinids could see the giant flippers of their turtle island; oddly enough, neither of them 
+                    were short of breath, as they expected to be after so long swimming in the oceanic depths. Looking down, they 
+                    spotted a spherical whirlpool, which they assumed was the very center of the liquid planet.
+                    <span>*****</span>
+                    Shall we visit other islands? She thought at the bronze beside her. They altered course as one, aiming for the next 
+                    closest turtle island; silver water splashed upward as two equine bodies broke the surface. Leathery bat wings 
+                    snapped open as the two equinods launched them skyward, aimed for the back of the turtle. Micha landed a step behind 
+                    Ashir, and together they went to investigate.<br>
+                    As the water world lost its warmth to a setting sun, the rasp of leathery wings was heard coming closer an closer 
+                    to the blue turtle island where the rest of the herd resided. Ashir and Micha dove into a running landing a few 
+                    yards from the rest of the equinoids, pulling up just short of running into the closest herd member. The rest of 
+                    the herd closed in around them, asking many questions.<br>
+                    “Where did you go?” Asked a yearling stallion with a silver coat.<br>
+                    “We went for a swim.” Micha answered. “It’s so clear all the way to the center of this world, like it’s made of 
+                    silver glass.”<br>
+                    “And the other islands?” Galen asked. “Did you investigate them?” Ashir nodded, and he asked, “How do they compare 
+                    to ours?”<br>
+                    “The turquoise moss – or I think it’s moss – is everywhere. The trees we see here? Same thing with the other islands 
+                    – or at least the few we were able to investigate before the sun started going down.”<br>
+                    “Here is as good a place as any to bed down tonight. I will take first watch. Ashir?”<br>
+                    Second watch? The black equine took her job as lead mare seriously, and started helping the mares and foals bed down 
+                    by finding the perfect spots for each and every one of them while Micha set the stallions and colts one year and older 
+                    as sentries scattered around the herd’s fringes. Then he took off to find a higher vantage point where he could 
+                    oversee the herd from above, leaving them in Ashir and Galen’s capable hooves.<br>
+                    Ashir took over the vigil from Micha in the darkness before dawn. All seemed quiet, the black mare thought; she must 
+                    be extra vigilant though. A dusty blue moon peeked out behind charcoal clouds; her eyes were drawn to an onyx and 
+                    silver movement cast in blue as Farin, a three year old stallion, bent his head close to a sapphire Appaloosa mare 
+                    spotted with emerald by the name of Sahara. Ashir gently shook her head, smiling at the sight. Young love. The 
+                    stallion moved away, heading back to his vigil at the herd outskirts.<br>
+                    Micha was the first one up the next morning, moving out to check the perimeter of the herd and confer with his younger 
+                    counterparts. In his wanders, he ambled over to the trees that had shown up yesterday. They looked... different 
+                    somehow. Or some of them, anyway. There! A branch at eye level... his muzzle mouthed the branch, finding fuzzy 
+                    leaves... and something a little harder. What IS that? It felt like a fuzzy little ball – not very big as of yet, but 
+                    definitely there.<br>
+                    Ashir? The black mare headed his direction; she investigated the branch too, once he showed her. She curled her lip in 
+                    a hmm expression, tossing her head in a shrug. It would require further watching.
+                    <span>*****</span>
+                    Micha and Galen continued investigating the islands, leaving Ashir to her lead mare duties. Each island they visited, 
+                    they found more of the same – fuzzy vegetation, trees seemingly made up of the same vegetation, and nodules on tree 
+                    branches like he’d found on the island the herd resided on. This would require further watching indeed.<br>
+                    Galen accompanied Micha on his morning stroll to the trees. The bronze once again explored the nodule... it felt like 
+                    it doubled in size overnight! He requested his golden buckskin companion go get Ashir, which was duly accomplished, and 
+                    she agreed that there was a sizeable increase. All three of them also noticed a slight change in colour – this 
+                    particular one was a bit silver in hue. Interesting. Micha continued to fly out to other islands, with either Galen or 
+                    Ashir accompanying, and discovered more of the same features of their own island – trees, mossy vegetation ground 
+                    cover, some trees with nodules on them, either silver or gold hued, and some trees with none.<br>
+                    Each day, more islands were visited, revealing more moss ground cover, more trees, more knobs that were growing 
+                    exponentially in size with gold and silver hues taking over the initial turquoise colour. He managed to pry one off 
+                    its branch when it was fully silver; the outside was fuzzy, like the tree it grew off of, but inside it was a rich, 
+                    juicy berry mix flavour, like a compilation of all the berries that grew on planet Earth mixed into one, only more 
+                    flavourful. He was later able to also sample a gold one, as well, and discovered it had a milk chocolate taste, as rich 
+                    and full of chocolate taste as the silver one had been with berry taste.<br>
+                    Ashir was the first one to taste the fruit after Micha sampled it, and told him flat out that they were both excellent 
+                    in taste, though she slightly preferred the chocolate one over the berry one, just because it was chocolate. They 
+                    talked it over and decided it was time to visit the planet’s centre; Galen stayed behind to watch the herd, and the 
+                    lead stallion and his mare duly set out, diving into the silvery glass water towards the swirling mass they’d seen the 
+                    first day. The hardest part was getting past the whirlpool part; once inside, the centre was divided into bubbles with 
+                    thin walls. Rainbowy colours refracted off the walls in truly magnificent display; Micha found himself reluctant to 
+                    leave, as did Ashir when he asked her. They finally pulled themselves from the mesmerizing colours, heading out once 
+                    more into the perilous whirlpool beyond; the herd was spell bound when the two equinoids returned with the story, and 
+                    made them promise to make a trip down together.</p>
+                    <h2 id="fire">Wave Riders: Safety - Firewall</h2>
+                    <h3>Chapter 2: Firewall</h3>
+                    <p>The onyx mare moved more slowly these days due to pregnancy; Micha had had to request the help of another mare 
+                    of the herd to help her see to her lead mare duties, as it was getting harder for her to get around quickly because 
+                    of being near full term.<br>
+                    “I will be happy to see you, little one, when you finally grace this world with your presence.” She spoke to her 
+                    belly in a tired, affectionate voice. “Hopefully soon.”<br>
+                    The bronze stallion swung up alongside her, checking on her again as he did many times a day. They touched noses, 
+                    and then Micha touched her belly. She slowly laid down, groaning softly as the effort took its toll. Micha moved 
+                    ff to talk to Galen about the nighttime watch, leaving his mate in the middle of the scattered herd; Sahara the 
+                    emerald spotted sapphire mare sidled up to Ashir.<br>
+                    “Rest well, Matron. The herd is in good hooves. I will keep watch for you so you can rest.” “Thank you, Sahara. 
+                    This little one grows heavier every day.”<br>
+                    “Oh, but he or she will be such a joy once born.”
+                    <span>*****</span>
+                    Water splashed on the grass around midnight; Sahara rushed over as she had been close enough to hear it while 
+                    making her rounds.<br>
+                    “The baby?”<br>
+                    “Please, get Micha.” Ashir was already panting as contractions ripples across her belly; her legs buckled as she 
+                    tried to move into a more comfortable position, rolling her on her side. Micha arrived to find her grunting as she 
+                    pushed through the contractions; he carefully stepped around to her rear end. “Halfway there!” The head, front 
+                    feet, and shoulders lay on the grass. She kept pushing until the sack- encased foal lay on the grass behind her. 
+                    She lumbered to her feet, swinging around to start licking the sack off her foal. Micha joined her in uncovering 
+                    their baby, proud of his mate’s work.<br>
+                    “A fine foal.”<br>
+                    “It’s a boy.” Ashir’s eyes met his. “Nemir. You approve?”<br>
+                    “A fine name.”
+                    <span>*****</span>
+                    The onyx bay colt gambolled around his mom, hiding under her tail periodically and peeking out like he was shy. 
+                    She chuckled.<br>
+                    “Silly. Why don’t you go play with the other foals? I know you’ve been eyeing a certain filly...”<br> 
+                    “She batted an eyelash at me.”<br>
+                    “Well then, you need to confront her, son.” Micha had his head lowered so his muzzle pointed at his son.<br>
+                    “Really Daddy?”<br>
+                    “She flirted with you. It’s up to you to return the favour.” The bronze winked at his son.<br>
+                    “Well, go on.” Ashir gently nudged him in the bum; he scampered off. “Imagine that, he’s already found his mate.” 
+                    Micha teased.<br>
+                    “He’s too young for that yet. But they can still play.”<br>
+                    “Indeed.”
+                    <span>*****</span>
+                    The foals grew like weeds as the last of spring transitioned into summer. One month later, the coolness of spring 
+                    gave way to the heat of summer, scorchlingly hot; the moss crackled under hoof as the herd moved upon it, grazing. 
+                    The filly in question who had flirted with Nemir, a silver bay with onyx muzzle, tail, and lower legs, seemed to 
+                    most often gravitate to playing with – and chasing – Nemir, who gleefully chased her back, round and round in 
+                    circles; until, that is, the very moss under their feet erupted in flames, scattering the herd in all directions. 
+                    They quickly regrouped, fleeing the spreading flames.<br>
+                    “To the water!” Micha shouted, wheeling the herd toward the shores of the island. The crackling flames added 
+                    urgency to their flight, but for some of the younger foals it was still too much as the fire spread and nipped at 
+                    their heels. Nemir stumbled and crashed to the ground; quick as he could he scrambled back up and kept going, even 
+                    as his mother circled back around to help him. Finally, the herd splashed into the water; Micha circled, assessing 
+                    their condition. His son had patches of singed hair, as did a lot of the other younger foals – he was shaken by 
+                    the sight, but glad that none of them were any worse.
+                    <span>*****</span>
+                    The fire burned through the night, wiping the island clean; the foals huddled as near to the shore as they could 
+                    without getting even more singed than the youngest ones already were. The adults treaded water farther out, one of 
+                    them periodically launching into the air on a fly about of the island. Upon return, each one reported no life, not 
+                    even a tuft of fuzz. Instead, there was black char where the moss and trees had been.
+                    <span>*****</span>
+                    When morning came, the mares and foals were released back on the island as the fire had died. Micha split the 
+                    stallions into teams of two, sending them out to check the other islands. One after another they came back, 
+                    reporting nothing left but charred blackness on the back of each turtle island.
+                    <span>*****</span>
+                    Shortly after the herd re-inhabited the island, Micha happened to notice a tuft of the fuzzy moss floating near 
+                    the island as he was circling to land coming back from a flyby of the next nearest island. Though he thought it 
+                    was mildly interesting, that’s as far as his thoughts went; apparently the moss floating on the water didn’t suffer 
+                    the same fate as the moss on land. He did mention it in passing to Ashir and Galen, and they thought it was mildly 
+                    interesting as well, but only mildly. The herd bedded down for the night on the scorched ground, trying to get 
+                    comfortable by shifting around in the cinders on the ground.
+                    <span>*****</span>
+                    Ashir woke the next morning to a persistent tickle at her belly – come to think of it, all over her body where it 
+                    met the ground. She opened her eyes to realize she was surrounded by turquoise moss. Micha?<br>
+                    I see it. Looks like it grew back overnight. The bronze stallion landed a few feet away as Ashir lurched to her 
+                    feet.<br>
+                    “Nemir?”<br>
+                    “Playing with the other foals nearby. Sahara is keeping watch.”<br>
+                    “We need to find a better refuge for the foals. Something tells me this might happen again.” “I agree. Considering 
+                    how fast this moss went up in flames...”<br>
+                    “I think Galen is the best choice for that don’t you think?”<br>
+                    “I was thinking along the same lines. I’ll tell him when we discuss watch rotation.”
+                    <span>*****</span>
+                    “I would like to ask a favour, Galen. Both Ashir and I feel that the moss might go up in flames again, and we 
+                    would like to have a better place for the foals to stay than the water should this happen again. Besides Ashir, 
+                    you I trust the most, so may I give you the job of finding such a place?”<br>
+                    “Of course. I will do the best I can.”<br>
+                    “Thank you.”
+                    <span>*****</span>
+                    Galen began his search for a safe haven the next morning. He took off for distant mountains, hoping he could find 
+                    a cave big enough. He approached the mountains from the ground first, climbing up the tree line until any 
+                    vegetation was no more, making sure that a fire could not trap the foals; he found many caves, but none big enough 
+                    to house even one foal, let alone many. As the sun started going down, he bedded down in front of the last cave 
+                    he’d investigated.
+                    <span>*****</span>
+                    Next day, he took off flying, being blocked by paths too steep for him to travel on hoof. Many diving pit stops, 
+                    many caves, but still none big enough to house the herds youngest members. He stamped his hoof in frustration. 
+                    This might take awhile. He thought. He kept circling, checking out each outcropping in hopes of finding the perfect 
+                    cave.
+                    <span>*****</span>
+                    The blue sun rose, casting an azure tinge on the onyx pointed golden bay horse circling the mountains. He had 
+                    checked many mountains, stuffed his head and even almost his whole body into many caves... none big enough to hold 
+                    more than one or two foals. This, the last mountain, he hoped would hold the refuge for them, the third sized and 
+                    up versions of him and all his friends and family of the herd. “Mighty Maker, may I find refuge for our little ones 
+                    here.” He circled the peak, diving towards the first outcropping he saw. The cave he found could barely fit his 
+                    head, let alone his body. He took off again, methodically circling lower and lower, checking each outcropping he 
+                    found.</p>
                 </div>
                 <aside class="sidebar">
                     <ul><h3>Web Design/Dev</h3>
@@ -627,11 +1131,11 @@
                     <li><a href="#spy">Spy Game</a></li>
                     <li><a href="#tinker">The Tinker and the Warrior</a></li></ul>
                     <ul><h3>Kitty Verse</h3>
-                    <li>Ninja's Fire Scare</li>
-                    <li>Squee's New Home</li></ul>
+                    <li><a href="#ninja">Ninja's Fire Scare</a></li>
+                    <li><a href="#squee">Squee's New Home</a></li></ul>
                     <ul><h3>Wave Riders</h3>
-                    <li>Wave Riders: Safety - Planetfall</li>
-                    <li>Wave Riders: Safety - Firewall</li></ul>
+                    <li><a href="#planet">Wave Riders: Safety - Planetfall</a></li>
+                    <li><a href="#fire">Wave Riders: Safety - Firewall</a></li></ul>
                 </aside>
             </section>
         </main>
