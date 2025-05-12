@@ -553,8 +553,19 @@ p {
 #blog h2 {
     font-size: 1.25em;
 }
+#blog h3 {
+    font-size: 1em;
+}
+.posts p span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .sidebar {
     border-top: 1px solid #808080;
+}
+.sidebar a {
+    font-size: 1em;
 }
 @media (max-width: 600px) {
     /* NAV BURGER */
@@ -939,6 +950,12 @@ header p {
 }
 }
 /***** BLOG *****/
+#blog h2 {
+    font-size: 1.5em;
+}
+#blog h3 {
+    font-size: 1.25em;
+}
 @media (min-width: 1200px) {
 /* FONTS: (desktop) nav & a: 1.5em; h2: 2em; p: 1.25em */
 /***** BASE STYLE *****/
@@ -1174,6 +1191,12 @@ img {
 #blog {
     flex-flow: row wrap;
     justify-content: space-between;
+}
+#blog h2 {
+    font-size: 2em;
+}
+#blog h3 {
+    font-size: 1.5em;
 }
 .sidebar {
     border-bottom: none;
