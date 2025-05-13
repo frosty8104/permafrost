@@ -45,9 +45,6 @@ a {
     font-size: 1em;
     text-decoration: none;
 }
-h1 {
-    font-size: 1.5em;
-}
 h2 {
     font-size: 1.25em;
 }
@@ -899,17 +896,16 @@ header p {
 /***** SERVICES *****/
 #services {
     align-items: center;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    width: 90%;
 }
 #service h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
-.web,
-.logo,
-.design,
-.photo {
+.services {
     width: 45%;
 }
 /***** CONTACT *****/
@@ -953,11 +949,26 @@ header p {
 }
 }
 /***** BLOG *****/
+#blog {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
 #blog h2 {
     font-size: 1.5em;
 }
 #blog h3 {
     font-size: 1.25em;
+}
+.posts {
+    width: 60%;
+}
+.sidebar {
+    border-bottom: none;
+    border-left: 1px solid #808080;
+    border-top: none;
+    justify-content: flex-end;
+    padding: 0 0 0 5%;
+    width: 30%;
 }
 @media (min-width: 1200px) {
 /* FONTS: (desktop) nav & a: 1.5em; h2: 2em; p: 1.25em */
@@ -1191,24 +1202,10 @@ img {
     text-transform: uppercase;
 }
 /***** BLOG *****/
-#blog {
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
 #blog h2 {
     font-size: 2em;
 }
 #blog h3 {
     font-size: 1.5em;
-}
-.sidebar {
-    border-bottom: none;
-    border-left: 1px solid #808080;
-    justify-content: flex-end;
-    padding: 0 0 0 5%;
-    width: 30%;
-}
-.posts {
-    width: 60%;
 }
 }
