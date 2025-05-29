@@ -31,44 +31,46 @@
                 <div class="posts">
                     <h3>WEB DESIGN/DEV</h3> 
                     <h2 id="box-flex">Box Model Vs Flexbox</h2>
-                    <p>Progress requires steps, and one of the frst steps to modern web design after learning about HTML and CSS was to 
-                    create a website from a design composite. For example, Rogue Pickings is a mobile meal delivery service.<br>
-                    <span>Read More</span>
-                    Rogue Pickings prides itself on providing meals with fresh ingredients, and the whole website is geared toward 
-                    letting people know where they are, what they do, and what they offer. As a web developer, I was taught by 
-                    Skillcrush’s Break Into Tech Blueprint to start with HTML and CSS using the box model, employing foat, clear, 
-                    margin, padding, box-sizing, text-align, display, and width propertes to set up content placing for the site. For 
-                    styling, color for text, background for background-color, font-size, font-weight, font-family, text-transform, 
-                    text-decoraton, border-botom, border-top, border-right, and list-style propertes are used.<br>
+                    <p>Progress requires steps, and one of the first steps to modern web design after learning about HTML and CSS was to 
+                    create a website from a design composite. For example, Rogue Pickings is a mobile meal delivery service. Rogue Pickings 
+                    prides itself on providing meals with fresh ingredients, and the whole website is geared toward letting people know 
+                    where they are, what they do, and what they offer.<br>
+                    <span id="text-hidden" class="hidden"> As a web developer, I was taught by Skillcrush’s Break Into Tech Blueprint 
+                    to start with HTML and CSS using the box model, employing float, clear, margin, padding, box-sizing, text-align, 
+                    display, and width propertes to set up content placing for the site. For styling, color for text, background for 
+                    background-color, font-size, font-weight, font-family, text-transform, text-decoraton, border-bottom, border-top, 
+                    border-right, and list-style properties are used.<br>
                     So, since Rogue Pickings is an example, frst we set the body font size to 16 pixels, font-family to Montserrat with 
-                    alternatve optons of Helvetca and Arial if the browser can’t use the frst font, and ’sans serif’ for font style. 
+                    alternative options of Helvetica and Arial if the browser can’t use the first font, and ’sans serif’ for font style. 
                     Then we set the header h1, h2, h3, and h4 to font-weight 700 resultng in bolded headings, and text-transform 
-                    uppercase so all the headers are in capitals; afer that, you set h1 to font-size 30px, h2 to font-size 24px, h3 to 
+                    uppercase so all the headers are in capitals; after that, you set h1 to font-size 30px, h2 to font-size 24px, h3 to 
                     20px, h4 to 12px, and p line-height to 36px. That takes care of main styles, so what’s next? Time to set header 
-                    styles and placement. H1 needs to be foated to the lef, margin should be set to 0, padding, which will push h1 down 
-                    from the top and give space at the bottom, should be set to 36px 0, which means 36px top and botom, and 0px lef and 
-                    right. Phase two is to make Rogue Pickings responsive. For starters, you need to delete all floats, clears, margins, 
+                    styles and placement. H1 needs to be floated to the left, margin should be set to 0, padding, which will push h1 down 
+                    from the top and give space at the bottom, should be set to 36px 0, which means 36px top and botom, and 0px left and 
+                    right.<br>
+                    Phase two is to make Rogue Pickings responsive. For starters, you need to delete all floats, clears, margins, 
                     and padding propertes. You may have to add some padding later, but for now clear all the aforementioned properties 
                     out. Flexbox properties include align-items, flex-directon, justify-content, wrap, and flex-flow. Flex-flow is a 
                     hybrid property using fex-directon and wrap. For starters, Rogue Pickings has a green theme, so you will want to 
                     apply #77a466, a light forest green, to your header, header h1, and .main-image img as a 3px solid border-bottom, 
                     and color for header h1 span, header nav ul li a, .main-ttle h2, .menu li, and footer span. (Apologies, Canadian 
-                    and/or Britsh speakers, yes, you have to use the United States spelling or it won’t work.) H1, h2, and h3 headers 
+                    and/or British speakers, yes, you have to use the United States spelling or it won’t work.) H1, h2, and h3 headers 
                     are assigned the color black, .reviews are assigned color: #333, and .secton-one, .secton-two, .secton-three, and 
-                    footer are assigned border-top: 1px solid #eee. Assign font-size 16px to html, and font-family ‘Montserrat’, 
-                    Helvetica, Arial, sans-serif to body, providing default fonts for each browser if the first one is not available. 
-                    Next, block up h1, h2, and h3 and apply text-transform: uppercase and font-weight: 700 to bold the headings; next, 
-                    assign a font size of 1.875em to h1, 1.125em to h2, 0.75em to h3, and 0.875em to p, respectvely. Let’s take a break 
-                    for styling and work on positoning; for body, align-items: center and display: flex, for .container, header, 
-                    .top-secton, .botom-secton, and footer you need align-items: center, display: flex, flex-flow: row wrap, and 
-                    justify-content: center. How about secton and div widths? Assign .container max-width: 1200px, and width: 90%, header, 
-                    header h1, .main-image img, .secton-one, .secton-two, .secton-three, and footer are given width: 100%. Add text-align: 
-                    center to header and footer, text-align: lef to .main-ttle h2, font-size: 1em to .main-ttle p, .reviews, and .address, 
+                    footer are assigned border-top: 1px solid #eee.<br> 
+                    Assign font-size 16px to html, and font-family ‘Montserrat’, Helvetica, Arial, sans-serif to body, providing default 
+                    fonts for each browser if the first one is not available. Next, block up h1, h2, and h3 and apply text-transform: 
+                    uppercase and font-weight: 700 to bold the headings; next, assign a font size of 1.875em to h1, 1.125em to h2, 0.75em 
+                    to h3, and 0.875em to p, respectvely.<br> 
+                    Let’s take a break for styling and work on positoning; for body, align-items: center and display: flex, for .container, 
+                    header, .top-section, .bottom-section, and footer you need align-items: center, display: flex, flex-flow: row wrap, and 
+                    justify-content: center. How about section and div widths? Assign .container max-width: 1200px, and width: 90%, header, 
+                    header h1, .main-image img, .section-one, .section-two, .section-three, and footer are given width: 100%. Add text-align: 
+                    center to header and footer, text-align: left to .main-title h2, font-size: 1em to .main-title p, .reviews, and .address, 
                     as well as line-height: 1.56 to .main-title p, 1.5625 to .reviews and 1.5 to .address, respectvely. Assign padding: 
-                    20px to header h1 and padding-top: 10px to .secton-one, .secton-two, and .secton-three; footer span is given 
+                    20px to header h1 and padding-top: 10px to .section-one, .section-two, and .section-three; footer span is given 
                     font-family: ‘Galada’, cursive, text-transform: lowercase, and font-size: 0.875em. (Note: all property/descripton 
                     pairings must be writen with a colon afer a property, and a semicolon afer the descripton to work. For example: color: 
-                    #77a466;) Last, but not least, are the two lists on the website: ul is assigned margin: 0, header nav is given width:
+                    #77a466;). Last, but not least, are the two lists on the website: ul is assigned margin: 0, header nav is given width:
                     50%, header nav ul is given padding: 0, header nav ul li is assigned font-weight: 700 (bold), font-size 0.875em, and 
                     text-transform: uppercase. Both header nav ul li and .menu li are assigned padding: 10px 0; .menu and header nav ul li 
                     is given list-style: none. Margin: 0 is assigned to ul, and header nav ul li a gets text-decoraton: none. Padding or 
@@ -81,12 +83,13 @@
                     justfy-content: space-between, header h1 gets border-botiom: none, padding: 2% 0 2% 0, text-align: lefi, and width: 30%; 
                     header nav is assigned width: 40%, and header nav ul is assigned display: flex and justify- content: space-between. If you 
                     enjoyed this dissecton of writng a website, go look at Skillcrush.com for more coding and design fun. This is just a 
-                    sample of the projects they teach you to build.</p>
+                    sample of the projects they teach you to build.</span>
+                    <button class="read-more">Read More</button></p>
                     <h2 id="git">Git Goin on Design!</h2>
                     <p>Git? What’s that? Version control... well, that doesn’t mean much to me. Wait, I can backup my projects with it? 
                     Excellent! THAT makes it useful! And helps me work with other developers on a code project without overwritng any 
                     of their parts – now we’re getting somewhere.<br>
-                    <span>Read More</span>
+                    <span id="more">Read More</span>
                     So how do I do that? Apparently, there’s a tool called terminal native to a computer’s operatng system – hmmm, 
                     think I’ve come across that before. Let’s see... Applicatons/Utlites/Terminal (apologies, Microsof folks, using a 
                     Macintosh, so no idea where Terminal would be on your computers). So, time to free up Terminal and take it for a 
@@ -123,8 +126,8 @@
                     this project because it directly relates to my history from birth. I was invited to collaborate on a redesign of 
                     this company website called House of Light. At the tme, I had no idea what the company did out in the world, I just 
                     knew that my fellow Skillcrush student colleague, Tauri StClaire, was in a volunteer team to redesign the website.<br>
-                    <span>Read More</span>
-                    A litle bit of background on me: I was born legally blind, and at two years old was diagnosed with underdeveloped 
+                    <span class="more">Read More</span>
+                    A little bit of background on me: I was born legally blind, and at two years old was diagnosed with underdeveloped 
                     optic nerve, and would have ended up with a seeing-eye dog if not for my parents bringing me to a miracle service that 
                     restored my sight, though I will note it’s not perfect, as I’m stll nearsighted.<br>
                     Anyway, on to the project. House of Light is a company that offers teaching to blind and low-vision individuals for 
@@ -157,7 +160,7 @@
                     So, now that I have a foundaton in HTML, CSS, Git, Github, and the Command Line in Terminal, next step is too make 
                     a portolio website. Am I ready? Heck yes! I spent soo much tme trying to fgure out how to do it, and the new tools 
                     I’ve become familiar with will defnitely do the trick. Finally I can display my works to the world properly.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     Step one: fgure out my content. Let’s see... I have blue shades and black and white from my logo, and I know I want 
                     blue in my brand colours, and not just because it’s my favourite colour. Blue in colour psychology means loyalty, 
                     dependability, trust, reliability... all things I want to perpetuate in my business. Other brand colours: white 
@@ -200,7 +203,7 @@
                     “Ten thousand gold, Miss.”<br>
                     “Ah, thank you.” Læurell watched her cousin carefully, saw the slight shoulder drop of dejecton. Aha! Finally, the 
                     perfect present.. if only she could raise the money somehow.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “Ahoy, Miss hunter?”<br>
                     “Yes, Master Alcorn.”<br>
                     “Been seeing you around a lot. How are things going in the huntng business? With them witches around I’d imagine 
@@ -276,7 +279,7 @@
                     a blanket of lightning tendrils. Leaving the sleeping baby, Luna gently closed the door to the nursery and meandered over to the kitchen, 
                     where her husband was just finishing up his dessert.<br>
                     “She fell asleep, now she’s in her crib, and we have some alone time.”<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “Wonderful news, darling.” Phinnly Pyrogear swooped his wife up in his arms, and carried her off to their bed.<br>
                     “I do hope Irean’s sleeping ok.” Luna turned over to face her husband. “I worry when she’s not in my sight.”<br>
                     “I’m sure she’s fine, honey.”<br>
@@ -328,7 +331,7 @@
                     Irean Icebolt made a disgusted face when she peeked at the laundry tub that her cloth armour was in. Pink soapy water swirled with bits of 
                     dirt and vegetaton.<br>
                     “Something wrong, cousin Renie?” Emalina approached from behind.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “Don’ like cleaning day.” She pointed at the tub in front of her in emphasis.<br>
                     “O. That.” Lina’s fat voice gave evidence to the fact that she, too, didn’t like cleaning day.<br>
                     Irean carefully picked out her armour pieces, dumping the dirty water before motoning her water elemental to use its waterbolt to refll 
@@ -372,7 +375,7 @@
                     Irean pulled her horse to a stop beside the inn in Boralus. Nyassa had said twenty minutes, and she figured she had ten minutes left before 
                     the other mage showed up. She dismounted, keeping a light hand on the reins while checking mail for the supplies cousin Læurell said she’d 
                     send.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “O boy.” She murmured to herself. Her mail was full to overfowing with packages of food; she’d told Læurell she didn’t know how long she 
                     and the other mages would be gone from civilizaton, but she hadn’t expected *this*. It was just a simple exploraton trip, right? How long 
                     could that possibly take? “Oh my. Cousin Læurell definitely outdid herself this time.”<br>
@@ -577,7 +580,7 @@
                     Frosty, her wolf, sat outside the barn, guarding his territory; white tiger Kuura was stretched out on the porch of the small cabin that 
                     was Læurell’s abode. Shockwave, her stone dragon turtle, was dozing on the shore of her pond, soaking up the sun’s morning rays.
                     <span>****</span>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     Nuffin directed her raven mount to circle above the forest, looking for a clearing in which to land.<br>
                     Aha! Her bird tipped toward the ground, diving for the clearing, where she tumbled off an outstretched wing tipped towards the ground. She 
                     melted into the shadows as her mount took of again to find a perch in the upper trees somewhere.
@@ -646,7 +649,7 @@
                     disguise donned, she descended to the orc camp, having been instructed to seek out an Overseer Mog’hor by name. The brown-skinned orc 
                     received her service papers without quibble, sending her out to kill overmine flayers, mine nethercite ore, gather nether crystals, poison 
                     non-cooperatve peons, and gather netherwing relics. 
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     Despite misgivings about poisoning peons and taking out dragonmaw transporters for 
                     relics, the gnome got to work, quite sure the overseer would not tolerate lack of action. Her greatest joy was mining the nethercite ore, 
                     or any ore really. Proving her worth to Mog’hor, she was further tasked with quelling a Murkblood uprising in the mines, as well as killing 
@@ -683,7 +686,7 @@
                     Irean’s eyes grew large like saucers. “Ooooo!” She exclaimed in surprise and delight. “Pretty kitties! May I?”<br>
                     “Yes, you may.” Irean walked over to a black kitty mount, presentng it with a three-fingered hand to sniff. The cat gave a cursory sniff; 
                     she moved on to the next cat as it seemed the first was ignoring her.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “So, which one would you like, Cousin Renie?” Kirrin asked as she fnished introducing herself to the kites. Irean turned ’round.<br>
                     “You mean, I get to pick one?”<br>
                     “You do!”<br>
@@ -723,7 +726,7 @@
                     Hi, my name is Nuffin Shadowblade. My parents always used to tell me I was born of shadow; they also quite frequently told me that I had 
                     the temper of some Irish humans they met – and the hair and eyes to boot. Ok.. so what does that tell me? Red hair, green eyes, hot temper, 
                     and the ability to be so quiet I can sneak anywhere – oh, and an affinity for hiding in the shadows.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     Maybe that’s why they named me Nuffin? Cuz I can disappear so easily? Anyway... as I grew older, it was hinted that maybe an apprentceship 
                     as a rogue would be the best idea for a career path. If it meant sneaking, count me in; and that’s how I ended up being brought to Mathias 
                     Shaw in my early teens to see if he, the master spy, could pair me up with a good rogue teacher. And that’s how I ended up here, apprentced 
@@ -778,7 +781,7 @@
                     “What is this?!”<br>
                     “Your original limbs were damaged beyond repair, we replaced them with beter ones.” The mechagnome showed her a 
                     hologram of a deathly white gnome, arms and legs mangled beyond repair. Tanky gasped.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “Is that... me?”<br>
                     “Indubitably. I regret that you were sent to us in such conditon.”<br>
                     “Thank you for your... help.”<br>
@@ -838,7 +841,7 @@
                     your eyes narrow in on the locaton, and you prety much flatten yourself on the ground so your prey doesn’t see you. 
                     The incessant squeaking of what humans call a mouse, the chirping of a bird perched on a limb that’s close enough 
                     for you to take a mighty leap at.. it’s heaven. 
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     It was late in the day – I could tell because the bright orb that keeps me warm during the day was sinking lower and 
                     lower and not providing as much warmth – when something happened 
                     that scared the living daylights out of me. I’d noticed a pile of wood – heck I’d caught some squeaky toys hiding in 
@@ -874,7 +877,7 @@
                     back with my siblings. Two others came with the lady, too; one of them smelled similar to those taking care of us, 
                     while the other had traces of the same smell. I was to learn that this was the beginning of my separaton from my 
                     siblings, though I didn’t know it then.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     The trip ‘home’ – time has no meaning for cats like us – not like humans. We eat when our tummies say we’re hungry, 
                     we sleep when we’re tired, we play when we have bursts of energy...I can’t tell you exactly how long or how short 
                     the time was to the next visit that the people that smelled similar to our caretakers was, all I know is that I was 
@@ -907,7 +910,7 @@
                     struggling to keep their wings flapping to maintain the precious foot of space between them and the water below. A 
                     colossal blue head broke the surface, followed by an even bigger shell. The bronze Vorum started circling to land, 
                     leading the rest of them to a landing on the shell. Upon landing, he began issuing orders.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “Ashir? Guard the herd while I’m gone. Galen, you’re with me. We’re going to patrol to see what else, if anything, 
                     lives here. Everyone else, stay here; we should be back soon.” Micha cantered away with Galen not far behind. Ashir 
                     huffed a sigh.<br>
@@ -1031,7 +1034,7 @@
                     <p>The onyx mare moved more slowly these days due to pregnancy; Micha had had to request the help of another mare 
                     of the herd to help her see to her lead mare duties, as it was getting harder for her to get around quickly because 
                     of being near full term.<br>
-                    <span>Read More</span>
+                    <span class="more">Read More</span>
                     “I will be happy to see you, little one, when you finally grace this world with your presence.” She spoke to her 
                     belly in a tired, affectionate voice. “Hopefully soon.”<br>
                     The bronze stallion swung up alongside her, checking on her again as he did many times a day. They touched noses, 
@@ -1131,10 +1134,10 @@
                     here.” He circled the peak, diving towards the first outcropping he saw. The cave he found could barely fit his 
                     head, let alone his body. He took off again, methodically circling lower and lower, checking each outcropping he 
                     found.</p>
-                    <!-- <h2 id="knight">Uknighted We Stand</h2>
+
+                    <h2 id="knight">Uknighted We Stand</h2>
                     <h3>Year 1: Ch 1 April - Mystery</h3>
-                    <p><i>Altyaralrad Ibn Fadl (Fadl x Bint Serra 1)-St Babson, Sheykh Obeyd, Straight Egyptian, Al Khamsa, Blue 
-                    List</i><br>
+                    <p><i>Rybtyd Ibn Fadl (Fadl x Bint Serra 1)-St Babson, Sheykh Obeyd, Straight Egyptian, Al Khamsa, Blue List</i><br>
                     Laura woke up to a cold wet nose pressing against her hand.<br>
                     “Frosty?” Even to her own ears her voice sounded groggy. Her dog’s response was somewhat of a cross between a 
                     whine and a bark. She all but slithered out of bed, grabbing clothes from her shelves as she quickly changed out
@@ -1151,7 +1154,7 @@
                     sideways and she saw his definitely male parts.
                     <span>****</span>
                     "Hi, this is Laura Gieg.  I'd like to report a missing horse...or maybe two."<br>
-                    The voice on the other end of the phone was apologetic.<br>
+                    The voice on the other end of the phone was apologetic, and curious at the same time.<br>
                     "I owned a gelding until yesterday; he was microchipped. Now there's a stallion in his place."<br>
                     Now the voice was surprised, and unsure what to do next.<br>
                     "I might be able to get a blood sample, seeing as this stallion acts more like a gelding than a stallion; I know 
@@ -1447,14 +1450,30 @@
                     installed in Phantom ships/shakedown cruise (reference negotiations later)/Negotiations-Queen Mother Tenel Ka of 
                     Hapes negotiates (aka gifts) Hapan ships to Luke Skywalker (fine print-Galactic Alliance under impression that 
                     ships belong to them); Corran - Corsec X-wing belongs to him; Laura-owns by default X-wing she found in Thunderbolt; 
-                    Jedi & private interests buy Star Destroyers</i></p>
+                    Jedi & private interests buy Star Destroyers</i><br>
+                    "Greetings, Queen Mother Tenel Ka of the Hapes Consortium. I am Nawara Ven, calling on behalf of Chief of State Daala."<br>
+                    "To what do I owe this dubious pleasure?"<br>
+                    "The Chief of State is looking to acquire some of your ships for a new fleet, Queen Mother, and requested that I negotiate for them on 
+                    her behalf."<br>
+                    "You may tell your Chief of State that unless she agrees to send a Jedi to negotiate with me, there will be no negotiation."<br>
+                    "If I may, Queen Mother, I was a pilot in Rogue Squadron, attorney, and executive officer during the time that Jedi Corran Horn was 
+                    part of the squadron. Would there be a certain Jedi you'd prefer?"<br>
+                    "Jedi Grand Master Skywalker *was* my teacher when I attended the Jedi Academy on Yavin. I would prefer to negotiate with him, or anyone 
+                    aligned with him."<br>
+                    "Would you be agreeable to me coming along?"<br>
+                    "You may accompany the Jedi negotiator, but I advise you that I will be monitoring you, as I don't know you, your time with Rogue Squadron
+                    during Jedi Corran Horn's tenure as Rogue pilot notwithstanding."<br>
+                    "Understood, Queen Mother."
+                    <span>*****</span>
+                    
+                </p>
                     <h3>Ch 12 March-Impression</h3>
-                    <p><i>Ramoth finds Earth/Impression: Rogues on Tortuga & Sebell, Menolly, & Tironel on Pern/Earth: 2 golds 
-                    (Brillith:Caleb, Arlith:Angie), 2 bronzes (Corsith:Corran, Merlith:Rollie), 2 browns (Chameelth:Jarod, 
-                    Krillith:Kyle), 2 blues (Mayanth:Laura, Azranth:Luke), 3 greens (Shoranth:Sholean, Pareth:Emily,  Myth:Asyr), 
-                    1 white (Wraith:Wedge); Dragons 101: Pernese-flame from firestone, mental Impression, females=gold & green, 
-                    males=bronze, brown & blue/Terran-natural fire, mental & physical Impression, females=gold & green, males=bronze, 
-                    brown & blue (sometimes sexes switch colours)</i><br>
+                    <p><i>Ramoth finds Earth/Impression: Rogues on Solarith & Sebell, & Menolly on Pern/Earth: 2 golds (Wraith (white-gold): Erin, Altith 
+                    (pale): Menolly), 3 bronzes (Brillith (brassy): Caleb, Corsith (greeny): Corran, Merlith (gold-flecked): Rollie), 2 browns (Chameelth 
+                    (chocolate): Jarod, Aerialth (tan): Wedge), 3 blues (Mayanth (dusty): Laura, Myth (baby): Luke, Skybreath (light): Brock), 3 greens 
+                    (Reinarth (dark): Emily, Sorlith (forest): Angie, Faith (turquoise): Asyr); Dragons 101: Pernese-flame from firestone, mental Impression, 
+                    females = gold & green, males = bronze, brown & blue/Terran-natural fire, mental & physical Impression, (sometimes sexes switch colours)
+                    </i><br>
                     “Say, Laura?”<br>
                     “Yes?” She turned around to see Luke standing in the doorway, the door partially closed behind him.<br>
                     “Did you know that there seems to be a nest in you backyard?”<br>
@@ -1463,8 +1482,7 @@
                     realized it. “Do you realize what this is?”<br>
                     Luke shook his head. “Care to enlighten me?”<br>
                     “It’s a clutch. Of dragon eggs.”<br>
-                    “A…?” Realization dawned, and his eyes met hers. “She found Earth.. somehow.” He just barely nudged her elbow. 
-                    “How many?”<br>
+                    “A…?” Realization dawned, and his eyes met hers. “She found Earth.. somehow.” He just barely nudged her elbow. “How many?”<br>
                     “A dozen.” She ran her hands over the eggs. “Hmm.. They’re hard.”<br>
                     “Near hatching, you mean?”<br>
                     “Probly. Where’s the rest of our squadron?”<br>
@@ -1479,11 +1497,11 @@
                     in a semicircle around the eggs; she gave the tiniest nod of approval, returning her attention to the eggs just as 
                     one broke open. A bronze dragonet emerged from the shell shards, pausing a moment to look around. Rainbow eyes 
                     turned blue as he started towards Caleb; Caleb moved forward to meet the creature halfway, a smile spreading 
-                    across his face. Two browns broke out of their shells, accompanied by a green not a second later; the green 
-                    Impressed on Emily, while the two browns chose Jarod and Rollie, respectively. As if that were a cue, the majority 
+                    across his face. A bronze and a brown broke out of their shells, accompanied by a green not a second later; the green 
+                    Impressed on Emily, while the browns chose Jarod and the bronze Rollie, respectively. As if that were a cue, the majority 
                     of the unhatched eggs broke, shattering, splitting, or breaking into pieces. Laura allowed herself a grin as she 
                     surveyed the pairings: Luke with a bronze, Angie running her hands over a green, another green nudging Asyr with 
-                    her still-wet muzzle, a blue stretching into Brock's massaging fingers, Corran half leading, half carrying a brown 
+                    her still-wet muzzle, a blue stretching into Brock's massaging fingers, Corran half leading, half carrying a bronze 
                     to the water for food, a tan leaning against Wedge. Erin's dragonet made her do a double take; there was no such 
                     thing as silvers in the original Pernese colour line, yet this one looked silver. Her eyes fell on the last egg 
                     just as the front broke off… a dusty blue dragonette wiggled its way out of the rest of the egg, stepping towards 
@@ -1877,7 +1895,7 @@
                     <h3>Ch 40 July - Stalemate</h3>
                     <p><i>Shadowkin begin attacking refugee ships/Skirmishes</i></p>
                     <h3>Ch 41 August - Misting</h3>
-                    Laura stroked Altyar's neck. "I hope you're not feeling as bad as I am." She lightly ran a finger along his left 
+                    Laura stroked Riptide's neck. "I hope you're not feeling as bad as I am." She lightly ran a finger along his left 
                     nostril, and it came away wet. She brought it in front of her eyes; crimson blood glistened on her fingertip. 
                     "Crap."<br>
                     "He's bleeding?" Luke's voice turned her head.<br>
@@ -1895,7 +1913,7 @@
                     wrapped her fading consciousness in mental comfort, easing her passing.
                     <span>****</span>
                     <h3>Ch 42 September - Terminal</h3>
-                    <p><i>Populations start dieing off and dragons fall from the sky</i></p>
+                    <p><i>Populations start dying off and dragons fall from the sky</i></p>
                     <h3>Ch 43 October - Up in Flames</h3>
                     <p><i>Solarith blows/Vorum retreat and Shadowkin sweep in, annhilating anything left in their way</i></p>
                     <h3>Ch 44 November – Salvation’s Call</h3>
@@ -1913,7 +1931,7 @@
                     she faced front again, satisfied they were all in their assigned places. Emily's Yin marked the left front side 
                     of the army, and Luke's Asky the right front side. Perro, Jamal, Tallica, and Kaid filled in the gap between Yin 
                     and Altyar; Reina, Crystallus, Daun, and Thor stood between Kuura and Asky. Laura eyeballed the swirling black 
-                    mass, trying to guage its approach. Altyar tossed his head, stilling as her body stiffened astride his; her mental 
+                    mass, trying to guage its approach. Riptide tossed his head, stilling as her body stiffened astride his; her mental 
                     <i>CHARGE!</i> would have been lost in the multitude of animal voices had she even yelled it. A blue black equine 
                     body hurtled forward, heading the flying v of Rogue Squadron’s mounts;
                     <span>****</span>
@@ -1925,10 +1943,10 @@
                     </p>
                     <h3>Ch 48 March - Aftermath</h3>
                     <p><i>fragments</i>
-                    <p>Laura ran her hand across Alty's back. "Hey, big boy." She turned her head to look at Caleb. Caleb extended his 
-                    hand toward the stallion's muzzle; Alty's nostrils flared, taking in Caleb's scent. Satisfied, the horse nibbled 
+                    <p>Laura ran her hand across Rip's back. "Hey, big boy." She turned her head to look at Caleb. Caleb extended his 
+                    hand toward the stallion's muzzle; Rip's nostrils flared, taking in Caleb's scent. Satisfied, the horse nibbled 
                     Caleb's fingers, then swung his head to look at Laura. She vaulted onto his back, giving Caleb a hand up behind 
-                    her; she nudged Alty into a trot, aiming him towards the smudge on the horizon. Caleb's arms tightened around her 
+                    her; she nudged Rip into a trot, aiming him towards the smudge on the horizon. Caleb's arms tightened around her 
                     waist as the horse shifted into a canter in response to her squeezing legs. The smudge slowly resolved itself into 
                     a flock of  black sheep; two white wolf shapes with tails arched over their backs separated from the flock. The 
                     stallion came to a straight-legged halt from a trot; Laura helped Caleb slide off, then slid off herself.<br>
@@ -2084,7 +2102,7 @@
                     everything with me."
                     <span>****</span>
                     <i>(Rewrite as lightbow - dragon with outstretched wings)</i>
-                    </p> -->
+                    </p>
                 </div>
                 <aside class="sidebar">
                     <ul><h3>Web Design/Dev</h3>
@@ -2108,13 +2126,14 @@
                     <ul><h3>Wave Riders</h3>
                     <li><a href="#planet">Wave Riders: Safety - Planetfall</a></li>
                     <li><a href="#fire">Wave Riders: Safety - Firewall</a></li></ul>
-                    <!-- <ul><h3>Fan Fic</h3>
-                    <li><a href="#knight">Uknighted We Stand</a></li> --> </ul>
+                    <ul><h3>Fan Fic</h3>
+                    <li><a href="#knight">Uknighted We Stand</a></li></ul>
                 </aside>
             </section>
         </main>
         <footer>
             <h2>Have questions? Please <a href="contact/index.html">contact</a> me.</h2>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>

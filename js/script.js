@@ -46,3 +46,16 @@ console.log(folioMap);
 
 // JS elements needed: map, includes (?), indexOf (?), filter (?), localStorage, else/if conditional statements for
 // rotating portfolio pieces every 24 hours
+
+// read more button/section
+const hidden = document.querySelector("hidden");
+const more = document.querySelector("read-more");
+more.addEventListener("click", function() {
+    if (hidden.classList.contains("hidden")) {
+        hidden.classList.remove("hidden");
+        more.textContent = "Read Less";
+    } else {
+        hidden.classList.add("hidden");
+        more.textContent = "Read More";
+    }
+});

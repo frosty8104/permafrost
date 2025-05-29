@@ -567,6 +567,9 @@ p {
 #blog a {
     font-size: 1em;
 }
+.hidden {
+    display: none;
+}
 @media (max-width: 600px) {
     /* NAV BURGER */
     .burger {
