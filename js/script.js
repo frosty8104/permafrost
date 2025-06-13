@@ -48,7 +48,7 @@ console.log(folioMap);
 // rotating portfolio pieces every 24 hours
 
 // read more button/section
-const hidden = document.querySelector("hidden");
+const hidden = document.querySelector("text-hidden");
 const more = document.querySelector("read-more");
 more.addEventListener("click", function() {
     if (hidden.classList.contains("hidden")) {

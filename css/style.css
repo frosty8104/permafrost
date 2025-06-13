@@ -14,7 +14,6 @@ body {
 }
 header, footer {
     align-items: center;
-    background: #ebebeb;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -23,7 +22,6 @@ header, footer {
 }
 main {
     align-items: center;
-    background: #ebebeb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,6 +165,18 @@ footer ul li {
 footer i:hover {
     color: #162252;
 }
+.nav {
+    flex-direction: column;
+    font-size: 0.75em;
+    justify-content: space-around;
+    width: 90%;
+}
+.nav ul {
+    padding: 0;
+}
+.nav ul li {
+    font-size: 0.5em;
+}
 /***** SKILLS *****/
 .skills {
     align-items: center;
@@ -253,6 +263,7 @@ figcaption {
 .reviews p {
     color: #000000;
     font-family: 'Lora', serif;
+    line-height: 1.5;
 }
 /***** ABOUT *****/
 #about {
@@ -274,6 +285,7 @@ figcaption {
 }
 .intro p, .hobby p {
     font-family: 'Lora', serif;
+    line-height: 1.5;
 }
 .clients {
     display: none;
@@ -316,6 +328,7 @@ figcaption {
 }
 #portfolio p {
     font-size: 1em;
+    line-height: 1.5;
 }
 .dorothy-delong,
 .fireball-app,
@@ -380,6 +393,7 @@ figcaption {
 .chair-conclude p,
 .bean-conclude p {
     font-size: 1em;
+    line-height: 1.5;
     padding: 0;
     width: 100%;
 }
@@ -495,6 +509,9 @@ p {
     justify-content: center;
     width: 90%;
 }
+#services p {
+    line-height: 1.5;
+}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -510,6 +527,7 @@ p {
     color: #000000;
     font-family: 'Lora', serif;
     font-size: 1em;
+    line-height: 1.5;
 }
 #contact form {
     align-items: center;
@@ -555,6 +573,9 @@ p {
 }
 #blog h3 {
     font-size: 1em;
+}
+.posts p {
+    line-height: 1.5;
 }
 .posts p span {
     align-items: center;
