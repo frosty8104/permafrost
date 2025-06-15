@@ -563,7 +563,7 @@ p {
 /***** BLOG *****/
 #blog {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     width: 90%;
