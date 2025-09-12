@@ -17,7 +17,6 @@ header, footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 2% 0;
     width: 100%;
 }
 main {
@@ -25,11 +24,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2% 0;
     width: 100%;
 }
 img {
-    padding: 2% 0 0 0;
     width: 100%;
 }
 figcaption {
@@ -58,7 +55,6 @@ header {
     border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
-    padding: 3% 0;
     width: 90%;
 }
 nav {
@@ -66,7 +62,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 1%;
     text-align: center;
     width: 80%;
 }
@@ -110,12 +105,12 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
-    padding: 2% 0;
     width: 96%;
 }
 header h2 strong {
     color: #000000;
     font-weight: 700;
+    margin: 0 0 0 0.5%;
 }
 header .filter {
     filter: grayscale(100%) brightness(75%) contrast(150%);
@@ -151,7 +146,7 @@ footer p {
 }
 footer ul {
     align-items: center;
-    display: flex;
+    display: none;
     list-style: none;
     justify-content: center;
     padding: 0;
@@ -162,9 +157,10 @@ footer ul li {
     padding: 0 0 0 5%;
 }
 footer i:hover {
-    color: #162252;
+    text-decoration: underline;
 }
 .nav {
+    display: none;
     flex-direction: column;
     font-size: 0.75em;
     justify-content: space-around;
@@ -186,7 +182,6 @@ footer i:hover {
 }
 .skills h2 {
     color: #000000;
-    text-transform: uppercase;
 }
 .skills ul {
     padding: 0;
@@ -311,6 +306,7 @@ figcaption {
 .study a:hover {
     background: #ebebeb;
     color: #fff;
+    text-decoration: underline;
 }
 .content img {
     border: 1px solid #808080;
@@ -662,9 +658,6 @@ header h2 {
     display: flex;
     flex-flow: row wrap;
     font-size: 1.5em;
-}
-header h2 strong {
-    padding: 0 0 0 0.5%;
 }
 /***** FOOTER *****/
 footer {
@@ -1066,10 +1059,6 @@ footer p {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-}
-.sam {
-    margin: 10%;
-    width: 25%;
 }
 /***** SAMPLES *****/
 #samples h2 {

@@ -31,101 +31,91 @@
                 <div class="posts">
                     <h3>WEB DESIGN/DEV</h3> 
                     <h2 id="box-flex">Box Model Vs Flexbox</h2>
-                    <p>Progress requires steps, and one of the first steps to modern web design after learning about HTML and CSS was to 
-                    create a website from a design composite. For example, Rogue Pickings is a mobile meal delivery service. Rogue Pickings 
-                    prides itself on providing meals with fresh ingredients, and the whole website is geared toward letting people know 
-                    where they are, what they do, and what they offer.<br>
-                    <span id="text-hidden" class="hidden"> As a web developer, I was taught by Skillcrush’s Break Into Tech Blueprint 
-                    to start with HTML and CSS using the box model, employing float, clear, margin, padding, box-sizing, text-align, 
-                    display, and width propertes to set up content placing for the site. For styling, color for text, background for 
-                    background-color, font-size, font-weight, font-family, text-transform, text-decoraton, border-bottom, border-top, 
-                    border-right, and list-style properties are used.<br>
-                    So, since Rogue Pickings is an example, frst we set the body font size to 16 pixels, font-family to Montserrat with 
+                    <p>Progress requires steps, and one of the first steps to modern web design after learning about HTML and CSS was 
+                    to create a website from a design composite. For example, Rogue Pickings is a mobile meal delivery service. Rogue 
+                    Pickings prides itself on providing meals with fresh ingredients, and the whole website is geared toward letting 
+                    people know where they are, what they do, and what they offer.<br>
+                    <span id="text-hidden" class="hidden">As a web developer, I was taught by Skillcrush’s Break Into Tech Blueprint to 
+                    start with HTML and CSS using the box model, employing float, clear, margin, padding, box-sizing, text-align, display, 
+                    and width properties to set up content placing for the site. For styling, color for text, background for background-color, 
+                    font-size, font-weight, font-family, text-transform, text-decoration, border-bottom, border-top, border-right, and 
+                    list-style properties are used.<br>
+                    So, since Rogue Pickings is an example, first we set the body font size to 16 pixels, font-family to Montserrat with 
                     alternative options of Helvetica and Arial if the browser can’t use the first font, and ’sans serif’ for font style. 
-                    Then we set the header h1, h2, h3, and h4 to font-weight 700 resultng in bolded headings, and text-transform 
-                    uppercase so all the headers are in capitals; after that, you set h1 to font-size 30px, h2 to font-size 24px, h3 to 
-                    20px, h4 to 12px, and p line-height to 36px. That takes care of main styles, so what’s next? Time to set header 
-                    styles and placement. H1 needs to be floated to the left, margin should be set to 0, padding, which will push h1 down 
-                    from the top and give space at the bottom, should be set to 36px 0, which means 36px top and botom, and 0px left and 
-                    right.<br>
-                    Phase two is to make Rogue Pickings responsive. For starters, you need to delete all floats, clears, margins, 
-                    and padding propertes. You may have to add some padding later, but for now clear all the aforementioned properties 
-                    out. Flexbox properties include align-items, flex-directon, justify-content, wrap, and flex-flow. Flex-flow is a 
-                    hybrid property using fex-directon and wrap. For starters, Rogue Pickings has a green theme, so you will want to 
-                    apply #77a466, a light forest green, to your header, header h1, and .main-image img as a 3px solid border-bottom, 
-                    and color for header h1 span, header nav ul li a, .main-ttle h2, .menu li, and footer span. (Apologies, Canadian 
-                    and/or British speakers, yes, you have to use the United States spelling or it won’t work.) H1, h2, and h3 headers 
-                    are assigned the color black, .reviews are assigned color: #333, and .secton-one, .secton-two, .secton-three, and 
-                    footer are assigned border-top: 1px solid #eee.<br> 
+                    Then we set the header h1, h2, h3, and h4 to font-weight 700 resulting in bolded headings, and text-transform uppercase 
+                    so all the headers are in capitals; after that, you set h1 to font-size 30px, h2 to font-size 24px, h3 to 20px, h4 to 
+                    12px, and p line-height to 36px. That takes care of main styles, so what’s next? Time to set header styles and placement. 
+                    H1 needs to be floated to the left, margin should be set to 0, padding, which will push h1 down from the top and give 
+                    space at the bottom, should be set to 36px 0, which means 36px top and bottom, and 0px left and right.<br>
+                    Phase two is to make Rogue Pickings responsive. For starters, you need to delete all floats, clears, margins, and padding 
+                    properties. You may have to add some padding later, but for now clear all the aforementioned properties out. Flexbox 
+                    properties include align-items, flex-direction, justify-content, wrap, and flex-flow. Flex-flow is a hybrid property using 
+                    flex-direction and wrap. For starters, Rogue Pickings has a green theme, so you will want to apply #77a466, a light forest 
+                    green, to your header, header h1, and .main-image img as a 3px solid border-bottom, and color for header h1 span, header nav 
+                    ul li a, .main-ttle h2, .menu li, and footer span. (Apologies, Canadian and/or British speakers, yes, you have to use the United 
+                    States spelling or it won’t work.) H1, h2, and h3 headers are assigned the color black, .reviews are assigned color: #333, and 
+                    .section-one, .section-two, .section-three, and footer are assigned border-top: 1px solid #eee.<br> 
                     Assign font-size 16px to html, and font-family ‘Montserrat’, Helvetica, Arial, sans-serif to body, providing default 
                     fonts for each browser if the first one is not available. Next, block up h1, h2, and h3 and apply text-transform: 
                     uppercase and font-weight: 700 to bold the headings; next, assign a font size of 1.875em to h1, 1.125em to h2, 0.75em 
-                    to h3, and 0.875em to p, respectvely.<br> 
-                    Let’s take a break for styling and work on positoning; for body, align-items: center and display: flex, for .container, 
+                    to h3, and 0.875em to p, respectively.<br> 
+                    Let’s take a break for styling and work on positioning; for body, align-items: center and display: flex, for .container, 
                     header, .top-section, .bottom-section, and footer you need align-items: center, display: flex, flex-flow: row wrap, and 
                     justify-content: center. How about section and div widths? Assign .container max-width: 1200px, and width: 90%, header, 
                     header h1, .main-image img, .section-one, .section-two, .section-three, and footer are given width: 100%. Add text-align: 
                     center to header and footer, text-align: left to .main-title h2, font-size: 1em to .main-title p, .reviews, and .address, 
-                    as well as line-height: 1.56 to .main-title p, 1.5625 to .reviews and 1.5 to .address, respectvely. Assign padding: 
-                    20px to header h1 and padding-top: 10px to .section-one, .section-two, and .section-three; footer span is given 
-                    font-family: ‘Galada’, cursive, text-transform: lowercase, and font-size: 0.875em. (Note: all property/descripton 
-                    pairings must be writen with a colon afer a property, and a semicolon afer the descripton to work. For example: color: 
-                    #77a466;). Last, but not least, are the two lists on the website: ul is assigned margin: 0, header nav is given width:
-                    50%, header nav ul is given padding: 0, header nav ul li is assigned font-weight: 700 (bold), font-size 0.875em, and 
-                    text-transform: uppercase. Both header nav ul li and .menu li are assigned padding: 10px 0; .menu and header nav ul li 
-                    is given list-style: none. Margin: 0 is assigned to ul, and header nav ul li a gets text-decoraton: none. Padding or 
-                    margin: 0, list-style: none, and text-decoraton: none are given to lists to remove the indent from the side, remove 
-                    any bullets or numbers from a list, and text- decoraton: none removes lines from under links.<br>
-                    On to the media queries! For tablet, @media all and (min-width: 768px) with .bottom section being assigned align-items: 
-                    flex-start, justfy-content: space-between, and width: 100%, .section-one, .section-two, and .section-three assigned 
-                    border-top 1px solid #eee, and flex-basis: 31.4% to fill their assigned areas. Lastly, .section-two is assigned border-left 
-                    and .border-right 1px solid #eee, and padding: 0 20px. For desktop, @media all and (min-width: 1200px) header is assigned 
-                    justfy-content: space-between, header h1 gets border-botiom: none, padding: 2% 0 2% 0, text-align: lefi, and width: 30%; 
-                    header nav is assigned width: 40%, and header nav ul is assigned display: flex and justify- content: space-between. If you 
-                    enjoyed this dissecton of writng a website, go look at Skillcrush.com for more coding and design fun. This is just a 
-                    sample of the projects they teach you to build.</span>
+                    as well as line-height: 1.56 to .main-title p, 1.5625 to .reviews and 1.5 to .address, respectively. Assign padding: 20px 
+                    to header h1 and padding-top: 10px to .section-one, .section-two, and .section-three; footer span is given font-family: 
+                    ‘Galada’, cursive, text-transform: lowercase, and font-size: 0.875em. (Note: all property/description pairings must be written 
+                    with a colon after property, and a semicolon after the description to work. For example: color: #77a466;). Last, but not least, 
+                    are the two lists on the website: ul is assigned margin: 0, header nav is given width: 50%, header nav ul is given padding: 0, 
+                    header nav ul li is assigned font-weight: 700 (bold), font-size 0.875em, and text-transform: uppercase. Both header nav ul li and 
+                    .menu li are assigned padding: 10px 0; .menu and header nav ul li is given list-style: none. Margin: 0 is assigned to ul, and header 
+                    nav ul li a gets text-decoration: none. Padding or margin: 0, list-style: none, and text-decoration: none are given to lists to remove 
+                    the indent from the side, remove any bullets or numbers from a list, and text-decoration: none removes lines from under links.<br>
+                    On to the media queries! For tablet, @media all and (min-width: 768px) with .bottom section being assigned align-items: flex-start, 
+                    justify-content: space-between, and width: 100%, .section-one, .section-two, and .section-three assigned border-top 1px solid #eee, 
+                    and flex-basis: 31.4% to fill their assigned areas. Lastly, .section-two is assigned border-left and .border-right 1px solid #eee, 
+                    and padding: 0 20px. For desktop, @media all and (min-width: 1200px) header is assigned justify-content: space-between, header h1 gets 
+                    border-bottom: none, padding: 2% 0 2% 0, text-align: left, and width: 30%; header nav is assigned width: 40%, and header nav ul is 
+                    assigned display: flex and justify-content: space-between. If you enjoyed this dissection of writing a website, go look at Skillcrush.com 
+                    for more coding and design fun. This is just a sample of the projects they teach you to build.</span>
                     <button class="read-more">Read More</button></p>
                     <h2 id="git">Git Goin on Design!</h2>
-                    <p>Git? What’s that? Version control... well, that doesn’t mean much to me. Wait, I can backup my projects with it? 
-                    Excellent! THAT makes it useful! And helps me work with other developers on a code project without overwritng any 
-                    of their parts – now we’re getting somewhere.<br>
+                    <p>Git? What’s that? Version control... well, that doesn’t mean much to me. Wait, I can backup my projects with it? Excellent! THAT makes
+                    it useful! And helps me work with other developers on a code project without overwriting any of their parts – now we’re getting somewhere.<br>
                     <span id="more">Read More</span>
-                    So how do I do that? Apparently, there’s a tool called terminal native to a computer’s operatng system – hmmm, 
-                    think I’ve come across that before. Let’s see... Applicatons/Utlites/Terminal (apologies, Microsof folks, using a 
-                    Macintosh, so no idea where Terminal would be on your computers). So, time to free up Terminal and take it for a 
-                    test drive!<br>
-                    Sooo... terminal opened, now what do I do? Hmm, so git – -version will tell me if I have it already or not; 
-                    git-scm.com gets me either git if I don’t have it or an update if I do. Wonderful, now I can play with it. 
-                    Alrighty, so... now I need to confgure the git environment if it’s a new install; git confg user.name for username, 
-                    git config user.email for e-mail – straight forward enough. And there we go – all set up! Now I can actually use it. 
-                    So, navigate to the folder where you want your repository, and then create repository in the command line of your 
-                    terminal: git init .... I assume that means initalize repository; git status tells you what fles in the folder are 
-                    available to add to the repository. To add fles to the folder: frst git add and the fle name, and then git commit -m 
-                    “Message you want to leave”. Git status will tell you where you are in the repository process, or you can git log to 
-                    see a history of commands that you’ve entered into the command line in terminal. Git is built like a tree, so you 
-                    create branches of the main code and then merge them with that code when you’re done. So, to make a change to your 
-                    base code, enter git branch into the command line; now you can make the changes you want on your code (say maybe you 
-                    want to change your white background to grey), and then git merge to merge it back into the main code. To create the 
-                    branch and switch to it you input git checkout -b branchname... that makes sure you’re in the right code to begin 
-                    with. Git checkout master sends you back to the main code; stll with me? Now to merge: git merge branchname; we’ve 
-                    now taken care pf making a local repository, but we stll need a remote repository, right? To both keep us from losing 
-                    all the work we did as well as to have it available to other members on the team if we’re working on said project as 
-                    part of a group.<br>
-                    Enter github, where remote repositories are stored. So, over to github.com to sign up... don’t you just love how you 
-                    have to sign up for everything? Anyway, username, e-mail, password – all the usual stuf. For creatng remote 
-                    repositories, you can either use htps protocol or ssh protocol; recommended protocol is the ssh, as it’s more secure. 
-                    Ssh is a pair of keys, one private and one public, that verifes your identty.<br>
-                    New repository (green buton on your Github dashboard) creates a new repository. If you want to fnd out if you have 
-                    any remote repositories connected to your local one, git remote -v; git remote add origin 
-                    git@github.com:your-username/local-git-repository.git. Now we need to push the fles to github: git push -u origin 
-                    master. (I’ve covered most but not all material in this module of Skillcrush Tech Blueprint – there is a lot to 
-                    cover; Informaton taken from the Skillcrush Tech Blueprint website and paraphrased)</p>
+                    So how do I do that? Apparently, there’s a tool called terminal native to a computer’s operating system – hmmm, think I’ve come across that 
+                    before. Let’s see... Applicatons/Utlites/Terminal (apologies, Microsoft folks, using a Macintosh, so no idea where Terminal would be on your 
+                    computers). So, time to free up Terminal and take it for a test drive!<br>
+                    Sooo... terminal opened, now what do I do? Hmm, so git – -version will tell me if I have it already or not; git-scm.com gets me either git if 
+                    I don’t have it or an update if I do. Wonderful, now I can play with it. Alrighty, so... now I need to configure the git environment if it’s 
+                    a new install; git config user.name for username, git config user.email for e-mail – straightforward enough. And there we go – all set up! 
+                    Now I can actually use it. So, navigate to the folder where you want your repository, and then create repository in the command line of your 
+                    terminal: git init .... I assume that means initialize repository; git status tells you what files in the folder are available to add to the 
+                    repository. To add files to the folder: first git add and the file name, and then git commit -m “Message you want to leave”. Git status will 
+                    tell you where you are in the repository process, or you can git log to see a history of commands that you’ve entered into the command line 
+                    in terminal. Git is built like a tree, so you create branches of the main code and then merge them with that code when you’re done. So, to 
+                    make a change to your base code, enter git branch into the command line; now you can make the changes you want on your code (say maybe you 
+                    want to change your white background to grey), and then git merge to merge it back into the main code. To create the branch and switch to it 
+                    you input git checkout -b branchname... that makes sure you’re in the right code to begin with. Git checkout master sends you back to the 
+                    main code; still with me? Now to merge: git merge branchname; we’ve now taken care of making a local repository, but we still need a remote 
+                    repository, right? To both keep us from losing all the work we did as well as to have it available to other members on the team if we’re 
+                    working on said project as part of a group.<br>
+                    Enter github, where remote repositories are stored. So, over to github.com to sign up... don’t you just love how you have to sign up for 
+                    everything? Anyway, username, e-mail, password – all the usual stuff. For creating remote repositories, you can either use https protocol or 
+                    ssh protocol; recommended protocol is ssh, as it’s more secure. Ssh is a pair of keys, one private and one public, that verifies your 
+                    identity.<br>
+                    New repository (green button on your Github dashboard) creates a new repository. If you want to find out if you have any remote repositories 
+                    connected to your local one, git remote -v; git remote add origin git@github.com:your-username/local-git-repository.git. Now we need to push 
+                    the files to github: git push -u origin master. (I’ve covered most but not all material in this module of Skillcrush Tech Blueprint – there 
+                    is a lot to cover; information taken from the Skillcrush Tech Blueprint website and paraphrased.)</p>
                     <h2 id="HoL">House of Light</h2>
                     <p>Redesigned House of Light website: <a href="https://houseoflightllc.org">https://houseoflightllc.org/</a><br>
-                    Few projects hit home like this did. I can’t just believe that it was chance that I was invited to collaborate on 
-                    this project because it directly relates to my history from birth. I was invited to collaborate on a redesign of 
-                    this company website called House of Light. At the tme, I had no idea what the company did out in the world, I just 
-                    knew that my fellow Skillcrush student colleague, Tauri StClaire, was in a volunteer team to redesign the website.<br>
+                    Few projects hit home like this did. I can’t just believe that it was chance that I was invited to collaborate on this project because it 
+                    directly relates to my history from birth. I was invited to collaborate on a redesign of this company website called House of Light. At the 
+                    time, I had no idea what the company did out in the world, I just knew that my fellow Skillcrush student colleague, Tauri StClaire, was in a 
+                    volunteer team to redesign the website.<br>
                     <span class="more">Read More</span>
                     A little bit of background on me: I was born legally blind, and at two years old was diagnosed with underdeveloped 
                     optic nerve, and would have ended up with a seeing-eye dog if not for my parents bringing me to a miracle service that 
@@ -1464,9 +1454,7 @@
                     "You may accompany the Jedi negotiator, but I advise you that I will be monitoring you, as I don't know you, your time with Rogue Squadron
                     during Jedi Corran Horn's tenure as Rogue pilot notwithstanding."<br>
                     "Understood, Queen Mother."
-                    <span>*****</span>
-                    
-                </p>
+                    <span>*****</span></p>
                     <h3>Ch 12 March-Impression</h3>
                     <p><i>Ramoth finds Earth/Impression: Rogues on Solarith & Sebell, & Menolly on Pern/Earth: 2 golds (Wraith (white-gold): Erin, Altith 
                     (pale): Menolly), 3 bronzes (Brillith (brassy): Caleb, Corsith (greeny): Corran, Merlith (gold-flecked): Rollie), 2 browns (Chameelth 
@@ -1508,8 +1496,7 @@
                     her almost immediately. Whirling blue eyes locked with hers as telepathic connection was made; Laura dropped to 
                     one knee as she felt it go deeper than just the mental connection Lessa described.<br>
                     I am Mayanth. The mental voice had ancient echoes in it, as if the creature was much older than it looked.
-                    <span>****</span>
-                    </p>
+                    <span>****</span></p>
                     <h3>Year 2: Ch 13 April - Shakedown</h3>
                     <p><i>Phantoms maiden voyage/first meeting with Vorum</i></p>
                     <h3>Ch 14 May - Gift</h3>
@@ -1539,8 +1526,7 @@
                     to take good care of her and put her to work." Menolly gave Laura a friendly wink.<br>
                     "Thank you, Masterharper."<br>
                     "Of course."
-                    <span>****</span>
-                    </p>
+                    <span>****</span></p>
                     <h3>Ch 15 June - Do You Hear What I Hear</h3>
                     <p><i>Laura begins learning languages just by listening/Jarod & Luke meet the Vorum while out on patrol/clash 
                     between Vorum and Shadowkin above Earth</i></p>
