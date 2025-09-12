@@ -82,7 +82,7 @@ nav {
     text-decoration: underline;
 }
 .links i {
-    padding: 2px;
+
 }
 .burger {
     display: none;
@@ -106,18 +106,14 @@ header h2 {
     justify-content: center;
     width: 96%;
 }
-header h2 strong {
-    font-weight: 700;
-}
 header .filter {
     filter: grayscale(100%) brightness(75%) contrast(150%);
-    padding: 0 0 0 1%;
 }
 /***** FOOTER *****/
 footer {
     align-items: center;
     border-top: 2px solid;
-    border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
+    border-image: linear-gradient(90deg, #000000, #808080, #ebebeb) 1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -125,7 +121,6 @@ footer {
 footer h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
-    padding: 0 0 2.5% 0;
     width: 97%;
 }
 footer h2 a {
@@ -133,41 +128,9 @@ footer h2 a {
     font-size: 1em;
     font-weight: 700;
 }
-footer h2 a:hover {
-    text-decoration: underline;
-}
 footer p {
     font-size: 0.5em;
-    padding: 0 0 0 20%;
     width: 60%;
-}
-footer ul {
-    align-items: center;
-    display: none;
-    list-style: none;
-    justify-content: center;
-    padding: 0;
-    width: 90%;
-}
-footer ul li {
-    display: inline-block;
-    padding: 0 0 0 5%;
-}
-footer i:hover {
-    text-decoration: underline;
-}
-.nav {
-    display: none;
-    flex-direction: column;
-    font-size: 0.75em;
-    justify-content: space-around;
-    width: 90%;
-}
-.nav ul {
-    padding: 0;
-}
-.nav ul li {
-    font-size: 0.5em;
 }
 /***** SKILLS *****/
 .skills {
@@ -193,8 +156,6 @@ footer i:hover {
     font-family: 'Lora', serif;
     font-size: 1em;
     justify-content: center;
-    margin: 0.5%;
-    padding: 0.5%;
     text-decoration: none;
     width: 110%;
 }
@@ -209,7 +170,6 @@ footer i:hover {
 #samples h2 span {
     background: #000000;
     color: #ffffff;
-    padding: 1% 2%;
     text-transform: none;
 }
 .samples img {
@@ -240,9 +200,8 @@ figcaption {
     text-transform: uppercase;
 }
 #reviews h2 span {
-    background: #68c7e5;
+    background: #000000;
     color: #ffffff;
-    padding: 1% 2%;
     text-align: left;
     text-transform: none;
 }
@@ -293,8 +252,6 @@ figcaption {
     border-radius: 5px;
     font-size: 1.25em;
     font-weight: bold;
-    margin: 0 0 2% 0;
-    padding: 0 2% 0 2%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -343,8 +300,6 @@ figcaption {
     border-radius: 5px;
     font-size: 1em;
     font-weight: bold;
-    margin: 0 0 2% 0;
-    padding: 0 2% 0 2%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -354,18 +309,16 @@ figcaption {
     justify-content: center;
 }
 .folio a {
-    background: #60affe;
+    background: #000000;
     border: none;
     border-radius: 5px;
     color: #fff;
     font-size: 1.25em;
     font-weight: bold;
-    padding: 0 2% 0 2%;
     text-transform: uppercase;
 }
 .folio a:hover {
-    background: #162252;
-    color: #fff;
+    color: #ebebeb;
 }
 #chair,
 #bean,
@@ -393,7 +346,6 @@ figcaption {
 .chair-logo img {
     display: block;
     height: auto;
-    padding: 0 0 0 10%;
     width: 100%;
 }
 .bean-logo,
@@ -409,7 +361,6 @@ figcaption {
     color: #000000;
     font-size: 0.5em;
     left: 50%;
-    padding: 0 0 0 10%;
     position: absolute;
     text-align: center;
     top: 88%;
@@ -457,7 +408,6 @@ p {
     height: 150px;
     margin: auto;
     max-width: 700px;
-    padding: 10px 0;
     text-align: center;
     width: 80%;
 }
@@ -522,11 +472,9 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 5% 0 5% 0;
     width: 90%;
 }
 #contact form label {
-    margin: 3% 0 3% 0;
     width: 35%;
 }
 #contact form input {
@@ -535,7 +483,7 @@ p {
 #contact form button {
     align-items: center;
     border: none;
-    background: #60affe;
+    background: #000000;
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
@@ -545,37 +493,6 @@ p {
 }
 #contact i {
     font-size: 1.5em;
-}
-/***** BLOG *****/
-#blog {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-}
-#blog h2 {
-    font-size: 1.25em;
-}
-#blog h3 {
-    font-size: 1em;
-}
-.posts p {
-    line-height: 1.5;
-}
-.posts p span {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.sidebar {
-    border-top: 1px solid #808080;
-}
-#blog a {
-    font-size: 1em;
-}
-.hidden {
-    display: none;
 }
 @media (max-width: 600px) {
     /* NAV BURGER */
@@ -634,7 +551,6 @@ nav {
 .links ul {
     display: flex;
     flex-flow: row wrap;
-    padding: 0 0 0 5%;
     width: 100%;
 }
 .links li {
@@ -643,7 +559,7 @@ nav {
     width: 50%;
 }
 .links i { 
-    padding: 5px;
+
 }
 .links {
     width: 100%;
@@ -664,9 +580,6 @@ footer h2 {
     font-size: 1.25em;
     justify-content: center;
     width: 90%;
-}
-footer h2 a {
-    padding: 0 1% 0 1%;
 }
 footer p {
     align-items: center;
@@ -692,7 +605,6 @@ footer p {
 }
 .skills ul li {
     justify-content: space-between;
-    margin: 1%;
     width: 25%;
 }
 .skills ul li a {
@@ -781,14 +693,11 @@ footer p {
 /***** CASE STUDY *****/ 
 .folio a {
     font-size: 1.25em;
-    padding: 0 1.5% 0 1.5%;
 }
 .chair-title,
 .bean-title,
 .house-title {
     font-size: 1.25em;
-    margin: 0 0 0 0.5%;
-    padding: 0 1.5% 0 1.5%;
 }
 p {
     font-size: 1em;
@@ -854,7 +763,6 @@ header p {
 .house-feature,
 .chair-feature,
 .bean-feature {
-    margin: 0 0 0 25%;
     width: 50%;
 }
 .house-old,
@@ -864,7 +772,6 @@ header p {
 .chair-jade,
 .chair-red,
 .chair-white {
-    padding: 0 0 0 2%;
     width: 20%;
 }
 .house-about,
@@ -874,20 +781,17 @@ header p {
 .house-blog,
 .house-contact,
 .house-faq {
-    padding: 0 0 0 2%;
     width: 25%;
 }
 .chair-tablet {
     width: 15%;
 }
 .chair-mobile {
-    padding: 0 2%;
     width: 10%;
 }
 .bean-barista,
 .bean-coffee,
 .bean-lanterns {
-    padding: 0 0 0 2%;
     width: 30%;
 }
 .house-logo {
@@ -933,7 +837,6 @@ header p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 3%;
     width: 70%;
 }
 #contact form label {
@@ -942,40 +845,16 @@ header p {
 }
 #contact form input {
     font-size: 1em;
-    margin: 0 0 0 0.5%;
     width: 25%;
 }
 #contact form button {
     border: none;
     border-radius: 5px;
     font-size: 1.25em;
-    margin: 0 0 2% 40%;
     text-decoration: none;
     text-transform: uppercase;
     width: 20%;
 }
-}
-/***** BLOG *****/
-#blog {
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-#blog h2 {
-    font-size: 1.5em;
-}
-#blog h3 {
-    font-size: 1.25em;
-}
-.posts {
-    width: 60%;
-}
-.sidebar {
-    border-bottom: none;
-    border-left: 1px solid #808080;
-    border-top: none;
-    justify-content: flex-end;
-    padding: 0 0 0 5%;
-    width: 30%;
 }
 @media (min-width: 1200px) {
 /* FONTS: (desktop) nav & a: 1.5em; h2: 2em; p: 1.25em */
@@ -1023,7 +902,7 @@ nav {
     text-transform: uppercase;
 }
 .links i {
-   padding-right: 10px;
+
 }
 header h2 {
     font-size: 2em;
@@ -1034,9 +913,6 @@ footer {
 }
 footer h2 {
     font-size: 2em;
-}
-footer h2 a {
-    padding: 0 0.5% 0 0.5%;
 }
 footer p {
     font-size: 1em;
@@ -1099,7 +975,6 @@ footer p {
 /***** CASE STUDY *****/
 .folio a {
     font-size: 1.5em;
-    padding: 0 1% 0 1%;
 }
 figcaption {
     align-items: center;
@@ -1113,7 +988,6 @@ img {
 .bean-title,
 .house-title {
     font-size: 1.5em;
-    padding: 0 1% 0 1%;
 }
 .house-style,
 .house-type,
@@ -1139,13 +1013,11 @@ img {
 .bean-content,
 .bean-layout,
 .bean-challenge {
-    padding: 0 0 0 5%;
     width: 45%;
 }
 .house-old,
 .house-services,
 .house-ghana {
-    padding: 0 2%;
     width: 10%;
 }
 .house-about,
@@ -1155,7 +1027,6 @@ img {
 .house-blog,
 .house-contact,
 .house-faq {
-    padding: 0 0 0 2%;
     width: 15%;
 }
 .house-logo {
@@ -1172,7 +1043,6 @@ img {
 .chair-jade,
 .chair-red,
 .chair-white {
-    padding: 0 0 0 2%;
     width: 20%;
 }
 .bean-logo {
@@ -1180,10 +1050,8 @@ img {
 }
 .bean-menu,
 .bean-product {
-    margin: 0 0 0 2%;
     width: 15%;
 }
-/***** SERVICES *****/
 /***** CONTACT *****/
 #contact form {
     width: 50%;
@@ -1203,12 +1071,5 @@ img {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-}
-/***** BLOG *****/
-#blog h2 {
-    font-size: 2em;
-}
-#blog h3 {
-    font-size: 1.5em;
 }
 }
