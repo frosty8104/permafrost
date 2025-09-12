@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background: #ebebeb;
+    background: #ffffff;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -17,7 +17,6 @@ header, footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 2% 0;
     width: 100%;
 }
 main {
@@ -25,11 +24,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2% 0;
     width: 100%;
 }
 img {
-    padding: 2% 0 0 0;
     width: 100%;
 }
 figcaption {
@@ -39,7 +36,7 @@ ul {
     list-style-type: none;
 }
 a {
-    color: #60affe;
+    color: #000000;
     font-size: 1em;
     text-decoration: none;
 }
@@ -55,19 +52,16 @@ p {
 /* HEADER */
 header {
     border-bottom: 2px solid; 
-    border-image: linear-gradient(90deg, #808080, #60affe) 1;
+    border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
-    padding: 3% 0;
     width: 90%;
 }
 nav {
     align-items: center;
-    background: #cbf0ff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 1%;
     text-align: center;
     width: 80%;
 }
@@ -85,7 +79,7 @@ nav {
     text-transform: uppercase;
 }
 .links li a:hover {
-    color: #162252;
+    text-decoration: underline;
 }
 .links i {
     padding: 2px;
@@ -101,7 +95,6 @@ nav {
     width: 15px;
 }
 .burger .bar {
-    background: #60affe;
     border-radius: 10px;
     height: 2px;
     width: 100%;
@@ -111,11 +104,9 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
     justify-content: center;
-    padding: 2% 0;
     width: 96%;
 }
 header h2 strong {
-    color: #60affe;
     font-weight: 700;
 }
 header .filter {
@@ -126,7 +117,7 @@ header .filter {
 footer {
     align-items: center;
     border-top: 2px solid;
-    border-image: linear-gradient(90deg, #808080, #60affe) 1;
+    border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -143,7 +134,7 @@ footer h2 a {
     font-weight: 700;
 }
 footer h2 a:hover {
-    color: #162252;
+    text-decoration: underline;
 }
 footer p {
     font-size: 0.5em;
@@ -152,7 +143,7 @@ footer p {
 }
 footer ul {
     align-items: center;
-    display: flex;
+    display: none;
     list-style: none;
     justify-content: center;
     padding: 0;
@@ -163,9 +154,10 @@ footer ul li {
     padding: 0 0 0 5%;
 }
 footer i:hover {
-    color: #162252;
+    text-decoration: underline;
 }
 .nav {
+    display: none;
     flex-direction: column;
     font-size: 0.75em;
     justify-content: space-around;
@@ -186,7 +178,6 @@ footer i:hover {
     width: 60%;
 }
 .skills h2 {
-    color: #4d81ba;
     text-transform: uppercase;
 }
 .skills ul {
@@ -194,7 +185,7 @@ footer i:hover {
 }
 .skills ul li {
     align-items: center;
-    background: #68c7e5;
+    background: #000000;
     border-radius: 3%;
     color: #ffffff;
     display: flex;
@@ -207,20 +198,16 @@ footer i:hover {
     text-decoration: none;
     width: 110%;
 }
-.skills .recolor {
-    background: #2b81e6;
-}
 /***** SAMPLES *****/
 #samples {
     width: 90%;
 }
 #samples h2 {
-    color: #4d81ba;
     font-size: 1.25em;
     text-transform: uppercase;
 }
 #samples h2 span {
-    background: #68c7e5;
+    background: #000000;
     color: #ffffff;
     padding: 1% 2%;
     text-transform: none;
@@ -235,7 +222,7 @@ footer i:hover {
 }
 #serve-list button {
     color: #ffffff;
-    background: #60affe;
+    background: #000000;
 }
 figcaption {
     align-items: center;
@@ -244,7 +231,6 @@ figcaption {
 }
 /***** REVIEWS *****/
 #reviews {
-    background: #cbf0ff;
     display: none;
     width: 90%;
 }
@@ -302,7 +288,7 @@ figcaption {
 .study a {
     align-items: center;
     border: none;
-    background: #60affe;
+    background: #000000;
     color: #ffffff;
     border-radius: 5px;
     font-size: 1.25em;
@@ -313,8 +299,8 @@ figcaption {
     text-transform: uppercase;
 }
 .study a:hover {
-    background: #162252;
     color: #fff;
+    text-decoration: underline;
 }
 .content img {
     border: 1px solid #808080;
@@ -563,7 +549,7 @@ p {
 /***** BLOG *****/
 #blog {
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
@@ -666,9 +652,6 @@ header h2 {
     display: flex;
     flex-flow: row wrap;
     font-size: 1.5em;
-}
-header h2 strong {
-    padding: 0 0 0 0.5%;
 }
 /***** FOOTER *****/
 footer {
@@ -1070,10 +1053,6 @@ footer p {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-}
-.sam {
-    margin: 10%;
-    width: 25%;
 }
 /***** SAMPLES *****/
 #samples h2 {
