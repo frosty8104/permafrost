@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background: #ebebeb;
+    background: #ffffff;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -39,7 +39,7 @@ ul {
     list-style-type: none;
 }
 a {
-    color: #60affe;
+    color: #000000;
     font-size: 1em;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@ p {
 /* HEADER */
 header {
     border-bottom: 2px solid; 
-    border-image: linear-gradient(90deg, #808080, #60affe) 1;
+    border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
     padding: 3% 0;
@@ -63,7 +63,6 @@ header {
 }
 nav {
     align-items: center;
-    background: #cbf0ff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -85,7 +84,7 @@ nav {
     text-transform: uppercase;
 }
 .links li a:hover {
-    color: #162252;
+    color: #ebebeb;
 }
 .links i {
     padding: 2px;
@@ -101,7 +100,7 @@ nav {
     width: 15px;
 }
 .burger .bar {
-    background: #60affe;
+    background: #000000;
     border-radius: 10px;
     height: 2px;
     width: 100%;
@@ -115,7 +114,7 @@ header h2 {
     width: 96%;
 }
 header h2 strong {
-    color: #60affe;
+    color: #000000;
     font-weight: 700;
 }
 header .filter {
@@ -126,7 +125,7 @@ header .filter {
 footer {
     align-items: center;
     border-top: 2px solid;
-    border-image: linear-gradient(90deg, #808080, #60affe) 1;
+    border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -143,7 +142,7 @@ footer h2 a {
     font-weight: 700;
 }
 footer h2 a:hover {
-    color: #162252;
+    color: #ebebeb;
 }
 footer p {
     font-size: 0.5em;
@@ -186,7 +185,7 @@ footer i:hover {
     width: 60%;
 }
 .skills h2 {
-    color: #4d81ba;
+    color: #000000;
     text-transform: uppercase;
 }
 .skills ul {
@@ -194,7 +193,7 @@ footer i:hover {
 }
 .skills ul li {
     align-items: center;
-    background: #68c7e5;
+    background: #000000;
     border-radius: 3%;
     color: #ffffff;
     display: flex;
@@ -207,20 +206,17 @@ footer i:hover {
     text-decoration: none;
     width: 110%;
 }
-.skills .recolor {
-    background: #2b81e6;
-}
 /***** SAMPLES *****/
 #samples {
     width: 90%;
 }
 #samples h2 {
-    color: #4d81ba;
+    color: #000000;
     font-size: 1.25em;
     text-transform: uppercase;
 }
 #samples h2 span {
-    background: #68c7e5;
+    background: #000000;
     color: #ffffff;
     padding: 1% 2%;
     text-transform: none;
@@ -235,7 +231,7 @@ footer i:hover {
 }
 #serve-list button {
     color: #ffffff;
-    background: #60affe;
+    background: #000000;
 }
 figcaption {
     align-items: center;
@@ -244,17 +240,17 @@ figcaption {
 }
 /***** REVIEWS *****/
 #reviews {
-    background: #cbf0ff;
+    background: #000000;
     display: none;
     width: 90%;
 }
 #reviews h2 {
-    color: #4d81ba;
+    color: #000000;
     font-size: 1.25em;
     text-transform: uppercase;
 }
 #reviews h2 span {
-    background: #68c7e5;
+    background: #000000;
     color: #ffffff;
     padding: 1% 2%;
     text-align: left;
@@ -302,7 +298,7 @@ figcaption {
 .study a {
     align-items: center;
     border: none;
-    background: #60affe;
+    background: #000000;
     color: #ffffff;
     border-radius: 5px;
     font-size: 1.25em;
@@ -313,7 +309,7 @@ figcaption {
     text-transform: uppercase;
 }
 .study a:hover {
-    background: #162252;
+    background: #ebebeb;
     color: #fff;
 }
 .content img {
@@ -340,7 +336,7 @@ figcaption {
 }
 /***** CASE STUDY *****/
 main a {
-    color: #162252;
+    color: #000000;
 }
 figcaption {
     align-items: center;
@@ -352,7 +348,7 @@ figcaption {
 .house-title {
     align-items: center;
     border: none;
-    background: #60affe;
+    background: #000000;
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
@@ -368,7 +364,7 @@ figcaption {
     justify-content: center;
 }
 .folio a {
-    background: #60affe;
+    background: #000000;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -378,7 +374,7 @@ figcaption {
     text-transform: uppercase;
 }
 .folio a:hover {
-    background: #162252;
+    background: #ebebeb;
     color: #fff;
 }
 #chair,
@@ -531,7 +527,7 @@ p {
 }
 #contact form {
     align-items: center;
-    background: #cbf0ff;
+    background: #ffffff;
     border-radius: 15px;
     display: flex;
     flex-flow: row wrap;
@@ -549,8 +545,8 @@ p {
 #contact form button {
     align-items: center;
     border: none;
-    background: #60affe;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     border-radius: 5px;
     font-size: 1em;
     text-decoration: none;
