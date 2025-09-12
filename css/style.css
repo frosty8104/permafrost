@@ -107,14 +107,8 @@ header h2 {
     justify-content: center;
     width: 96%;
 }
-header h2 strong {
-    color: #000000;
-    font-weight: 700;
-    margin: 0 0 0 0.5%;
-}
 header .filter {
     filter: grayscale(100%) brightness(75%) contrast(150%);
-    padding: 0 0 0 1%;
 }
 /***** FOOTER *****/
 footer {
@@ -128,7 +122,6 @@ footer {
 footer h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
-    padding: 0 0 2.5% 0;
     width: 97%;
 }
 footer h2 a {
@@ -180,9 +173,6 @@ footer i:hover {
     justify-content: center;
     width: 60%;
 }
-.skills h2 {
-    color: #000000;
-}
 .skills ul {
     padding: 0;
 }
@@ -206,7 +196,6 @@ footer i:hover {
     width: 90%;
 }
 #samples h2 {
-    color: #000000;
     font-size: 1.25em;
     text-transform: uppercase;
 }
@@ -221,13 +210,6 @@ footer i:hover {
     padding: 1px;
     width: 100%;
 }
-#serve-list {
-    display: none;
-}
-#serve-list button {
-    color: #ffffff;
-    background: #000000;
-}
 figcaption {
     align-items: center;
     justify-content: center;
@@ -240,7 +222,6 @@ figcaption {
     width: 90%;
 }
 #reviews h2 {
-    color: #000000;
     font-size: 1.25em;
     text-transform: uppercase;
 }
@@ -493,17 +474,6 @@ p {
     color: #ebebeb;
     text-decoration: none;
 }
-/***** SERVICES *****/
-#services {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-}
-#services p {
-    line-height: 1.5;
-}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -551,37 +521,6 @@ p {
 }
 #contact i {
     font-size: 1.5em;
-}
-/***** BLOG *****/
-#blog {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-}
-#blog h2 {
-    font-size: 1.25em;
-}
-#blog h3 {
-    font-size: 1em;
-}
-.posts p {
-    line-height: 1.5;
-}
-.posts p span {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.sidebar {
-    border-top: 1px solid #808080;
-}
-#blog a {
-    font-size: 1em;
-}
-.hidden {
-    display: none;
 }
 @media (max-width: 600px) {
     /* NAV BURGER */
@@ -906,21 +845,6 @@ header p {
     position: relative;
     width: 30%;
 }
-/***** SERVICES *****/
-#services {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 90%;
-}
-#service h2 {
-    font-size: 1.5em;
-    font-weight: 700;
-}
-.services {
-    width: 45%;
-}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
@@ -960,28 +884,6 @@ header p {
     text-transform: uppercase;
     width: 20%;
 }
-}
-/***** BLOG *****/
-#blog {
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
-#blog h2 {
-    font-size: 1.5em;
-}
-#blog h3 {
-    font-size: 1.25em;
-}
-.posts {
-    width: 60%;
-}
-.sidebar {
-    border-bottom: none;
-    border-left: 1px solid #808080;
-    border-top: none;
-    justify-content: flex-end;
-    padding: 0 0 0 5%;
-    width: 30%;
 }
 @media (min-width: 1200px) {
 /* FONTS: (desktop) nav & a: 1.5em; h2: 2em; p: 1.25em */
@@ -1189,7 +1091,6 @@ img {
     margin: 0 0 0 2%;
     width: 15%;
 }
-/***** SERVICES *****/
 /***** CONTACT *****/
 #contact form {
     width: 50%;
@@ -1209,12 +1110,5 @@ img {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-}
-/***** BLOG *****/
-#blog h2 {
-    font-size: 2em;
-}
-#blog h3 {
-    font-size: 1.5em;
 }
 }
