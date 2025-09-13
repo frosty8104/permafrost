@@ -79,7 +79,7 @@ nav {
     text-transform: uppercase;
 }
 .links li a:hover {
-    text-decoration: underline;
+    color: #ebebeb;
 }
 .links i {
 
@@ -95,6 +95,7 @@ nav {
     width: 15px;
 }
 .burger .bar {
+    background: #000000;
     border-radius: 10px;
     height: 2px;
     width: 100%;
@@ -128,6 +129,9 @@ footer h2 a {
     font-size: 1em;
     font-weight: 700;
 }
+footer h2 a:hover {
+    color: #ebebeb;
+}
 footer p {
     font-size: 0.5em;
     width: 60%;
@@ -139,9 +143,6 @@ footer p {
     flex-direction: column;
     justify-content: center;
     width: 60%;
-}
-.skills h2 {
-    text-transform: uppercase;
 }
 .skills ul {
     padding: 0;
@@ -177,13 +178,6 @@ footer p {
     padding: 1px;
     width: 100%;
 }
-#serve-list {
-    display: none;
-}
-#serve-list button {
-    color: #ffffff;
-    background: #000000;
-}
 figcaption {
     align-items: center;
     justify-content: center;
@@ -191,11 +185,11 @@ figcaption {
 }
 /***** REVIEWS *****/
 #reviews {
+    background: #000000;
     display: none;
     width: 90%;
 }
 #reviews h2 {
-    color: #4d81ba;
     font-size: 1.25em;
     text-transform: uppercase;
 }
@@ -256,6 +250,7 @@ figcaption {
     text-transform: uppercase;
 }
 .study a:hover {
+    background: #ebebeb;
     color: #fff;
     text-decoration: underline;
 }
@@ -283,7 +278,7 @@ figcaption {
 }
 /***** CASE STUDY *****/
 main a {
-    color: #162252;
+    color: #000000;
 }
 figcaption {
     align-items: center;
@@ -295,7 +290,7 @@ figcaption {
 .house-title {
     align-items: center;
     border: none;
-    background: #60affe;
+    background: #000000;
     color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
@@ -437,17 +432,6 @@ p {
     color: #ebebeb;
     text-decoration: none;
 }
-/***** SERVICES *****/
-#services {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-}
-#services p {
-    line-height: 1.5;
-}
 /***** CONTACT *****/
 #contact {
     align-items: center;
@@ -467,7 +451,7 @@ p {
 }
 #contact form {
     align-items: center;
-    background: #cbf0ff;
+    background: #ffffff;
     border-radius: 15px;
     display: flex;
     flex-flow: row wrap;
@@ -483,8 +467,8 @@ p {
 #contact form button {
     align-items: center;
     border: none;
-    background: #000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     border-radius: 5px;
     font-size: 1em;
     text-decoration: none;
@@ -803,21 +787,6 @@ header p {
     display: inline-block;
     position: relative;
     width: 30%;
-}
-/***** SERVICES *****/
-#services {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 90%;
-}
-#service h2 {
-    font-size: 1.5em;
-    font-weight: 700;
-}
-.services {
-    width: 45%;
 }
 /***** CONTACT *****/
 #contact h2 {
