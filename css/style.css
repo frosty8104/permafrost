@@ -183,6 +183,7 @@ footer ul li {
 #samples h2 span {
     background: #000000;
     color: #ffffff;
+    padding: 0 2%;
     text-transform: none;
 }
 .samples img {
