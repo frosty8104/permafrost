@@ -595,6 +595,9 @@ footer p {
     justify-content: center;
     text-align: center;
 }
+footer ul {
+    width: 50%;
+}
 /***** SKILLS *****/
 .skills {
     width: 80%;
