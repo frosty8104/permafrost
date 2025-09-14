@@ -140,7 +140,7 @@ footer p {
 footer ul {
     align-items: center;
     display: flex;
-    width: 80%;
+    width: 60%;
 }
 footer ul li {
     flex-flow: row wrap;
