@@ -82,7 +82,7 @@ nav {
     color: #ebebeb;
 }
 .links i {
-
+    padding-right: 2px;
 }
 .burger {
     display: none;
@@ -134,7 +134,18 @@ footer h2 a:hover {
 }
 footer p {
     font-size: 0.5em;
+    text-align: center;
     width: 60%;
+}
+footer ul {
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+footer ul li {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 /***** SKILLS *****/
 .skills {
@@ -157,6 +168,7 @@ footer p {
     font-family: 'Lora', serif;
     font-size: 1em;
     justify-content: center;
+    margin: 2px;
     text-decoration: none;
     width: 110%;
 }
@@ -226,9 +238,6 @@ figcaption {
     font-family: 'Lora', serif;
     line-height: 1.5;
 }
-.clients {
-    display: none;
-}
 /***** PORTFOLIO *****/
 #portfolio {
     width: 90%;
@@ -246,13 +255,13 @@ figcaption {
     border-radius: 5px;
     font-size: 1.25em;
     font-weight: bold;
+    margin-bottom: 1%;
+    padding: 0 2%;
     text-decoration: none;
     text-transform: uppercase;
 }
 .study a:hover {
-    background: #ebebeb;
-    color: #fff;
-    text-decoration: underline;
+    color: #ebebeb;
 }
 .content img {
     border: 1px solid #808080;
@@ -277,6 +286,9 @@ figcaption {
     display: none;
 }
 /***** CASE STUDY *****/
+header h2 {
+    text-align: center;
+}
 main a {
     color: #000000;
 }
@@ -295,6 +307,8 @@ figcaption {
     border-radius: 5px;
     font-size: 1em;
     font-weight: bold;
+    margin-right: 1%;
+    padding: 0 2%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -310,6 +324,7 @@ figcaption {
     color: #fff;
     font-size: 1.25em;
     font-weight: bold;
+    padding: 0 2%;
     text-transform: uppercase;
 }
 .folio a:hover {
@@ -452,23 +467,27 @@ p {
 #contact form {
     align-items: center;
     background: #ffffff;
+    border: 1px solid #808080;
     border-radius: 15px;
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 10%;
     justify-content: center;
+    padding: 2% 0;
     width: 90%;
 }
 #contact form label {
     width: 35%;
 }
 #contact form input {
+    margin: 1% 0;
     width: 40%;
 }
 #contact form button {
     align-items: center;
     border: none;
-    background: #ffffff;
-    color: #000000;
+    background: #000000;
+    color: #ffffff;
     border-radius: 5px;
     font-size: 1em;
     text-decoration: none;
