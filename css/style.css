@@ -194,6 +194,7 @@ footer ul li {
 }
 figcaption {
     align-items: center;
+    display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -335,39 +336,17 @@ figcaption {
 #chair,
 #bean,
 #house,
-.house-conclude,
+#conclusion,
 .chair-conclude,
 .bean-conclude {
     width: 90%;
 }
-.house-conclude p,
 .chair-conclude p,
 .bean-conclude p {
     font-size: 1em;
     line-height: 1.5;
     padding: 0;
     width: 100%;
-}
-.house-logo,
-.chair-logo {
-    display: inline-block;
-    position: relative;
-    width: 90%;
-}
-.house-logo img,
-.chair-logo img {
-    display: block;
-    height: auto;
-    width: 100%;
-}
-.bean-logo,
-.bean-menu,
-.bean-product {
-    margin: 0 0 0 25%;
-    width: 50%;
-}
-.house-about {
-    width: 90%;
 }
 .overlay {
     color: #000000;
@@ -423,7 +402,8 @@ p {
     text-align: center;
     width: 80%;
 }
-.modal-content, .caption {
+.modal-content, 
+.caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -707,8 +687,6 @@ footer ul li {
 .folio a {
     font-size: 1.25em;
 }
-.chair-title,
-.bean-title,
 .house-title {
     font-size: 1.25em;
     margin-left: 0.5%;
@@ -732,91 +710,64 @@ header p {
     justify-content: center;
     width: 90%;
 }
-.house-style,
-.house-type,
-.house-role,
-.house-view,
-.house-goals,
-.house-design,
-.house-palette,
-.house-font,
-.house-content,
-.house-layout,
-.house-challenge,
-.chair-style,
-.chair-type,
-.chair-role,
-.chair-owner,
-.chair-view,
-.chair-goals,
-.chair-design,
-.chair-palette,
-.chair-font,
-.chair-content,
-.chair-layout,
-.chair-challenge,
-.bean-type,
-.bean-role,
-.bean-view,
-.bean-goals,
-.bean-design,
-.bean-palette,
-.bean-style,
-.bean-font,
-.bean-content,
-.bean-layout,
-.bean-challenge {
+#conclusion {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+.house-feature {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.house-feature img {
     width: 45%;
 }
-.bean-logo,
-.bean-menu,
-.bean-product {
-    margin: 0 5% 0 0;
-    width: 45%;
-}
-.house-feature,
-.chair-feature,
-.bean-feature {
-    width: 50%;
-}
+.house-logo,
 .house-old,
+.house-about,
 .house-services,
 .house-ghana,
-.chair-green,
-.chair-jade,
-.chair-red,
-.chair-white {
-    width: 20%;
-}
-.house-about,
 .house-partners,
+.house-style,
 .house-press,
 .house-products,
 .house-blog,
 .house-contact,
-.house-faq {
+.house-faq,
+.house-passion-old {
     width: 25%;
 }
-.chair-tablet {
-    width: 15%;
+.house-ghana img,
+.house-about img,
+.house-passion-old img,
+.house-old img,
+.house-services img,
+.house-partners img,
+.house-press img,
+.house-products img,
+.house-blog img,
+.house-contact img,
+.house-faq img {
+    width: 60%;
 }
-.chair-mobile {
-    width: 10%;
+.house-type,
+.house-role,
+.house-goals,
+.house-design,
+.house-font,
+.house-content,
+.house-challenge,
+.house-conclude {
+    width: 40%;
 }
-.bean-barista,
-.bean-coffee,
-.bean-lanterns {
-    width: 30%;
-}
-.house-logo {
-    display: inline-block;
-    position: relative;
-    width: 45%;
-}
-.chair-logo {
-    display: inline-block;
-    position: relative;
-    width: 30%;
+.house-view,
+.house-palette,
+.house-layout {
+    width: 35%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -993,69 +944,6 @@ img {
 .bean-title,
 .house-title {
     font-size: 1.5em;
-}
-.house-style,
-.house-type,
-.house-role,
-.house-view,
-.house-goals,
-.house-design,
-.house-palette,
-.house-font,
-.house-content,
-.house-layout,
-.house-challenge,
-.chair-style,
-.chair-owner,
-.bean-style,
-.bean-type,
-.bean-role,
-.bean-view,
-.bean-goals,
-.bean-design,
-.bean-palette,
-.bean-font,
-.bean-content,
-.bean-layout,
-.bean-challenge {
-    width: 45%;
-}
-.house-old,
-.house-services,
-.house-ghana {
-    width: 10%;
-}
-.house-about,
-.house-partners,
-.house-press,
-.house-products,
-.house-blog,
-.house-contact,
-.house-faq {
-    width: 15%;
-}
-.house-logo {
-    display: inline-block;
-    position: relative;
-    width: 45%;
-}
-.chair-logo {
-    display: inline-block;
-    position: relative;
-    width: 30%;
-}
-.chair-green,
-.chair-jade,
-.chair-red,
-.chair-white {
-    width: 20%;
-}
-.bean-logo {
-    width: 25%;
-}
-.bean-menu,
-.bean-product {
-    width: 15%;
 }
 /***** CONTACT *****/
 #contact form {
