@@ -813,6 +813,34 @@ header p {
 .chair-challenge {
     width: 45%;
 }
+.bean-feature {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.bean-feature img {
+    width: 50%;
+}
+.bean-logo,
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-style,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-challenge {
+    width: 45%;
+}
+.bean-barista,
+.bean-coffee,
+.bean-lanterns {
+    width: 30%;
+}
 /***** CONTACT *****/
 #contact h2 {
     align-items: center;
