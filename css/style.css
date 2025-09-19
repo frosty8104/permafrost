@@ -832,9 +832,23 @@ header p {
 .bean-style,
 .bean-font,
 .bean-content,
+.bean-menu,
+.bean-products,
 .bean-layout,
 .bean-challenge {
     width: 45%;
+}
+.bean-logo img {
+    width: 60%;
+}
+.bean-menu,
+.bean-products {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.bean-menu img {
+    width: 50%;
 }
 .bean-barista,
 .bean-coffee,
