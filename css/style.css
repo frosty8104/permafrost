@@ -299,6 +299,7 @@ figcaption {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 90%;
 }
 .chair-title,
 .bean-title,
@@ -978,12 +979,13 @@ footer p {
     justify-content: space-between;
     width: 90%;
 }
-.work img {
-    margin: 0 1%;
+figure {
+    display: block;
     width: 30%;
 }
-img {
-    width: 100%;
+figcaption {
+    align-items: center;
+    justify-content: center;
 }
 /***** REVIEWS *****/
 #reviews h2 {
@@ -1017,28 +1019,13 @@ img {
 .folio a {
     font-size: 1.5em;
 }
+figure {
+    display: block;
+    width: 25%;
+}
 figcaption {
     align-items: center;
     justify-content: center;
-    text-align: center;
-}
-img {
-    width: 100%;
-}
-.chair-title,
-.bean-title,
-.house-title {
-    font-size: 1.5em;
-}
-.bean-style img {
-    width: 50%;
-}
-.bean-feature img,
-.bean-logo img {
-    width: 40%;
-}
-.bean-menu img {
-    width: 20%;
 }
 /***** CONTACT *****/
 #contact form {
