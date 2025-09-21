@@ -977,11 +977,11 @@ footer p {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 }
 figure {
     display: block;
-    width: 30%;
+    width: 100%;
 }
 figcaption {
     align-items: center;
@@ -1021,7 +1021,7 @@ figcaption {
 }
 figure {
     display: block;
-    width: 25%;
+    width:50%;
 }
 figcaption {
     align-items: center;
