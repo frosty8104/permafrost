@@ -319,23 +319,12 @@ figcaption {
     text-decoration: none;
     text-transform: uppercase;
 }
-.folio {
+.house-feature,
+.chair-feature,
+.bean-feature {
     align-items: center;
     display: flex;
     justify-content: center;
-}
-.folio a {
-    background: #000000;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1.25em;
-    font-weight: bold;
-    padding: 0 2%;
-    text-transform: uppercase;
-}
-.folio a:hover {
-    color: #ebebeb;
 }
 #chair,
 #bean,
@@ -351,6 +340,25 @@ figcaption {
     line-height: 1.5;
     padding: 0;
     width: 100%;
+}
+.folio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.folio a {
+    background: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 0 2%;
+    text-transform: uppercase;
+}
+.folio a:hover {
+    color: #ebebeb;
 }
 .overlay {
     color: #000000;
@@ -698,15 +706,6 @@ footer ul li {
 p {
     font-size: 1em;
 }
-#house,
-#chair,
-#bean {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 90%;
-}
 header p {
     align-items: center;
     display: flex;
@@ -720,143 +719,6 @@ header p {
     flex-flow: row wrap;
     justify-content: space-between;
     width: 90%;
-}
-.house-feature {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-}
-.house-feature img {
-    width: 45%;
-}
-.house-logo,
-.house-old,
-.house-about,
-.house-services,
-.house-ghana,
-.house-partners,
-.house-style,
-.house-press,
-.house-products,
-.house-blog,
-.house-contact,
-.house-faq,
-.house-passion-old {
-    width: 25%;
-}
-.house-ghana img,
-.house-about img,
-.house-passion-old img,
-.house-old img,
-.house-services img,
-.house-partners img,
-.house-press img,
-.house-products img,
-.house-blog img,
-.house-contact img,
-.house-faq img {
-    width: 60%;
-}
-.house-type,
-.house-role,
-.house-goals,
-.house-design,
-.house-font,
-.house-content,
-.house-challenge,
-.house-conclude {
-    width: 40%;
-}
-.house-view,
-.house-palette,
-.house-layout {
-    width: 35%;
-}
-.chair-feature {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.chair-feature img {
-    width: 60%;
-}
-.chair-logo,
-.chair-owner,
-.chair-style {
-    width: 25%;
-}
-.chair-logo img,
-.chair-tablet img {
-    width: 60%;
-}
-.chair-mobile img {
-    width: 30%;
-}
-.chair-green,
-.chair-jade,
-.chair-red,
-.chair-white {
-    width: 20%;
-}
-.chair-type,
-.chair-design {
-    width: 40%;
-}
-.chair-palette {
-    width: 35%;
-}
-.chair-role,
-.chair-view,
-.chair-font,
-.chair-content,
-.chair-mobile,
-.chair-layout,
-.chair-tablet,
-.chair-challenge {
-    width: 45%;
-}
-.bean-feature {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-}
-.bean-feature img {
-    width: 50%;
-}
-.bean-logo,
-.bean-type,
-.bean-role,
-.bean-view,
-.bean-goals,
-.bean-design,
-.bean-palette,
-.bean-style,
-.bean-font,
-.bean-content,
-.bean-menu,
-.bean-products,
-.bean-layout,
-.bean-challenge {
-    width: 45%;
-}
-.bean-logo img {
-    width: 60%;
-}
-.bean-menu,
-.bean-products {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-.bean-menu img {
-    width: 50%;
-}
-.bean-barista,
-.bean-coffee,
-.bean-lanterns {
-    width: 30%;
 }
 /***** CONTACT *****/
 #contact h2 {
@@ -1029,21 +891,6 @@ figure {
 figcaption {
     align-items: center;
     justify-content: center;
-}
-.bean-type,
-.bean-role,
-.bean-view,
-.bean-goals,
-.bean-design,
-.bean-palette,
-.bean-font,
-.bean-content,
-.bean-layout,
-.bean-challenge {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    width: 45%;
 }
 /***** CONTACT *****/
 #contact form {
