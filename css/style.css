@@ -29,6 +29,9 @@ main {
 img {
     width: 100%;
 }
+figure {
+    margin: 0;
+}
 figcaption {
     font-size: 0.5em;
 }
@@ -1021,11 +1024,26 @@ figcaption {
 }
 figure {
     display: block;
-    width:50%;
+    width: 45%;
 }
 figcaption {
     align-items: center;
     justify-content: center;
+}
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-challenge {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
 }
 /***** CONTACT *****/
 #contact form {
