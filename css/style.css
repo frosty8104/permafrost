@@ -31,6 +31,7 @@ img {
 }
 figure {
     margin: 0;
+    width: 100%;
 }
 figcaption {
     font-size: 0.5em;
@@ -197,7 +198,6 @@ footer ul li {
 }
 figcaption {
     align-items: center;
-    display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -334,6 +334,16 @@ figcaption {
 .bean-conclude {
     width: 90%;
 }
+.house-conclude {
+    width: 40%;
+}
+#conclusion {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.house-conclude p,  
 .chair-conclude p,
 .bean-conclude p {
     font-size: 1em;
@@ -703,6 +713,153 @@ footer ul li {
     font-size: 1.25em;
     margin-left: 0.5%;
 }
+#house,
+#chair,
+#bean,
+#conclusion {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.house-feature {
+    margin-left: 38%;
+    width: 90%;
+}
+.house-feature img {
+    width: 40%;
+}
+.house-logo,
+.house-old,
+.house-about,
+.house-services,
+.house-ghana,
+.house-partners,
+.house-style,
+.house-press,
+.house-products,
+.house-blog,
+.house-contact,
+#conclusion .house-faq,
+#conclusion .house-passion-old {
+    width: 25%;
+}
+.house-old img,
+.house-about img,
+.house-services img,
+.house-ghana img,
+.house-partners img,
+.house-style img,
+.house-press img,
+.house-products img,
+.house-blog img,
+.house-contact img,
+#conclusion .house-faq img,
+#conclusion .house-passion-old img {
+    width: 25%;
+}
+#conclusion .house-faq,
+#conclusion .house-passion-old {
+    margin-top: 1%;
+}
+.house-type,
+.house-role,
+.house-goals,
+.house-design,
+.house-font,
+.house-content,
+.house-challenge {
+    width: 40%;
+}
+.house-view,
+.house-palette,
+.house-layout {
+    width: 35%;
+}
+.chair-feature {
+    margin-left: 35%;
+    width: 90%;
+}
+.chair-feature img {
+    width: 50%;
+}
+.chair-logo,
+.chair-owner,
+.chair-style,
+.chair-mobile,
+.chair-tablet {
+    width: 45%;
+}
+.chair-logo img {
+    width: 25%;
+}
+.chair-owner img,
+.chair-style img {
+    width: 50%;
+}
+.chair-mobile img,
+.chair-tablet img {
+    width: 25%;
+}
+.chair-green,
+.chair-jade,
+.chair-red,
+.chair-white {
+    width: 20%;
+}
+.chair-type,
+.chair-role,
+.chair-view,
+.chair-goals,
+.chair-design,
+.chair-palette,
+.chair-font,
+.chair-content,
+.chair-layout,
+.chair-challenge {
+    width: 45%;
+}
+.bean-feature {
+    margin-left: 35%;
+    width: 90%;
+}
+.bean-feature img {
+    width: 50%;
+}
+.bean-logo,
+.bean-style {
+    width: 45%
+}
+.bean-logo img {
+    width: 30%;
+}
+.bean-style img {
+    width: 50%;
+}
+.bean-barista,
+.bean-coffee,
+.bean-lanterns {
+    width: 30%;
+}
+.bean-menu,
+.bean-products {
+    width: 20%;
+}
+.bean-menu img {
+    width: 30%;
+}
+.bean-type,
+.bean-role,
+.bean-view,
+.bean-goals,
+.bean-design,
+.bean-palette,
+.bean-font,
+.bean-content,
+.bean-layout,
+.bean-challenge {
+    width: 45%;
+}
 p {
     font-size: 1em;
 }
@@ -846,11 +1003,11 @@ footer p {
 }
 figure {
     display: block;
-    width: 100%;
 }
 figcaption {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 /***** REVIEWS *****/
 #reviews h2 {
@@ -886,11 +1043,11 @@ figcaption {
 }
 figure {
     display: block;
-    width: 45%;
 }
 figcaption {
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 /***** CONTACT *****/
 #contact form {
