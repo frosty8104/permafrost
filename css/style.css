@@ -194,7 +194,6 @@ footer ul li {
 .work img {
     border: 1px solid #808080;
     padding: 1px;
-    width: 100%;
 }
 figcaption {
     align-items: center;
@@ -628,12 +627,16 @@ footer ul li {
     text-transform: uppercase;
 }
 /***** SAMPLES *****/
-#samples {
+.work {
     align-items: center;
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.work img {
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 30%; 
 }
 #samples h2 {
     font-size: 1.5em;
@@ -775,6 +778,9 @@ footer ul li {
 .house-palette,
 .house-layout {
     width: 35%;
+}
+#chair {
+    margin-bottom: 1%;
 }
 .chair-feature {
     margin-left: 35%;
