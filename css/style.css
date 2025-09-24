@@ -627,15 +627,11 @@ footer ul li {
     text-transform: uppercase;
 }
 /***** SAMPLES *****/
-.work {
+figure {
     align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between
 }
 .work img {
-    flex-flow: row wrap;
-    justify-content: space-between;
     width: 30%; 
 }
 #samples h2 {
