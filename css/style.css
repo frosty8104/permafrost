@@ -629,10 +629,11 @@ footer ul li {
 /***** SAMPLES *****/
 figure {
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 30%;
 }
 .work img {
-    width: 30%; 
+    width: 100%; 
 }
 #samples h2 {
     font-size: 1.5em;
