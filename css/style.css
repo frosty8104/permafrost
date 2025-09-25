@@ -627,7 +627,7 @@ footer ul li {
     text-transform: uppercase;
 }
 /***** SAMPLES *****/
-figure {
+.work figure {
     align-items: center;
     justify-content: space-between;
     width: 30%;
@@ -722,6 +722,11 @@ figure {
     flex-flow: row wrap;
     justify-content: space-between;
 }
+#house figure,
+#chair figure,
+#bean figure {
+    width: 100%;
+}
 .house-feature {
     margin-left: 38%;
     width: 90%;
@@ -756,11 +761,10 @@ figure {
 .house-contact img,
 #conclusion .house-faq img,
 #conclusion .house-passion-old img {
-    width: 25%;
+    width: 80%;
 }
-#conclusion .house-faq,
-#conclusion .house-passion-old {
-    margin-top: 1%;
+#conclusion {
+    margin-top: 2%;
 }
 .house-type,
 .house-role,
@@ -800,9 +804,11 @@ figure {
 .chair-style img {
     width: 50%;
 }
-.chair-mobile img,
-.chair-tablet img {
+.chair-mobile img {
     width: 25%;
+}
+.chair-tablet img {
+    width: 30%;
 }
 .chair-green,
 .chair-jade,
@@ -817,10 +823,14 @@ figure {
 .chair-design,
 .chair-palette,
 .chair-font,
-.chair-content,
-.chair-layout,
 .chair-challenge {
     width: 45%;
+}
+.chair-content {
+    width: 35%;
+}
+.chair-layout {
+    width: 40%;
 }
 .bean-feature {
     margin-left: 35%;
