@@ -350,6 +350,15 @@ figcaption {
     padding: 0;
     width: 100%;
 }
+.house-old img,
+.house-about img,
+.house-services img,
+.house-partners img,
+.house-press img,
+.house-blog img,
+.house-passion-old img {
+    border: 1px solid #808080;
+}
 .folio {
     align-items: center;
     display: flex;
