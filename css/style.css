@@ -1062,6 +1062,9 @@ figcaption {
     justify-content: center;
     text-align: center;
 }
+#house {
+    margin-bottom: 2%;
+}
 /***** CONTACT *****/
 #contact form {
     width: 50%;
