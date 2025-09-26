@@ -365,7 +365,12 @@ figcaption {
 .chair-white img,
 .chair-style img,
 .chair-mobile img,
-.chair-tablet img {
+.chair-tablet img,
+.bean-feature img,
+.bean-barista img,
+.bean-coffee img,
+.bean-lanterns img,
+.bean-style img {
     border: 1px solid #808080;
 }
 .folio {
