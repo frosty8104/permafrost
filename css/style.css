@@ -294,6 +294,13 @@ figcaption {
 header h2 {
     text-align: center;
 }
+main,
+.house-passion- {
+    margin-bottom: 2%;
+}
+.house-faq {
+    margin-top: 2%;
+}
 main a {
     color: #000000;
 }
@@ -332,9 +339,6 @@ figcaption {
 .chair-conclude,
 .bean-conclude {
     width: 90%;
-}
-.house-conclude {
-    width: 40%;
 }
 #conclusion {
     align-items: center;
@@ -743,11 +747,11 @@ footer ul li {
     width: 100%;
 }
 .house-feature {
-    margin-left: 38%;
+    margin-left: 43%;
     width: 90%;
 }
 .house-feature img {
-    width: 40%;
+    width: 25%;
 }
 .house-logo,
 .house-old,
@@ -766,8 +770,22 @@ footer ul li {
 }
 .house-old img,
 .house-about img,
+.house-ghana img {
+    margin-left: 32%;
+}
+.house-services img {
+    margin-left: 27%;
+}
+.house-partners img,
+.house-press img,
+.house-products img,
+.house-blog img,
+.house-contact img,
+.house-faq img,
+.house-passion-old img {
+    margin-left: 20%;
+}
 .house-services img,
-.house-ghana img,
 .house-partners img,
 .house-style img,
 .house-press img,
@@ -776,10 +794,25 @@ footer ul li {
 .house-contact img,
 #conclusion .house-faq img,
 #conclusion .house-passion-old img {
-    width: 80%;
+    width: 50%;
+}
+.house-services img {
+    width: 35%;
+}
+.house-old img,
+.house-about img,
+.house-ghana img {
+    width: 25%;
 }
 #conclusion {
     margin-top: 2%;
+}
+.house-conclude {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 40%;
 }
 .house-type,
 .house-role,
@@ -862,6 +895,7 @@ footer ul li {
     width: 30%;
 }
 .bean-style img {
+    margin-top: 5%;
     width: 50%;
 }
 .bean-barista,
@@ -874,7 +908,8 @@ footer ul li {
     width: 20%;
 }
 .bean-menu img {
-    width: 30%;
+    margin-left: 27%;
+    width: 40%;
 }
 .bean-type,
 .bean-role,
