@@ -761,10 +761,13 @@ footer ul li {
     width: 100%;
 }
 .house-feature {
-    margin-left: 43%;
     width: 90%;
 }
+.house-feature figure {
+    margin-left: 20%;
+}
 .house-feature img {
+    margin-left: 32%;
     width: 25%;
 }
 .house-logo,
@@ -801,7 +804,6 @@ footer ul li {
 }
 .house-services img,
 .house-partners img,
-.house-style img,
 .house-press img,
 .house-products img,
 .house-blog img,
