@@ -359,6 +359,15 @@ figcaption {
     margin-left: 22%;
     width: 50%;
 }
+.bean-logo img {
+    margin-left: 21%;
+    width: 50%;
+}
+.bean-menu img,
+.bean-product img {
+    margin-left: 23%;
+    width: 50%;
+}
 .house-old img,
 .house-about img,
 .house-services img,
@@ -905,24 +914,31 @@ footer ul li {
     width: 45%
 }
 .bean-logo img {
-    width: 30%;
+    margin-left: 5%;
+    width: 80%;
 }
 .bean-style img {
     margin-top: 5%;
-    width: 50%;
 }
 .bean-barista,
 .bean-coffee,
 .bean-lanterns {
     width: 30%;
 }
-.bean-menu,
-.bean-products {
+.bean-icons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 20%;
 }
-.bean-menu img {
-    margin-left: 27%;
-    width: 40%;
+.bean-menu {
+    margin-bottom: 5%;
+}
+.bean-menu img,
+.bean-product img {
+    margin-left: 10%;
+    width: 80%;
 }
 .bean-type,
 .bean-role,
@@ -931,10 +947,14 @@ footer ul li {
 .bean-design,
 .bean-palette,
 .bean-font,
-.bean-content,
-.bean-layout,
-.bean-challenge {
+.bean-content {
     width: 45%;
+}
+.bean-layout {
+    width: 40%;
+}
+.bean-challenge {
+    width: 35%;
 }
 p {
     font-size: 1em;
@@ -1135,6 +1155,11 @@ figcaption {
 }
 #house {
     margin-bottom: 2%;
+}
+.bean-logo img,
+.bean-style img {
+    margin-left: 20%;
+    width: 50%;
 }
 /***** CONTACT *****/
 #contact form {
