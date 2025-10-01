@@ -331,6 +331,7 @@ figcaption {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 1%;
 }
 #chair,
 #bean,
@@ -353,6 +354,10 @@ figcaption {
     line-height: 1.5;
     padding: 0;
     width: 100%;
+}
+.chair-logo img {
+    margin-left: 22%;
+    width: 50%;
 }
 .house-old img,
 .house-about img,
@@ -841,22 +846,30 @@ footer ul li {
 .chair-logo,
 .chair-owner,
 .chair-style,
-.chair-mobile,
 .chair-tablet {
     width: 45%;
 }
+.chair-mobile {
+    width: 25%;
+}
 .chair-logo img {
+    margin-left: 33%;
     width: 25%;
 }
 .chair-owner img,
 .chair-style img {
-    width: 50%;
+    width: 80%;
+}
+.chair-owner img {
+    margin-left: 5%;
 }
 .chair-mobile img {
-    width: 25%;
+    margin-left: 20%;
+    width: 50%;
 }
 .chair-tablet img {
-    width: 30%;
+    margin-left: 17%;
+    width: 50%;
 }
 .chair-green,
 .chair-jade,
