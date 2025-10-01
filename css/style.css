@@ -848,10 +848,13 @@ footer ul li {
     margin-bottom: 1%;
 }
 .chair-feature {
-    margin-left: 35%;
     width: 90%;
 }
+.chair-feature figure {
+    margin-left: 20%;
+}
 .chair-feature img {
+    margin-left: 20%;
     width: 50%;
 }
 .chair-logo,
