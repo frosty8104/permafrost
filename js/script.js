@@ -22,47 +22,6 @@ const span = document.querySelector(".close");
 span.addEventListener('click', function() {
     modal.style.display = "none";
 });
-// Names of God
-const name = document.querySelector(".name");
-if (name.innerText = "Lord of Lords") {
-    name.classList.add("King of Kings");
-} else if (name.innerText = "King of Kings") {
-    name.classList.add("Adonai");
-} else if (name.innerText = "Adonai") {
-    name.classList.add("Elohim");
-} else if (name.innerText = "Elohim") {
-    name.classList.add("El Elyon");
-} else if (name.innerText = "El Elyon") {
-    name.classList.add("El Olam");
-} else if (name.innerText = "El Olam") {
-    name.classList.add("El Shaddai");
-} else if (name.innerText = "El Shaddai") {
-    name.classList.add("Immanuel");
-} else if (name.innerText = "Immanuel") {
-    name.classList.add("Jehovah Jireh");
-} else if (name.innerText = "Jehovah Jireh") {
-    name.classList.add("Jehovah Mekoddishkem");
-} else if (name.innerText = "Jehovah Mekoddishkem") {
-    name.classList.add("Jehovah Nissi");
-} else if (name.innerText = "Jehovah Nissi") {
-    name.classList.add("Jehovah-Raah");
-} else if (name.innerText = "Jehovah-Raah") {
-    name.classList.add("Jehovah Rapha");
-} else if (name.innerText = "Jehovah Rapha") {
-    name.classList.add("Jehovah Saboath");
-} else if (name.innerText = "Jehovah Saboath") {
-    name.classList.add("Jehovah Shalom");
-} else if (name.innerText = "Jehovah Shalom") {
-    name.classList.add("Jehovah Shamma");
-} else if (name.innerText = "Jehovah Shamma") {
-    name.classList.add("Jehovah Tsidkenu");
-} else if (name.innerText = "Jehovah Tsidkenu") {
-    name.classList.add("Jesus");
-} else if (name.innerText = "Jesus") {
-    name.classList.add("Øanna");
-} else if (name.innerText = "Øanna") {
-    name.classList.add("Yahweh");
-} else (name.innerText = "Lord of Lords");
 // Daily image replacement [replace images/text every 24 hours with local storage: 
 // reference Sticky Notes & Name Tag app projects in Skillcrush]
 const house = document.querySelector(".house-of-light");
