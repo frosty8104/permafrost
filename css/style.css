@@ -59,7 +59,18 @@ header {
     border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
+    position: relative;
     width: 90%;
+}
+header p {
+    color: #f1f1f2;
+    font-size: 0.5em;
+    left: 31.5%;
+    position: absolute;
+    top: 15%;
+}
+header p:nth-child(2) {
+    top: 16%;
 }
 nav {
     align-items: center;
