@@ -9,16 +9,16 @@ const year = new Date().getFullYear();
 const date = document.querySelector(".date");
 date.innerHTML = year;
 // Case study image modal
-const img = document.querySelector("img");
-const modal = document.querySelector(".modal");
-const modalImg = document.querySelector("#page");
-let captionText = document.querySelector(".caption");
+const img = document.querySelectorAll("img");
+const modal = document.querySelectorAll(".modal");
+const modalImg = document.querySelectorAll("#page");
+let captionText = document.querySelectorAll(".caption");
 img.addEventListener('click', function() {
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.textContent = this.alt;
 });
-const span = document.querySelector(".close");
+const span = document.querySelectorAll(".close");
 span.addEventListener('click', function() {
     modal.style.display = "none";
 });

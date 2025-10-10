@@ -5,8 +5,8 @@ html {
     box-sizing: border-box;
 }
 body {
-    background: #ffffff;
-    color: #000000;
+    background: #fff;
+    color: #000;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ ul {
     list-style-type: none;
 }
 a {
-    color: #000000;
+    color: #000;
     font-size: 1em;
     text-decoration: none;
 }
@@ -61,16 +61,6 @@ header {
 #typeface-logo {
     position: relative;
     width: 90%;
-}
-header p {
-    color: #f1f1f2;
-    font-size: 0.5em;
-    left: 31.5%;
-    position: absolute;
-    top: 15%;
-}
-header p:nth-child(2) {
-    top: 16%;
 }
 nav {
     align-items: center;
@@ -94,7 +84,7 @@ nav {
     text-transform: uppercase;
 }
 .links li a:hover {
-    color: #ebebeb;
+    color: #002f5f;
 }
 .links i {
     padding-right: 2px;
