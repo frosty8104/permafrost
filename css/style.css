@@ -59,7 +59,7 @@ header {
     border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
-    position: relative;
+    margin-top: 2%;
     width: 90%;
 }
 nav {
@@ -158,22 +158,24 @@ footer ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 20%;
     width: 60%;
+}
+.skills h2 {
+    align-items: center;
+    text-align: center;
 }
 .skills ul {
     padding: 0;
 }
 .skills ul li {
-    align-items: center;
     background: #000000;
     border-radius: 3%;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
     font-family: 'Lora', serif;
     font-size: 1em;
-    justify-content: center;
     margin: 2px;
+    text-align: center;
     text-decoration: none;
     width: 110%;
 }
@@ -184,6 +186,7 @@ footer ul li {
 }
 #samples h2 {
     font-size: 1.25em;
+    text-align: center;
     text-transform: uppercase;
 }
 #samples h2 span {
