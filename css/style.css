@@ -59,7 +59,7 @@ header {
     border-image: linear-gradient(90deg, #ebebeb, #808080, #000000) 1;
 }
 #typeface-logo {
-    margin-top: 2%;
+    margin-top: 6%;
     width: 90%;
 }
 nav {
@@ -168,13 +168,17 @@ footer ul li {
 .skills ul {
     padding: 0;
 }
+.recolour {
+    background: #002f5f;
+}
 .skills ul li {
     background: #000000;
     border-radius: 3%;
     color: #ffffff;
     font-family: 'Lora', serif;
     font-size: 1em;
-    margin: 2px;
+    margin: 5px 0;
+    padding-bottom: 2px;
     text-align: center;
     text-decoration: none;
     width: 110%;
@@ -196,7 +200,6 @@ footer ul li {
     text-transform: none;
 }
 .work img {
-    border: 1px solid #808080;
     padding: 1px;
 }
 figcaption {
@@ -273,7 +276,6 @@ figcaption {
     color: #ebebeb;
 }
 .content img {
-    border: 1px solid #808080;
     padding: 1px;
     width: 100%;
 }
@@ -656,20 +658,19 @@ footer ul li {
     width: 100%;
 }
 .skills ul {
-    align-items: flex-start;
-    display: flex;
-    flex-flow: row wrap;
     padding: 0;
     width: 100%;
 }
-.skills ul li {
-    justify-content: space-between;
+.skills ul li {  
     width: 25%;
 }
 .skills ul li a {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
+}
+.recolour a {
+    background: #002f5f;
 }
 /***** SAMPLES *****/
 #samples h2 {
