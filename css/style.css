@@ -135,7 +135,7 @@ footer h2 a {
     font-weight: 700;
 }
 footer h2 a:hover {
-    color: #ebebeb;
+    color: #002f5f;
 }
 footer p {
     font-size: 0.5em;
@@ -168,13 +168,9 @@ footer ul li {
 .skills ul {
     padding: 0;
 }
-.recolour {
-    background: #002f5f;
-}
 .skills ul li {
-    background: #000000;
     border-radius: 3%;
-    color: #ffffff;
+    color: #000;
     font-family: 'Lora', serif;
     font-size: 1em;
     margin: 5px 0;
@@ -273,7 +269,7 @@ figcaption {
     text-transform: uppercase;
 }
 .study a:hover {
-    color: #ebebeb;
+    color: #002f5f;
 }
 .content img {
     padding: 1px;
@@ -287,6 +283,13 @@ figcaption {
 #portfolio p {
     font-size: 1em;
     line-height: 1.5;
+}
+#portfolio p a {
+    color: #002f5f;
+}
+#portfolio p a:hover {
+    color: #002f5f;
+    text-decoration: underline;
 }
 .dorothy-delong,
 .fireball-app,
@@ -414,7 +417,7 @@ figcaption {
     text-transform: uppercase;
 }
 .folio a:hover {
-    color: #ebebeb;
+    color: #002f5f;
 }
 .overlay {
     color: #000000;
