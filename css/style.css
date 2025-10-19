@@ -170,7 +170,8 @@ footer ul li {
 }
 .skills ul li {
     border-radius: 3%;
-    color: #000;
+    background: #000;
+    color: #fff;
     font-family: 'Lora', serif;
     font-size: 1em;
     margin: 5px 0;
@@ -178,6 +179,10 @@ footer ul li {
     text-align: center;
     text-decoration: none;
     width: 110%;
+}
+.skills ul ul li {
+    background: none;
+    color: #000;
 }
 /***** SAMPLES *****/
 #samples {
@@ -672,9 +677,6 @@ footer ul li {
     text-decoration: none;
     text-transform: uppercase;
 }
-.recolour a {
-    background: #002f5f;
-}
 /***** SAMPLES *****/
 #samples h2 {
     font-size: 1.5em;
@@ -1094,7 +1096,6 @@ footer p {
     width: 100%;
 }
 .skills ul li {
-    display: inline-flex;
     width: 12%;
 }
 .skills ul li a {
