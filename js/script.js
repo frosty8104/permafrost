@@ -9,18 +9,24 @@ const year = new Date().getFullYear();
 const date = document.querySelector(".date");
 date.innerHTML = year;
 // Case study image modal
-const img = document.querySelectorAll("img");
-const modal = document.querySelectorAll(".modal");
-const modalImg = document.querySelectorAll("#page");
-let captionText = document.querySelectorAll(".caption");
-img.addEventListener('click', function() {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.textContent = this.alt;
+const imgs = document.querySelectorAll("img");
+const modals = document.querySelectorAll(".modal");
+imgs.forEach((img, i) => {
+    img.addEventListener('click', function() {
+        modals[i].style.display = "block";
+        const modalImg = modals[i].querySelector("#page");
+        const captionText = modals[i].querySelector(".caption");
+        if (modalImg) modalImg.src = img.src;
+        if (captionText) captionText.textContent = img.alt;
+    });
 });
-const span = document.querySelectorAll(".close");
-span.addEventListener('click', function() {
-    modal.style.display = "none";
+modals.forEach((modal) => {
+    const span = modal.querySelector(".close");
+    if (span) {
+        span.addEventListener('click', function() {
+            modal.style.display = "none";
+        });
+    }
 });
 // Daily image replacement [replace images/text every 24 hours with local storage: 
 // reference Sticky Notes & Name Tag app projects in Skillcrush]
