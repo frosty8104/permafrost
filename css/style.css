@@ -667,10 +667,13 @@ footer ul li {
 }
 .skills ul {
     padding: 0;
-    width: 100%;
+    width: 50%;
 }
 .skills ul li {  
     width: 25%;
+}
+.skills ul li strong:nth-child(2) {
+    margin-top: 5%;
 }
 .skills ul li a {
     font-size: 1.25em;
@@ -1096,7 +1099,7 @@ footer p {
     width: 100%;
 }
 .skills ul li {
-    width: 12%;
+    width: 50%;
 }
 .skills ul li a {
     font-size: 1.25em;
