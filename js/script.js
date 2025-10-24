@@ -9,12 +9,12 @@ const year = new Date().getFullYear();
 const date = document.querySelector(".date");
 date.innerHTML = year;
 // Case study image modal
-const imgs = document.querySelectorAll("img");
+const imgs = document.querySelectorAll(".img");
 const modals = document.querySelectorAll(".modal");
 imgs.forEach((img, i) => {
     img.addEventListener('click', function() {
         modals[i].style.display = "block";
-        const modalImg = modals[i].querySelector("#page");
+        const modalImg = modals[i].querySelector(".page");
         const captionText = modals[i].querySelector(".caption");
         if (modalImg) modalImg.src = img.src;
         if (captionText) captionText.textContent = img.alt;

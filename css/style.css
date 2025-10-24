@@ -167,6 +167,7 @@ footer ul li {
 }
 .skills ul {
     padding: 0;
+    width: 90%;
 }
 .skills ul li {
     border-radius: 3%;
@@ -178,7 +179,7 @@ footer ul li {
     padding-bottom: 2px;
     text-align: center;
     text-decoration: none;
-    width: 110%;
+    width: 65%;
 }
 .skills ul ul li {
     background: none;
