@@ -181,6 +181,9 @@ footer ul li {
     text-decoration: none;
     width: 65%;
 }
+.skills ul ul {
+    columns: 2;
+}
 .skills ul ul li {
     background: none;
     color: #000;
