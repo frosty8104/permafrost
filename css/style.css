@@ -157,6 +157,7 @@ footer ul li {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
     justify-content: center;
     width: 90%;
 }
@@ -662,6 +663,7 @@ footer ul li {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-left: 5%;
     width: 80%;
 }
 .skills ul {
