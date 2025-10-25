@@ -158,29 +158,29 @@ footer ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 90%;
+}
+.skills h2 {
+    width: 90%;
+}
+.skills h3 {
+    background: #000;
+    color: #fff;
+    text-align: center;
 }
 .skills ul {
-    align-items: center;
-    text-align: center;
     padding: 0;
     width: 90%;
 }
 .skills ul li {
     border-radius: 3%;
-    background: #000;
-    color: #fff;
+    color: #000;
     font-family: 'Lora', serif;
     font-size: 1em;
     margin: 5px 0;
-    padding-bottom: 2px;
     text-align: center;
     text-decoration: none;
-    width: 80%;
-}
-.skills ul ul li {
-    background: none;
-    color: #000;
+    width: 100%;
 }
 /***** SAMPLES *****/
 #samples {
@@ -658,25 +658,29 @@ footer ul li {
 }
 /***** SKILLS *****/
 .skills {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     width: 80%;
 }
-.skills h2 {
-    width: 100%;
-}
 .skills ul {
-    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 50%;
 }
+.skills h3 {
+    padding: 0 2%;
+}
 .skills ul li {  
-    width: 25%;
+    width: 50%;
 }
 .skills ul li a {
     font-size: 1.25em;
     text-decoration: none;
     text-transform: uppercase;
-}
-.skills ul ul {
-    columns: 2;
 }
 /***** SAMPLES *****/
 #samples h2 {
@@ -1093,12 +1097,6 @@ footer p {
     font-size: 1em;
 }
 /***** SKILLS *****/
-.skills ul {
-    width: 100%;
-}
-.skills ul li {
-    width: 50%;
-}
 .skills ul li a {
     font-size: 1.25em;
     text-decoration: none;
