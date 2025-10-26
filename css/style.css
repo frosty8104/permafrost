@@ -154,7 +154,7 @@ footer ul li {
 }
 /***** SKILLS *****/
 .skills {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
@@ -664,7 +664,6 @@ footer ul li {
 }
 /***** SKILLS *****/
 .skills {
-    align-content: flex-start;
     display: flex;
     flex-flow: row wrap;
     margin-left: 5%;
