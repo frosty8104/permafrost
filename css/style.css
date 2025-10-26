@@ -667,7 +667,6 @@ footer ul li {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     margin-left: 5%;
     width: 80%;
 }
