@@ -257,6 +257,10 @@ figcaption {
 }
 /***** PORTFOLIO *****/
 #portfolio {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 90%;
 }
 .study {
@@ -734,7 +738,6 @@ footer ul li {
 }
 /***** PORTFOLIO *****/
 #portfolio {
-    align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
