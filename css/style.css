@@ -127,9 +127,10 @@ footer {
 footer h2 {
     font-family: 'Lora', serif;
     font-size: 1.25em;
-    width: 97%;
+    width: 92%;
 }
 footer h2 a {
+    color: #002f5f;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-weight: 700;
