@@ -741,7 +741,7 @@ footer ul li {
 #portfolio {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-between;    
     width: 90%;
 }
 #portfolio h2 {
