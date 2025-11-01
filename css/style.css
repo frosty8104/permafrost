@@ -143,22 +143,12 @@ footer p {
     text-align: center;
     width: 60%;
 }
-footer ul {
-    align-items: center;
-    display: flex;
-    width: 60%;
-}
-footer ul li {
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
-}
 /***** SKILLS *****/
 .skills {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
+    margin: auto;
     justify-content: center;
     width: 90%;
 }
@@ -431,7 +421,7 @@ figcaption {
     text-transform: uppercase;
 }
 .folio a:hover {
-    color: #002f5f;
+    color: #60affe;
 }
 .overlay {
     color: #000000;
@@ -671,7 +661,6 @@ footer ul li {
 .skills {
     display: flex;
     flex-flow: row wrap;
-    margin-left: 8%;
     width: 80%;
 }
 .skills ul {
@@ -1106,9 +1095,6 @@ footer p {
     font-size: 1em;
 }
 /***** SKILLS *****/
-.skills {
-    margin-left: 9%;
-}
 .skills ul li a {
     font-size: 1.25em;
     text-decoration: none;
