@@ -4,24 +4,42 @@
     <loc>https://frosty8104.github.io/portfolio/</loc>
     <lastmod></lastmod>
     <changefreq></changefreq>
-    <priority></priority>
+    <priority>1.0</priority>
 </url>
 <url>
     <loc>https://Frosty8104.github.io/portfolio/about</loc>
     <lastmod></lastmod>
     <changefreq></changefreq>
-    <priority></priority>
+    <priority>0.5</priority>
 </url>
 <url>
     <loc>https://Frosty8104.github.io/portfolio/portfolio</loc>
     <lastmod></lastmod>
     <changefreq></changefreq>
-    <priority></priority>
+    <priority>1.0</priority>
 </url>
 <url>
-    <loc>https://Frosty8104.github.io/portfolio/contact</loc>
+    <loc>https://frosty8104.github.io/permafrost/portfolio/house-of-light/index.html</loc>
     <lastmod></lastmod>
     <changefreq></changefreq>
-    <priority></priority>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://frosty8104.github.io/permafrost/portfolio/sit-conmigo/index.html</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://frosty8104.github.io/permafrost/portfolio/whole-bean/index.html</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://frosty8104.github.io/portfolio/contact</loc>
+    <lastmod></lastmod>
+    <changefreq></changefreq>
+    <priority>0.5</priority>
 </url>
 </urlset>

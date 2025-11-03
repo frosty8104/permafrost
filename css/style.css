@@ -150,6 +150,7 @@ footer p {
     flex-direction: column;
     margin: auto;
     justify-content: center;
+    margin-left: 8.5%;
     width: 90%;
 }
 .skills h2 {
@@ -163,7 +164,7 @@ footer p {
 }
 .skills ul {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     padding: 0;
@@ -661,11 +662,12 @@ footer ul li {
 .skills {
     display: flex;
     flex-flow: row wrap;
+    margin-left: 9.5%;
     width: 80%;
 }
 .skills ul {
     align-items: center;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
