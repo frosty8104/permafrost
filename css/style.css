@@ -30,7 +30,6 @@ img {
     width: 100%;
 }
 figure {
-    margin: 0;
     width: 100%;
 }
 figcaption {
@@ -56,7 +55,7 @@ p {
 /* HEADER */
 header {
     border-bottom: 2px solid; 
-    border-image: linear-gradient(90deg, #ebebeb, #808080, #000) 1;
+    border-image: linear-gradient(90deg,  #002f5f,#808080, #000) 1;
 }
 #typeface-logo {
     margin-top: 6%;
@@ -119,7 +118,7 @@ header .filter {
 footer {
     align-items: center;
     border-top: 2px solid;
-    border-image: linear-gradient(90deg, #000, #808080, #ebebeb) 1;
+    border-image: linear-gradient(90deg, #000, #808080, #002f5f) 1;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -164,7 +163,7 @@ footer p {
 }
 .skills ul {
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
@@ -309,7 +308,7 @@ header h2 {
     text-align: center;
 }
 main,
-.house-passion- {
+.house-passion-old {
     margin-bottom: 2%;
 }
 .house-faq {
@@ -773,94 +772,62 @@ footer ul li {
     flex-flow: row wrap;
     justify-content: space-between;
 }
-#house figure,
-#chair figure,
-#bean figure {
-    width: 100%;
-}
 .house-feature {
-    width: 90%;
-}
-.house-feature figure {
-    margin-left: 20%;
+    margin-left: 35%;
+    width: 80%;
 }
 .house-feature img {
-    margin-left: 32%;
-    width: 25%;
-}
-.house-logo,
-.house-old,
-.house-about,
-.house-services,
-.house-ghana,
-.house-partners,
-.house-style,
-.house-press,
-.house-products,
-.house-blog,
-.house-contact,
-#conclusion .house-faq,
-#conclusion .house-passion-old {
-    width: 25%;
-}
-.house-old img,
-.house-about img,
-.house-ghana img {
-    margin-left: 32%;
-}
-.house-services img {
-    margin-left: 27%;
-}
-.house-partners img,
-.house-press img,
-.house-products img,
-.house-blog img,
-.house-contact img,
-.house-faq img,
-.house-passion-old img {
-    margin-left: 20%;
-}
-.house-services img,
-.house-partners img,
-.house-press img,
-.house-products img,
-.house-blog img,
-.house-contact img,
-#conclusion .house-faq img,
-#conclusion .house-passion-old img {
     width: 50%;
 }
-.house-services img {
-    width: 35%;
+.house-logo,
+.house-type,
+.house-old,
+.house-role,
+.house-about,
+.house-view,
+.house-goals,
+.house-passion-old,
+.house-design,
+.house-services,
+.house-palette,
+.house-style,
+.house-font,
+.house-press,
+.house-ghana,
+.house-content,
+.house-partners,
+.house-content,
+.house-products,
+.house-layout,
+.house-blog,
+.house-challenge,
+.house-contact,
+.house-conclude,
+.house-faq {
+    width: 30%;
 }
 .house-old img,
 .house-about img,
+.house-press img,
+.house-services img,
 .house-ghana img {
-    width: 25%;
+    margin-left: 20%;
+    width: 45%;
+}
+.house-passion-old img,
+.house-partners img,
+.house-products img,
+.house-blog img,
+.house-faq img {
+    margin-left: 20%;
+    width: 50%;
+}
+.house-style img,
+.house-contact img {
+    width: 90%;
 }
 #conclusion {
     margin-top: 2%;
-}
-.house-conclude {
-    align-items: flex-start;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    width: 40%;
-}
-.house-type,
-.house-role,
-.house-goals,
-.house-design,
-.house-font,
-.house-content,
-.house-challenge {
-    width: 40%;
-}
-.house-view,
-.house-palette,
-.house-layout {
-    width: 35%;
 }
 #chair {
     margin-bottom: 1%;
