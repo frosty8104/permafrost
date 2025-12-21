@@ -773,11 +773,11 @@ footer ul li {
     justify-content: space-between;
 }
 .house-feature {
-    margin-left: 35%;
+    margin-left: 17%;
     width: 80%;
 }
 .house-feature img {
-    width: 50%;
+    width: 80%;
 }
 .house-logo,
 .house-type,
@@ -810,18 +810,12 @@ footer ul li {
 .house-about img,
 .house-press img,
 .house-services img,
-.house-ghana img {
-    margin-left: 20%;
-    width: 45%;
-}
+.house-ghana img,
 .house-passion-old img,
 .house-partners img,
 .house-products img,
 .house-blog img,
-.house-faq img {
-    margin-left: 20%;
-    width: 50%;
-}
+.house-faq img,
 .house-style img,
 .house-contact img {
     width: 90%;
