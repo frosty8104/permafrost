@@ -30,6 +30,8 @@ img {
     width: 100%;
 }
 figure {
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 figcaption {
@@ -192,11 +194,8 @@ footer p {
 #samples h2 span {
     background: #000;
     color: #ffffff;
-    padding: 0 2%;
+    padding: 0 1%;
     text-transform: none;
-}
-.work img {
-    padding: 1px;
 }
 figcaption {
     align-items: center;
@@ -333,8 +332,8 @@ figcaption {
     border-radius: 5px;
     font-size: 1em;
     font-weight: bold;
-    margin-right: 1%;
-    padding: 0 2%;
+    margin-left: 1%;
+    padding: 0 1%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -365,20 +364,16 @@ figcaption {
 .bean-conclude p {
     font-size: 1em;
     line-height: 1.5;
-    padding: 0;
     width: 100%;
 }
 .chair-logo img {
-    margin-left: 22%;
     width: 50%;
 }
 .bean-logo img {
-    margin-left: 21%;
     width: 50%;
 }
 .bean-menu img,
 .bean-product img {
-    margin-left: 23%;
     width: 50%;
 }
 .house-old img,
@@ -417,7 +412,7 @@ figcaption {
     color: #fff;
     font-size: 1.25em;
     font-weight: bold;
-    padding: 0 2%;
+    padding: 0 1%;
     text-transform: uppercase;
 }
 .folio a:hover {
@@ -530,15 +525,15 @@ p {
     flex-flow: row wrap;
     margin-bottom: 10%;
     justify-content: center;
-    padding: 2% 0;
-    width: 90%;
+    padding: 1% 0;
+    width: 70%;
 }
 #contact form label {
     width: 35%;
 }
 #contact form input {
     margin: 1% 0;
-    width: 40%;
+    width: 35%;
 }
 #contact form button {
     align-items: center;
@@ -666,7 +661,7 @@ footer ul li {
 }
 .skills ul {
     align-items: center;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
@@ -829,7 +824,7 @@ footer ul li {
 .chair-feature {
     width: 90%;
 }
-.chair-feature figure {
+.chair-feature {
     margin-left: 20%;
 }
 .chair-feature img {
@@ -889,7 +884,7 @@ footer ul li {
 .bean-feature {
     width: 90%;
 }
-.bean-feature figure {
+.bean-feature {
     margin-left: 20%;
 }
 .bean-feature img {
