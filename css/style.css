@@ -824,10 +824,8 @@ footer ul li {
     margin-bottom: 1%;
 }
 .chair-feature {
+    margin-left: 10%;
     width: 90%;
-}
-.chair-feature {
-    margin-left: 20%;
 }
 .chair-feature img {
     margin-left: 20%;
@@ -887,7 +885,7 @@ footer ul li {
     width: 90%;
 }
 .bean-feature {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .bean-feature img {
     margin-left: 20%;
