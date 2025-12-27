@@ -353,12 +353,6 @@ figcaption {
 .bean-conclude {
     width: 90%;
 }
-#conclusion {
-    align-items: center;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
 .house-conclude p,  
 .chair-conclude p,
 .bean-conclude p {
@@ -381,6 +375,9 @@ figcaption {
 }
 .bean-product figcaption {
     margin-left: 5%;
+}
+.house-contact {
+    margin-top: 4%;
 }
 .house-old img,
 .house-about img,
@@ -766,8 +763,7 @@ footer ul li {
 }
 #house,
 #chair,
-#bean,
-#conclusion {
+#bean {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
@@ -805,6 +801,7 @@ footer ul li {
 .house-contact,
 .house-conclude,
 .house-faq {
+    margin: 4% 0;
     width: 30%;
 }
 .house-old img,
