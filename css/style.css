@@ -376,7 +376,11 @@ figcaption {
 }
 .bean-menu img,
 .bean-product img {
+    margin-left: 25%;
     width: 50%;
+}
+.bean-product figcaption {
+    margin-left: 5%;
 }
 .house-old img,
 .house-about img,
