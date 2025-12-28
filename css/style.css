@@ -356,7 +356,11 @@ figcaption {
 .house-conclude p,  
 .chair-conclude p,
 .bean-conclude p {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
     font-size: 1em;
+    justify-content: flex-start;
     line-height: 1.5;
     width: 100%;
 }
