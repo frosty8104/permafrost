@@ -198,6 +198,9 @@ footer p {
     padding: 0 1%;
     text-transform: none;
 }
+.work figure {
+    padding: 5% 0;
+}
 figcaption {
     align-items: center;
     justify-content: center;
