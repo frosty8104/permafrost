@@ -136,6 +136,7 @@ footer h2 a {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-weight: 700;
+    text-shadow: 1px 1px #808080;
 }
 footer h2 a:hover {
     color: #002f5f;
@@ -200,6 +201,9 @@ footer p {
 }
 .work figure {
     padding: 5% 0;
+}
+.work a {
+    cursor: pointer;
 }
 figcaption {
     align-items: center;
@@ -409,6 +413,7 @@ figcaption {
 .bean-lanterns img,
 .bean-style img {
     border: 1px solid #808080;
+    cursor: pointer;
 }
 .folio {
     align-items: center;
@@ -1087,6 +1092,7 @@ figure {
 .work figure {
     align-items: center;
     justify-content: space-between;
+    padding: 0;
     width: 30%;
 }
 .work img {
