@@ -302,6 +302,12 @@ figcaption {
     color: #002f5f;
     text-decoration: underline;
 }
+.study a,
+.pet-rescue a,
+.unplugged-retreat a,
+.wordpress-theme a {
+    cursor: pointer;
+}
 .dorothy-delong,
 .fireball-app,
 .restaurant-app,
@@ -349,6 +355,7 @@ figcaption {
 .chair-feature,
 .bean-feature {
     align-items: center;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     margin-bottom: 1%;
@@ -394,26 +401,32 @@ figcaption {
 .house-old img,
 .house-about img,
 .house-services img,
+.house-ghana img,
 .house-partners img,
 .house-press img,
+.house-products img,
 .house-blog img,
 .house-passion-old img,
+.house-contact img,
+.house-faq img,
 .chair-feature img,
 .chair-owner img,
 .chair-jade img,
 .chair-green img,
 .chair-red img,
 .chair-white img,
-.chair-style img,
 .chair-mobile img,
 .chair-tablet img,
 .bean-feature img,
 .bean-barista img,
 .bean-coffee img,
-.bean-lanterns img,
-.bean-style img {
+.bean-lanterns img {
     border: 1px solid #808080;
     cursor: pointer;
+}
+.chair-style img,
+.bean-style img {
+    border: 1px solid #808080;
 }
 .folio {
     align-items: center;
