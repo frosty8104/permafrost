@@ -608,8 +608,7 @@ p {
     .modal-content {
         width: 100%;
     }
-}
-@media (min-width: 768px) {
+}@media (min-width: 768px) {
 /* FONTS: (tablet) nav & a: 1.25em; h2: 1.5em; p: 1em */
 /* BASE STYLE */
 a {
@@ -673,7 +672,7 @@ footer p {
     flex-flow: row wrap;
     font-size: 0.75em;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 footer ul {
     width: 50%;
