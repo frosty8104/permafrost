@@ -854,16 +854,22 @@ footer ul li {
     margin-left: 30%;
     width: 30%;
 }
+.house-faq img,
+.house-contact img {
+    margin-left: 20%;
+}
 .house-palette,
 .house-style,
 .house-font,
 .house-partners,
 .house-press,
 .house-products,
-.house-conclude,
 .house-layout,
+.house-faq,
+.house-challenge,
+.house-contact,
 .house-blog,
-.house-challenge {
+.house-conclude {
     width: 30%;
 }
 .house-contact img,
