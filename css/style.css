@@ -323,6 +323,9 @@ figcaption {
     display: none;
 }
 /***** CASE STUDY *****/
+.folio {
+    margin-top: 2%;
+}
 header h2 {
     text-align: center;
 }
@@ -447,8 +450,9 @@ figcaption {
 .chair-type ul li,
 .chair-view ul li,
 .chair-goals ul li,
-.house-brand ul li,
-.house-font ul li {
+.house-palette ul li,
+.house-font ul li,
+.house-layout ul li {
     font-size: 1em;
 }
 .folio {
@@ -808,6 +812,9 @@ footer ul li {
     font-size: 1em;
 }
 /***** CASE STUDY *****/ 
+.folio {
+    margin-top: 1.5%;
+}
 .folio a {
     font-size: 1.25em;
 }
@@ -1022,8 +1029,9 @@ footer ul li {
 .chair-type ul li,
 .chair-view ul li,
 .chair-goals ul li,
-.house-brand ul li,
-.house-font ul li {
+.house-palette ul li,
+.house-font ul li,
+.house-layout ul li {
     font-size: 1em;
 }
 p {
@@ -1206,6 +1214,9 @@ figcaption {
     font-size: 1.25em;
 }
 /***** CASE STUDY *****/
+.folio {
+    margin-top: 1%;
+}
 .folio a {
     font-size: 1.5em;
 }
@@ -1232,8 +1243,9 @@ figcaption {
 .chair-type ul li,
 .chair-view ul li,
 .chair-goals ul li,
-.house-brand ul li,
-.house-font ul li {
+.house-palette ul li,
+.house-font ul li,
+.house-layout ul li {
     font-size: 1.25em;
 }
 /***** CONTACT *****/
