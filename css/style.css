@@ -339,6 +339,14 @@ main,
 main a {
     color: #000000;
 }
+.arrow {
+    border: 0.75px solid #000;
+    left: 77%;
+    position: absolute;
+    top: 35%;
+    width: 7%;
+    z-index: 2;
+}
 figcaption {
     align-items: center;
     justify-content: center;
