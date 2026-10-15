@@ -339,12 +339,49 @@ main,
 main a {
     color: #000000;
 }
-.arrow {
+figure {
+    position: relative;
+}
+.home-header {
     border: 0.75px solid #000;
-    left: 77%;
+    left: 78%;
     position: absolute;
-    top: 35%;
-    width: 7%;
+    top: 0.5%;
+    width: 8%;
+    z-index: 2;
+}
+.home-footer {
+    border: 0.75px solid #000;
+    left: 78%;
+    position: absolute;
+    top: 90%;
+    width: 8%;
+    z-index: 2;
+}
+.home-hero {
+    border: 0.75px solid #000;
+    left: -6%;
+    position: absolute;
+    top: 5%;
+    width: 8%;
+    z-index: 2;
+}
+.header-label {
+    left: 87%;
+    position: absolute;
+    top: 0.2%;
+    z-index: 2;
+}
+.footer-label {
+    left: 87%;
+    position: absolute;
+    top: 89.7%;
+    z-index: 2;
+}
+.hero-label {
+    left: -14%;
+    position: absolute;
+    top: 4.6%;
     z-index: 2;
 }
 figcaption {
