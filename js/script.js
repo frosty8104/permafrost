@@ -4,6 +4,7 @@ const links = document.querySelector(".links");
 burger.addEventListener('click', () => {
     links.classList.toggle('active')
 });
+
 // Change date whenever the year changes
 const year = new Date().getFullYear();
 const date = document.querySelector(".date");
@@ -28,6 +29,7 @@ modals.forEach((modal) => {
         });
     }
 });
+
 // Daily image replacement [replace images/text every 24 hours with local storage: 
 // reference Sticky Notes & Name Tag app projects in Skillcrush]
 const house = document.querySelector(".house-of-light");

@@ -63,12 +63,19 @@ header {
     margin-top: 6%;
     width: 90%;
 }
-header p {
+.king {
     color: /*#000*/#f1f1f2;
     font-size: 0.5em;
     left: 32%;
     position: absolute;
     top: 10%;
+}
+.lord {
+    color: /*#000*/#f1f1f2;
+    font-size: 0.5em;
+    left: 32%;
+    position: absolute;
+    top: 11%;
 }
 nav {
     align-items: center;
